@@ -6,13 +6,13 @@
 </description>
     <link>http://longyc.com/</link>
     <atom:link href="http://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jul 2016 15:44:34 +0800</pubDate>
-    <lastBuildDate>Sun, 31 Jul 2016 15:44:34 +0800</lastBuildDate>
+    <pubDate>Sun, 31 Jul 2016 23:05:42 +0800</pubDate>
+    <lastBuildDate>Sun, 31 Jul 2016 23:05:42 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>AWS Summit Kuala Lumpur 2016</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016.&quot; src=&quot;http://static.longyc.com/blog/2016/04/2016-04-26-aws-summit-kl.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016.&quot; src=&quot;/blog/2016/04/2016-04-26-aws-summit-kl.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Amazon Web Services has been around for years. Unfortunately for me,
 I did not pay much attention due to the lack of a good use case.
@@ -23,7 +23,7 @@ held at One World Hotel in Selangor.&lt;/p&gt;
 
 &lt;h3 id=&quot;official-presence-in-malaysia&quot;&gt;Official Presence in Malaysia&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016 Opening Keynote.&quot; src=&quot;http://static.longyc.com/blog/2016/04/2016-04-26-aws-summit-kl-dr-vogels.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016 Opening Keynote.&quot; src=&quot;/blog/2016/04/2016-04-26-aws-summit-kl-dr-vogels.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;The opening keynote was delivered by none other than the Chief Technology Officer
 of Amazon.com - Dr. Werner Vogels. The speech was great,
@@ -34,7 +34,7 @@ probably a good boost of confidence in the cloud platform for potential adopters
 
 &lt;h3 id=&quot;multiple-tracks&quot;&gt;Multiple Tracks&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016 Developer Session.&quot; src=&quot;http://static.longyc.com/blog/2016/04/2016-04-26-aws-summit-kl-developer-session.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016 Developer Session.&quot; src=&quot;/blog/2016/04/2016-04-26-aws-summit-kl-developer-session.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;This year’s Summit consists of multiple tracks
 dedicated to different groups of audience.
@@ -69,7 +69,7 @@ In case anyone is not aware, AWS Lambda is a service for serverless computing
 
 &lt;h3 id=&quot;closing-with-prizes&quot;&gt;Closing with Prizes&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016 Closing.&quot; src=&quot;http://static.longyc.com/blog/2016/04/2016-04-26-aws-summit-kl-closing.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;AWS Summit Kuala Lumpur 2016 Closing.&quot; src=&quot;/blog/2016/04/2016-04-26-aws-summit-kl-closing.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;The closing was accompanied by lucky draws which many were waiting for,
 there were prizes like iPad Pro, Amazon Fire HD and even drones
@@ -88,7 +88,7 @@ Amazon’s official presence in the country.&lt;/p&gt;
     
       <item>
         <title>Medium Is Blocked in Malaysia</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;Medium is blocked in Malaysia.&quot; src=&quot;http://static.longyc.com/blog/2016/01/2016-01-31-unblock-medium.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;Medium is blocked in Malaysia.&quot; src=&quot;/blog/2016/01/2016-01-31-unblock-medium.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Drawn from personal observation, &lt;a href=&quot;https://medium.com/&quot; title=&quot;Medium&quot;&gt;Medium (medium.com)&lt;/a&gt;
 is probably not as popular in Malaysia when compared to other more established blog publishing platforms
@@ -164,7 +164,7 @@ Do follow the &lt;a href=&quot;https://www.facebook.com/UnblockMedium&quot; titl
     
       <item>
         <title>Lost in Malaysian Unity Run 2015</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;Runners gather at the starting point during Malaysian Unity Run 2015.&quot; src=&quot;http://static.longyc.com/blog/2015/12/2015-12-12-malaysian-unity-run-2015-starting.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;Runners gather at the starting point during Malaysian Unity Run 2015.&quot; src=&quot;/blog/2015/12/2015-12-12-malaysian-unity-run-2015-starting.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;It was a chilly morning, I arrived at the Putrajaya Wetlands Park around 7 A.M.
 There were already a crowd, most were in the official light blue shirts of todays’s event - Malaysian Unity Run 2015. The colour was a good match for the clear sky. I had warm-up just like many other pumped up runners there.&lt;/p&gt;
@@ -185,7 +185,7 @@ The group I was in missed the only water station and passed through a highway un
 while some others ended up running more than the intended 10 KM.
 Fortunately, everyone managed to find their way back safely.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;Malaysian Unity Run 2015 finisher medal.&quot; src=&quot;http://static.longyc.com/blog/2015/12/2015-12-12-malaysian-unity-run-2015-medal.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;Malaysian Unity Run 2015 finisher medal.&quot; src=&quot;/blog/2015/12/2015-12-12-malaysian-unity-run-2015-medal.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;fun-but-not-cool&quot;&gt;Fun But Not Cool&lt;/h3&gt;
 
@@ -206,7 +206,7 @@ After all, there are only so many runs where you could venture into unknown path
     
       <item>
         <title>SCKLM 2015 Cancelled due to Haze</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;Dataran Merdeka covered in haze on SCKLM 2015 race day.&quot; src=&quot;http://static.longyc.com/blog/2015/10/2015-10-04-scklm2015-haze.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;Dataran Merdeka covered in haze on SCKLM 2015 race day.&quot; src=&quot;/blog/2015/10/2015-10-04-scklm2015-haze.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;In my &lt;a href=&quot;/2014/11/penang-bridge-international-marathon-2014/&quot; title=&quot;Penang Bridge International Marathon 2014.&quot;&gt;previous post&lt;/a&gt;, I mentioned my intention to run a full, 42 KM marathon this year. So, signed up for one of the most respected marathon events in Malaysia - Standard Chartered KL Marathon (SCKLM), months of training, packs of power gel and carb loading; I believe many runners, like me, did not expect some slash-and-burn on the other side of the Strait of Malacca could ruin everything - the event has been cancelled on the day before the race day due to heavy haze. While disappointed, I understand that it must have been a difficult decision for the organiser seeing how everything has already been set up and ready. After all, health and safety are more important.&lt;/p&gt;
 
@@ -214,7 +214,7 @@ After all, there are only so many runs where you could venture into unknown path
 
 &lt;p&gt;Today, runners are going to the venue - Dataran Merdeka to collect entitlements without the run. I went there expecting it would be a gloomy one but hey, many are keeping their smiles, taking pictures wearing the finisher shirts while joking about how the finisher medals are the easiest one to obtain, I like the spirit. Good job to the cheerful volunteers too, some cheered for those coming to collect the entitlements as if they have just finished the run and some runners played along too.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;Cheerful volunteers distributing entitlements to runners.&quot; src=&quot;http://static.longyc.com/blog/2015/10/2015-10-04-scklm2015-volunteers.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;Cheerful volunteers distributing entitlements to runners.&quot; src=&quot;/blog/2015/10/2015-10-04-scklm2015-volunteers.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;With this cancellation, my plan to run a full marathon this year is scrapped - it is already near the end of the year and registrations for other marathons in Malaysia have already been closed. Race again next year I guess, until then, more training.&lt;/p&gt;
 
@@ -228,7 +228,7 @@ After all, there are only so many runs where you could venture into unknown path
     
       <item>
         <title>Team Malaysia Fan Run 2015</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 15 KM finisher medal.&quot; src=&quot;http://static.longyc.com/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-15km-finisher-medal.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 15 KM finisher medal.&quot; src=&quot;/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-15km-finisher-medal.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;About half a year ago, I had my first 10 KM run at &lt;a href=&quot;/2014/09/team-malaysia-fan-run-2014/&quot; title=&quot;Team Malaysia Fan Run 2014.&quot;&gt;Team Malaysia Fan Run 2014&lt;/a&gt;.
 This year, on 31st May, I went back for more – 15 KM.
@@ -241,7 +241,7 @@ it was very unlikely for most participants to make it within one hour but strong
 The view was nicer compared to last year’s Dataran Merdeka but hardly worth the heat.
 Hopefully the organiser would consider to start at 6 A.M. or earlier for future events.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 2015 15 KM starting.&quot; src=&quot;http://static.longyc.com/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-15km-starting.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 2015 15 KM starting.&quot; src=&quot;/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-15km-starting.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;less-impressive-medal&quot;&gt;Less Impressive Medal&lt;/h3&gt;
 
@@ -251,7 +251,7 @@ This can be very subjective but the ribbon bar definitely looks worse;
 the three colours stripes has been replaced with logos of Telekom Malaysia and the hook is gone.
 Last year’s medal is still one of my favourites.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run Medals 2014 vs 2015.&quot; src=&quot;http://static.longyc.com/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-medals.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run Medals 2014 vs 2015.&quot; src=&quot;/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-medals.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;could-not-run-much&quot;&gt;Could Not Run Much&lt;/h3&gt;
 
@@ -261,7 +261,7 @@ I ended up walking most of the time after the first 10 KM and my legs threatened
 Perhaps it was the heat or the uphills but in any case it means I need more trainings;
 After all, I am going for a full marathon this year.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 2015 at Putrajaya.&quot; src=&quot;http://static.longyc.com/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-fun.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 2015 at Putrajaya.&quot; src=&quot;/blog/2015/06/2015-06-02-longyc-teammalaysiafanrun-fun.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;All in all, while last year’s run felt a bit better organized,
 this year’s Team Malaysia Fan Run is still a very happening event and the theme song – “Gemuruh Suara” still rocks as ever.
@@ -278,7 +278,7 @@ and as always, all the best to all Malaysian athletes, this time it is for the S
     
       <item>
         <title>Surprise Meeting Uncle Chuan</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;With Uncle Chuan from The Journey.&quot; src=&quot;http://static.longyc.com/blog/2015/05/2015-05-30-longyc-the-journey-uncle-chuan.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;With Uncle Chuan from The Journey.&quot; src=&quot;/blog/2015/05/2015-05-30-longyc-the-journey-uncle-chuan.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;There was a crew shooting a movie at the park where I have my usual evening runs – I approached, I saw him, I shamelessly asked for a photo with Uncle Chuan (Frankie Lee) from The Journey which I watched twice in theaters.&lt;/p&gt;
 
@@ -295,13 +295,13 @@ and as always, all the best to all Malaysian athletes, this time it is for the S
     
       <item>
         <title>Penang Bridge International Marathon 2014</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;PBIM 2014 finisher medal.&quot; src=&quot;http://static.longyc.com/blog/2014/11/2014-11-16-longyc-pbim-medal.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;PBIM 2014 finisher medal.&quot; src=&quot;/blog/2014/11/2014-11-16-longyc-pbim-medal.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Two months after my first 10 KM run, I have managed to finish a half marathon (21 KM) during Penang Bridge International Marathon 2014 held on 16th November at Sultan Abdul Halim Muadzam Shah Bridge (also known as Penang Second Bridge). I already have a new year resolution for 2015 – to complete a full 42 KM marathon.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-experience&quot;&gt;The Experience&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;PBIM 2014 5 A.M. bridge view.&quot; src=&quot;http://static.longyc.com/blog/2014/11/2014-11-16-longyc-pbim-21km.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;PBIM 2014 5 A.M. bridge view.&quot; src=&quot;/blog/2014/11/2014-11-16-longyc-pbim-21km.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;For the running part, the first 10 KM felt quite okay, just a little bit out of breath. Things get tough after I stopped for a while near 13th KM, to continue running after a rest was painful so it was just walk-run afterwards. Took me close to 3 hours to finish even though there was very little elevations (around 30 metres, it was a bridge after all).&lt;/p&gt;
 
@@ -309,7 +309,7 @@ and as always, all the best to all Malaysian athletes, this time it is for the S
 
 &lt;h3 id=&quot;lesson-learned&quot;&gt;Lesson Learned&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;Wearing In-ear earphone when running.&quot; src=&quot;http://static.longyc.com/blog/2014/11/2014-11-16-longyc-ear-plug-stuck-marathon.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;Wearing In-ear earphone when running.&quot; src=&quot;/blog/2014/11/2014-11-16-longyc-ear-plug-stuck-marathon.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;As mentioned, I paused on my way to 13th KM, the reason being I got an ear bud stuck inside my right ear as the in-ear type earphone that I was wearing fell out. I said it during the run but I really need to say thanks again to the St. John volunteers who helped to get it out, if you are reading this, thank you so much!&lt;/p&gt;
 
@@ -324,19 +324,19 @@ and as always, all the best to all Malaysian athletes, this time it is for the S
     
       <item>
         <title>Team Malaysia Fan Run 2014</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 2014 finisher medal.&quot; src=&quot;http://static.longyc.com/blog/2014/09/2014-09-08-longyc-team-malaysia-fan-run-medal.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;Team Malaysia Fan Run 2014 finisher medal.&quot; src=&quot;/blog/2014/09/2014-09-08-longyc-team-malaysia-fan-run-medal.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Today is a mixture of tiredness and satisfaction because I have just completed my first ever 10 KM run this morning during Team Malaysia Fan Run 2014. Look at my shinning finisher medal. Granted, this is nowhere near a full-fledged 42 KM marathon but it is still a good start nonetheless and more importantly, I get to enjoy a fun event!&lt;/p&gt;
 
 &lt;h3 id=&quot;fit-malaysia--minister-of-youth-and-sports&quot;&gt;Fit Malaysia &amp;amp; Minister of Youth and Sports&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;YB Khairy Jamaluddin - Minister of Youth and Sports at Team Malaysia Fan Run 2014.&quot; src=&quot;http://static.longyc.com/blog/2014/09/2014-09-07-longyc-team-malaysia-fan-run-yb-kj.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;YB Khairy Jamaluddin - Minister of Youth and Sports at Team Malaysia Fan Run 2014.&quot; src=&quot;/blog/2014/09/2014-09-07-longyc-team-malaysia-fan-run-yb-kj.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;The event hold at Dataran Merdeka, Kuala Lumpur also served as the launching of the Fit Malaysia programme which aims to encourage active lifestyle among Malaysians. I would say the presence of Y.B. Khairy Jamaluddin – Minister of Youth and Sports at the event was a good catalyst, just look at the crowd when he went on stage.&lt;/p&gt;
 
 &lt;h3 id=&quot;the-biggest-team-malaysia-fans&quot;&gt;The Biggest Team Malaysia Fans&lt;/h3&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;With Tok Mo at Team Malaysia Fan Run 2014.&quot; src=&quot;http://static.longyc.com/blog/2014/09/2014-09-07-longyc-team-malaysia-fan-run-tok-mo.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;With Tok Mo at Team Malaysia Fan Run 2014.&quot; src=&quot;/blog/2014/09/2014-09-07-longyc-team-malaysia-fan-run-tok-mo.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;I was also glad that I get to meet one of the biggest fans of Team Malaysia – Tok Mo from Famemas Malaysia Supporters Club. He was there with his signature Malaysian flag outfit and of course I would not miss the chance to take a photograph with him.
 There were plenty of activities after the run but I did not stay because, well, I just wanted to go get some rest after the run. It was a great event and I will definitely join again if there is a chance. Last but not the least, all the best to all Malaysian athletes in the 17th Incheon Asian Games! Go Team Malaysia!&lt;/p&gt;
@@ -350,7 +350,7 @@ There were plenty of activities after the run but I did not stay because, well, 
     
       <item>
         <title>DiGi Challenge for a Change</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;DiGi Challenge For A Change hackathon.&quot; src=&quot;http://static.longyc.com/blog/2013/04/2013-04-08-digi-challenge-for-a-change-dgcfc-hackathon.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;DiGi Challenge For A Change hackathon.&quot; src=&quot;/blog/2013/04/2013-04-08-digi-challenge-for-a-change-dgcfc-hackathon.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Last week, I attended HACK!@DGCFC – a 36-hour mobile apps hackathon organized by DiGi in conjunction with the ongoing DiGi Challenge For A Change (DGCFC) mobile apps development competition. The event was held right at the telecommunication company’s headquarters in Shah Alam, Selangor.&lt;/p&gt;
 
@@ -358,13 +358,13 @@ There were plenty of activities after the run but I did not stay because, well, 
 
 &lt;p&gt;Before I continue to write, let me just say it was a really nice event. One great thing about the hackathon was that it gathered software developers from different platforms because the competition was not limited to any mobile platform; apps can be built with Android, iOS, Blackberry, Windows Phone or HTML5, there was even a participant who developed on Nokia Asha. The demonstration session was a great showcase of current popular mobile platforms where you could see ideas being implemented on different systems and it was very exciting to see how the apps were made to utilize technology found on modern smartphones like Near Field Communication (NFC), accelerometer and gyro-sensor.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;DGCFC hackathon for all mobile platforms.&quot; src=&quot;http://static.longyc.com/blog/2013/04/2013-04-08-dgcfc-hackathon-all-platforms.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;DGCFC hackathon for all mobile platforms.&quot; src=&quot;/blog/2013/04/2013-04-08-dgcfc-hackathon-all-platforms.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;everything-thrown-in&quot;&gt;Everything Thrown In&lt;/h3&gt;
 
 &lt;p&gt;The hackathon was not all about coding, designing or free food (okay, maybe more or less about the free food), there were video games (Kinect and steering wheel included), basketballs, table tennis, futsal and the gym was open to everyone. Not to mention there was an amazing internet connection provided with speed up to 150Mbps which the network team challenged the participants to bring it down. That of course did not happen; perhaps everyone was too busy hacking their apps. There were talks by various speakers from different industries throughout the hackathon and I really enjoyed the great late-night chat with some of the cool guys there about recruitment, software developments, video games and everything in between. Oh, there was a brief detour of the headquarters too and it seems like a really nice place to work.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;DiGi headquaters yard.&quot; src=&quot;http://static.longyc.com/blog/2013/04/2013-04-08-digi-headquaters-03.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;DiGi headquaters yard.&quot; src=&quot;/blog/2013/04/2013-04-08-digi-headquaters-03.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;its-worth-the-weekend&quot;&gt;It’s Worth The Weekend&lt;/h3&gt;
 
@@ -376,7 +376,7 @@ Below is a picture of the “hackathon finishers” taken from
 It was a really cool event, the coolness was like
 having a cup of free ice-cream 4 A.M. in the morning inside an air-conditioned room.&lt;/p&gt;
 
-&lt;figure&gt;&lt;img alt=&quot;DGCFC Hackathon finishers.&quot; src=&quot;http://static.longyc.com/blog/2013/04/2013-04-07-dgcfc-finishing.jpg&quot; /&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img alt=&quot;DGCFC Hackathon finishers.&quot; src=&quot;/blog/2013/04/2013-04-07-dgcfc-finishing.jpg&quot; /&gt;&lt;/figure&gt;
 </description>
         <pubDate>Tue, 09 Apr 2013 00:00:00 +0800</pubDate>
         <link>http://longyc.com/2013/04/digi-challenge-for-a-change-mobile-apps-hackathon/</link>
@@ -387,7 +387,7 @@ having a cup of free ice-cream 4 A.M. in the morning inside an air-conditioned r
     
       <item>
         <title>Life in a Different Light</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;Sunset.&quot; src=&quot;http://static.longyc.com/blog/2013/03/2013-03-05-longyc-death-and-life.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;Sunset.&quot; src=&quot;/blog/2013/03/2013-03-05-longyc-death-and-life.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;Life can be very difficult to cope with at times and life plans do not always go exactly as planned. Indeed, life was very different, or rather, difficult for me a few months ago – my father was diagnosed with a terminal cancer mid last year and his health went downhill ever since then. In November, the inevitable eventually came - he passed away. Those days have been so far the worst in my life. It has been a few months since the funeral; the grief is slowly being healed by time but the agonizing memory still strikes now and then.&lt;/p&gt;
 
