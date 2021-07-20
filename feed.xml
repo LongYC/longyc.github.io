@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LongYC</title>
-    <description>Personal website of a Malaysian who is into technology, craftsmanship, and Kopi-O.
+    <description>Personal website of a Malaysian who does web app development but also dabble in UX. He enjoys stories of people doing great works and Kopi-O as well.
 </description>
     <link>https://longyc.com/</link>
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
@@ -28,7 +28,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;AWS CloudFront&lt;/strong&gt;: it doesn’t support compression for files above 10 MB.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Browser&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DOMContentLoaded&lt;/code&gt; is fired when HTML is parsed while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load&lt;/code&gt; is fired after all dependent resources are loaded.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deno&lt;/strong&gt;: ESModule and permission API are probably more interesting and more important factor than native support for TypeScript.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deno&lt;/strong&gt;: ESModule and permission API are probably more interesting and more important factors than native support for TypeScript.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Yarn&lt;/strong&gt;: Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resolutions&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; to upgrade the version of nested dependencies.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Logo design&lt;/strong&gt;: some of the logo types are wordmark (e.g. Coca-Cola), pictorial (e.g. Apple), and abstract (e.g. Nike, which costs only 35 USD initially).&lt;/li&gt;
 &lt;/ul&gt;
