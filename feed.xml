@@ -8,8 +8,42 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
     
       <item>
+        <title>Is this link canon?</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Link from The Legend of Zelda with the word link in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-29-is-this-link-canon.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Since I began posting on Medium and DEV Community, I have learned that it’s a good idea to let search engines know they are the same content on different URLs. I have also just realised that you could let people read what you wrote on Medium without the paywall, and am a little surprised that HTTP/2 is not enabled by default on AWS CloudFront.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;HTML&lt;/strong&gt;: having a canonical link (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;canonnical&quot; href=&quot;https://example.com&quot; /&amp;gt;&lt;/code&gt;) in your HTML helps prevent content duplication in search engines, good for SEO.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SEO&lt;/strong&gt;: to add a canonical link on DEV Community, use the front matter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;canonical_url&lt;/code&gt;. As for Medium - on your post, open up Story settings &amp;gt; Advanced Settings &amp;gt; check &lt;em&gt;“This story was originally published elsewhere”&lt;/em&gt; and provide a canonical link.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Medium&lt;/strong&gt;: Friend Link grants free access to your post, find it on your post &amp;gt; Story settings &amp;gt; Promotion &amp;gt; Friend Link.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AWS CloudFront&lt;/strong&gt;: distributions don’t support HTTP/2 by default. Check the settings manually, or on CloudFormation, add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HttpVersion: http2&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DistributionConfig&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Latency&lt;/strong&gt;: Hibernia Express / GTT Express is a submarine fibre-optic link that provides latency of under 60 milliseconds, which costed hundreds of millions to complete. Latency can be really expensive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;related-link&quot;&gt;Related Link&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RFC 6596 - the canonical link relation: &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc6596&quot;&gt;datatracker.ietf.org/doc/html/rfc6596&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Google Search Central Blog - specify your canonical: &lt;a href=&quot;https://developers.google.com/search/blog/2009/02/specify-your-canonical&quot;&gt;developers.google.com/search/blog/2009/02/specify-your-canonical&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;DEV Community - editor guide: &lt;a href=&quot;https://dev.to/p/editor_guide#front-matter&quot;&gt;dev.to/p/editor_guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Medium - about Friend Links: &lt;a href=&quot;https://help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links&quot;&gt;help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;AWS CloudFront distribution config with CloudFormation: &lt;a href=&quot;https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html#cfn-cloudfront-distribution-distributionconfig-httpversion&quot;&gt;docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hibernia Express on Business Wire: &lt;a href=&quot;https://www.businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds&quot;&gt;businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Jul 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-29-is-this-link-canon</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-29-is-this-link-canon</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Oh, hi. How are you holding up?</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of GlaDOS in Portal 2 potato form with the word potato in Chinese, Malay, and English on the right.&quot; src=&quot;/blog/2021-week-28-i-am-a-small-potato.jpg&quot; /&gt;&lt;/figure&gt;
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of GlaDOS in Portal 2 potato form with the word potato in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-28-i-am-a-small-potato.jpg&quot; /&gt;&lt;/figure&gt;
 
 &lt;p&gt;I hope you’re doing well wherever you are during this pandemic. My blog was last updated five years ago so I figured now is a good time to give it a reboot, so, old posts begone and future posts will base on these Long Blog Short principles that I made up:&lt;/p&gt;
 

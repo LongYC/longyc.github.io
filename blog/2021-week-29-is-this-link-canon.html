@@ -5,13 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Oh, hi. How are you holding up? | LongYC</title>
-    <meta name="description" content="I usually jot things I learned or re-learned down as part of my weekly journal, and now looking back, I think those might as well be blog posts." />
-    <meta property="og:image" content="/blog/2021-week-28-i-am-a-small-potato.jpg" />
+    <title>Is this link canon? | LongYC</title>
+    <meta name="description" content="A little why and how on canonical links, HTTP/2, and latency." />
+    <meta property="og:image" content="/blog/2021-week-29-is-this-link-canon.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/2021-week-28-i-am-a-small-potato/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-29-is-this-link-canon" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -67,53 +67,43 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Oh, hi. How are you holding up?</h1>
-          <p class="subtitle">Because I'm a small potato.</p>
-          <p class="meta">Jul 18, 2021</p>
+          <h1 class="title">Is this link canon?</h1>
+          <p class="subtitle">Depends on the relationship.</p>
+          <p class="meta">Jul 25, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
           <div class="post">
-<figure><img alt="A doodle of GlaDOS in Portal 2 potato form with the word potato in Chinese, Malay, and English on the left." src="/blog/2021-week-28-i-am-a-small-potato.jpg" /></figure>
+<figure><img alt="A doodle of Link from The Legend of Zelda with the word link in Chinese, Malay, and English on the left." src="/blog/2021-week-29-is-this-link-canon.jpg" /></figure>
 
-<p>I hope you’re doing well wherever you are during this pandemic. My blog was last updated five years ago so I figured now is a good time to give it a reboot, so, old posts begone and future posts will base on these Long Blog Short principles that I made up:</p>
-
-<ol>
-  <li>Weekly update - at least, or more if there are more stories to tell.</li>
-  <li>Minimally interesting - it doesn’t need to be perfect, keep learning.</li>
-  <li>Links later - do not contribute new browser tabs before the post ends.</li>
-</ol>
-
-<p>With that out of the way, let’s talk about being a small potato, that’s often how I feel - that in the grand scheme of things, what I know is insignificant and will never be enough, which is probably true, but that’s okay because one can always grow.</p>
-
-<p>It’s been a decade since I started my career in software development which is a rather fast-moving industry. More often than not, I stumble upon technology, methodology, or even simple tricks that I feel like I should’ve known but didn’t, not to mention constantly being reminded of fading knowledge. What I usually do is to jot them down as part of my weekly journal, and now looking back, I think those might as well be blog posts because who knows if someone else felt the same can benefit from them, plus I can learn if someone find mistakes or shortcomings in them.</p>
-
-<p>My interests nowadays are mostly around web development, and yes, that means JavaScript. Other than that, I also dabble in topics around UX and stories of people doing great works. With that in mind, here are the notes for this week:</p>
+<p>Since I began posting on Medium and DEV Community, I have learned that it’s a good idea to let search engines know they are the same content on different URLs. I have also just realised that you could let people read what you wrote on Medium without the paywall, and am a little surprised that HTTP/2 is not enabled by default on AWS CloudFront.</p>
 
 <ul>
-  <li><strong>AWS CloudFront</strong>: it doesn’t support compression for files above 10 MB.</li>
-  <li><strong>Browser</strong>: <code class="language-plaintext highlighter-rouge">DOMContentLoaded</code> is fired when HTML is parsed while <code class="language-plaintext highlighter-rouge">load</code> is fired after all dependent resources are loaded.</li>
-  <li><strong>Deno</strong>: ESModule and permission API are probably more interesting and more important factors than native support for TypeScript.</li>
-  <li><strong>Yarn</strong>: Use <code class="language-plaintext highlighter-rouge">resolutions</code> in <code class="language-plaintext highlighter-rouge">package.json</code> to upgrade the version of nested dependencies.</li>
-  <li><strong>Logo design</strong>: some of the logo types are wordmark (e.g. Coca-Cola), pictorial (e.g. Apple), and abstract (e.g. Nike, which costs only 35 USD initially).</li>
+  <li><strong>HTML</strong>: having a canonical link (<code class="language-plaintext highlighter-rouge">&lt;link rel="canonnical" href="https://example.com" /&gt;</code>) in your HTML helps prevent content duplication in search engines, good for SEO.</li>
+  <li><strong>SEO</strong>: to add a canonical link on DEV Community, use the front matter <code class="language-plaintext highlighter-rouge">canonical_url</code>. As for Medium - on your post, open up Story settings &gt; Advanced Settings &gt; check <em>“This story was originally published elsewhere”</em> and provide a canonical link.</li>
+  <li><strong>Medium</strong>: Friend Link grants free access to your post, find it on your post &gt; Story settings &gt; Promotion &gt; Friend Link.</li>
+  <li><strong>AWS CloudFront</strong>: distributions don’t support HTTP/2 by default. Check the settings manually, or on CloudFormation, add <code class="language-plaintext highlighter-rouge">HttpVersion: http2</code> to <code class="language-plaintext highlighter-rouge">DistributionConfig</code>.</li>
+  <li><strong>Latency</strong>: Hibernia Express / GTT Express is a submarine fibre-optic link that provides latency of under 60 milliseconds, which costed hundreds of millions to complete. Latency can be really expensive.</li>
 </ul>
 
-<p>Do let me know your thoughts about this post or the blog format. Thanks for reading and if you would like more content like this to be delivered to you, subscribe via Substack: <a href="https://smallpotatodev.substack.com">smallpotatodev.substack.com</a></p>
+<p>Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: <a href="https://smallpotatodev.substack.com/">smallpotatodev.substack.com</a></p>
 
-<h3 id="related-links">Related Links</h3>
+<h3 id="related-link">Related Link</h3>
 
 <ul>
-  <li><em>AWS CloudFront</em>: <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html#compressed-content-cloudfront">docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html</a></li>
-  <li><em>MDN on load event</em>: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event">developer.mozilla.org/en-US/docs/Web/API/Window/load_event</a></li>
-  <li><em>Deno</em>: <a href="https://deno.land/manual@v1.12.0/introduction#comparison-to-nodejs">deno.land/manual@v1.12.0/introduction</a></li>
-  <li><em>Yarn</em>: <a href="https://classic.yarnpkg.com/en/docs/selective-version-resolutions/">classic.yarnpkg.com/en/docs/selective-version-resolutions/</a></li>
+  <li>RFC 6596 - the canonical link relation: <a href="https://datatracker.ietf.org/doc/html/rfc6596">datatracker.ietf.org/doc/html/rfc6596</a></li>
+  <li>Google Search Central Blog - specify your canonical: <a href="https://developers.google.com/search/blog/2009/02/specify-your-canonical">developers.google.com/search/blog/2009/02/specify-your-canonical</a></li>
+  <li>DEV Community - editor guide: <a href="https://dev.to/p/editor_guide#front-matter">dev.to/p/editor_guide</a></li>
+  <li>Medium - about Friend Links: <a href="https://help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links">help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links</a></li>
+  <li>AWS CloudFront distribution config with CloudFormation: <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html#cfn-cloudfront-distribution-distributionconfig-httpversion">docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html</a></li>
+  <li>Hibernia Express on Business Wire: <a href="https://www.businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds">businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds</a></li>
 </ul>
 
             <div class="post-share">
               SHARE ON:
-              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-28-i-am-a-small-potato/" title="Share this on Facebook.">FACEBOOK</a>
-              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=Oh,%20hi.%20How%20are%20you%20holding%20up?:%20https://longyc.com/blog/2021-week-28-i-am-a-small-potato/&via=longyc" title="Share this on Twitter.">TWITTER</a>
+              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-29-is-this-link-canon" title="Share this on Facebook.">FACEBOOK</a>
+              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=Is%20this%20link%20canon?:%20https://longyc.com/blog/2021-week-29-is-this-link-canon&via=longyc" title="Share this on Twitter.">TWITTER</a>
             </div>
             <aside class="post-ads">
               <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -122,8 +112,8 @@
             </aside>
           </div> <!-- .post -->
           <nav class="pagination">
-            <a class="previous" href="/blog/2021-week-29-is-this-link-canon" title="Newer post.">NEWER POST</a>
-            <span class="next">OLDER POST</span>
+            <span class="previous">NEWER POST</span>
+            <a class="next" href="/blog/2021-week-28-i-am-a-small-potato/" title="Older post.">OLDER POST</a>
           </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
