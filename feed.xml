@@ -8,6 +8,39 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
     
       <item>
+        <title>Shadow realm in HTML?</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Millenium Puzzle with the word shadow in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-30-shadow-realm-in-html.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;I spent a bit more time on CSS this week and revisited some tricks on shadow effects. That prompted me to think maybe there can be a theme for each of these weekly posts. Shadow DOM is added to complete this week’s theme, alongside with optimising what Webpack watches in shadow (too much of a stretch but I’ll go with it).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: use multiple layers of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;box-shadow&lt;/code&gt; to finetune shadows.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;drop-shadow()&lt;/code&gt; filter to create shadow that conforms the shape of an image.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shadow DOM&lt;/strong&gt;: it is a hidden, isolated tree attaches to regular DOM, the CSS within this tree is scoped to the realm itself.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Webpack&lt;/strong&gt;: If watch mode takes up too much resources on your computer, try optimise it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watchOption.ignored&lt;/code&gt;, e.g. ignore &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tabs&lt;/strong&gt;: NN/g has guidelines for tabs, the most important one is that they should be used for views within the same context instead used for navigating to another different context.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;related-link&quot;&gt;Related Link&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MDN - box-shadow: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/box-shadow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MDN - drop-shadow(): &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Google Developers - Shadow DOM: &lt;a href=&quot;https://developers.google.com/web/fundamentals/web-components/shadowdom&quot;&gt;developers.google.com/web/fundamentals/web-components/shadowdom&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Webpack - WatchOptions: &lt;a href=&quot;https://webpack.js.org/configuration/watch/#watchoptionsignored&quot;&gt;webpack.js.org/configuration/watch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Nielsen Norman Group - Tabs, Used Right: &lt;a href=&quot;https://www.nngroup.com/articles/tabs-used-right/&quot;&gt;nngroup.com/articles/tabs-used-right/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-30-shadow-realm-in-html</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-30-shadow-realm-in-html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Is this link canon?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Link from The Legend of Zelda with the word link in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-29-is-this-link-canon.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -81,9 +114,9 @@
         <pubDate>Sun, 18 Jul 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-28-i-am-a-small-potato/</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-28-i-am-a-small-potato/</guid>
-        
-        
+
+
       </item>
-    
+
   </channel>
 </rss>

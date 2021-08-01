@@ -5,13 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>Shadow realm in HTML? | LongYC</title>
+    <meta name="description" content="CSS shadow, shadow DOM, and optimising Webpack watch." />
+    <meta property="og:image" content="/blog/2021-week-30-shadow-realm-in-html.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-30-shadow-realm-in-html" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -28,7 +28,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -67,54 +67,53 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long Story</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">Shadow realm in HTML?</h1>
+          <p class="subtitle">Send CSS there.</p>
+          <p class="meta">Aug 1, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-30-shadow-realm-in-html" title="Shadow realm in HTML?">
-                <span class="left">
-                  <span class="post-date">Aug 01</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Shadow realm in HTML?</span>
-                  <span class="post-subtitle">Send CSS there.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-29-is-this-link-canon" title="Is this link canon?">
-                <span class="left">
-                  <span class="post-date">Jul 25</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Is this link canon?</span>
-                  <span class="post-subtitle">Depends on the relationship.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-28-i-am-a-small-potato/" title="Oh, hi. How are you holding up?">
-                <span class="left">
-                  <span class="post-date">Jul 18</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Oh, hi. How are you holding up?</span>
-                  <span class="post-subtitle">Because I'm a small potato.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <span class="previous">PREVIOUS</span>
-            <span class="current ">PAGE 1 OF 1</span>
-            <span class="next">NEXT</span>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of Millenium Puzzle with the word shadow in Chinese, Malay, and English on the left." src="/blog/2021-week-30-shadow-realm-in-html.jpg" /></figure>
+
+<p>I spent a bit more time on CSS this week and revisited some tricks on shadow effects. That prompted me to think maybe there can be a theme for each of these weekly posts. Shadow DOM is added to complete this week’s theme, alongside with optimising what Webpack watches in shadow (too much of a stretch but I’ll go with it).</p>
+
+<ul>
+  <li><strong>CSS</strong>: use multiple layers of <code class="language-plaintext highlighter-rouge">box-shadow</code> to finetune shadows.</li>
+  <li><strong>CSS</strong>: use the <code class="language-plaintext highlighter-rouge">drop-shadow()</code> filter to create shadow that conforms the shape of an image.</li>
+  <li><strong>Shadow DOM</strong>: it is a hidden, isolated tree attaches to regular DOM, the CSS within this tree is scoped to the realm itself.</li>
+  <li><strong>Webpack</strong>: If watch mode takes up too much resources on your computer, try optimise it with <code class="language-plaintext highlighter-rouge">watchOption.ignored</code>, e.g. ignore <code class="language-plaintext highlighter-rouge">node_modules</code>.</li>
+  <li><strong>Tabs</strong>: NN/g has guidelines for tabs, the most important one is that they should be used for views within the same context instead used for navigating to another different context.</li>
+</ul>
+
+<p>Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: <a href="https://smallpotatodev.substack.com/">smallpotatodev.substack.com</a></p>
+
+<h3 id="related-link">Related Link</h3>
+
+<ul>
+  <li>MDN - box-shadow: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow">developer.mozilla.org/en-US/docs/Web/CSS/box-shadow</a></li>
+  <li>MDN - drop-shadow(): <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()">developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()</a></li>
+  <li>Google Developers - Shadow DOM: <a href="https://developers.google.com/web/fundamentals/web-components/shadowdom">developers.google.com/web/fundamentals/web-components/shadowdom</a></li>
+  <li>Webpack - WatchOptions: <a href="https://webpack.js.org/configuration/watch/#watchoptionsignored">webpack.js.org/configuration/watch</a></li>
+  <li>Nielsen Norman Group - Tabs, Used Right: <a href="https://www.nngroup.com/articles/tabs-used-right/">nngroup.com/articles/tabs-used-right/</a></li>
+</ul>
+
+            <div class="post-share">
+              SHARE ON:
+              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-30-shadow-realm-in-html" title="Share this on Facebook.">FACEBOOK</a>
+              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=Shadow%20realm%20in%20HTML?:%20https://longyc.com/blog/2021-week-30-shadow-realm-in-html&via=longyc" title="Share this on Twitter.">TWITTER</a>
+            </div>
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <span class="previous">NEWER POST</span>
+            <a class="next" href="/blog/2021-week-29-is-this-link-canon" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
