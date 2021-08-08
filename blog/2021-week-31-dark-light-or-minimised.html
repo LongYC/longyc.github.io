@@ -5,13 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>Dark mode, light mode or minimised? | LongYC</title>
+    <meta name="description" content="Automatic dark mode with CSS, Webpack minimisation, and core web vitals." />
+    <meta property="og:image" content="/blog/2021-week-31-dark-light-or-minimised.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-31-dark-light-or-minimised" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -28,7 +28,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -67,54 +67,50 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long Story</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">Dark mode, light mode or minimised?</h1>
+          <p class="subtitle">Just make sure they help with the vitals.</p>
+          <p class="meta">Aug 8, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-31-dark-light-or-minimised" title="Dark mode, light mode or minimised?">
-                <span class="left">
-                  <span class="post-date">Aug 08</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Dark mode, light mode or minimised?</span>
-                  <span class="post-subtitle">Just make sure they help with the vitals.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-30-shadow-realm-in-html" title="Shadow realm in HTML?">
-                <span class="left">
-                  <span class="post-date">Aug 01</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Shadow realm in HTML?</span>
-                  <span class="post-subtitle">Send CSS there.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-29-is-this-link-canon" title="Is this link canon?">
-                <span class="left">
-                  <span class="post-date">Jul 25</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Is this link canon?</span>
-                  <span class="post-subtitle">Depends on the relationship.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <span class="previous">PREVIOUS</span>
-            <span class="current ">PAGE 1 OF 2</span>
-            <a class="next" href="/blog/page/2/" title="Next">NEXT</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of Reshiram and Zekrom from Pokemon Black and White with the word mode in Chinese, Malay, and English on the left." src="/blog/2021-week-31-dark-light-or-minimised.jpg" /></figure>
+
+<p>This is my fourth weekly post since July, a bit of a slow week here and I thought why not have only three items instead of five this time, but expand on them ever so slightly more. It’s still a short one with more breadth than depth, with a tiny rebalancing. Without further ado, let’s dive shallowly into CSS, Webpack, and Core Web Vitals.</p>
+
+<ul>
+  <li><strong>CSS</strong>: use <code class="language-plaintext highlighter-rouge">prefers-color-scheme</code> in your media queries to automatically have your page switch between <code class="language-plaintext highlighter-rouge">dark</code> mode and <code class="language-plaintext highlighter-rouge">light</code> mode for users according to their system settings. Note that <code class="language-plaintext highlighter-rouge">light</code> can also mean a user has no preference.</li>
+  <li><strong>Webpack</strong>: <code class="language-plaintext highlighter-rouge">optimization.minimize</code> is set to <code class="language-plaintext highlighter-rouge">true</code> by default, which might lead you to think that <em>TerserWebpackPlugin</em> will be used with its default options (with <code class="language-plaintext highlighter-rouge">extractComments</code> set to <code class="language-plaintext highlighter-rouge">true</code>) when <code class="language-plaintext highlighter-rouge">optimization.minimizer</code> is not specified. However, comments with <code class="language-plaintext highlighter-rouge">@license</code>, <code class="language-plaintext highlighter-rouge">@preserve</code>, and <code class="language-plaintext highlighter-rouge">/*!</code> will not be extracted to separate files by default.</li>
+  <li><strong>Core Web Vitals</strong>: Google Search has started to take page experience signals into consideration, thus the current <em>Core Web Vitals</em> metrics will affect the ranking of a page, they are: <em>Largest Content Paint (LCP)</em> for loading performance, <em>First Input Delay (FID)</em> for interactivity, and <em>Cumulative Layout Shift (CLS)</em> for visual stability.</li>
+</ul>
+
+<p>Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: <a href="https://smallpotatodev.substack.com/">smallpotatodev.substack.com</a></p>
+
+<h3 id="related-link">Related Link</h3>
+
+<ul>
+  <li>MDN documentation on prefers-color-scheme: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme</a></li>
+  <li>Webpack author’s comment on GitHub: <a href="https://github.com/webpack/webpack/issues/324#issuecomment-157855568">https://github.com/webpack/webpack/issues/324</a></li>
+  <li>TerserWebpackPlugin on GitHub: <a href="https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments">https://github.com/webpack-contrib/terser-webpack-plugin</a></li>
+  <li>Google Search Central Blog on page experience update: <a href="https://developers.google.com/search/blog/2021/04/more-details-page-experience">https://developers.google.com/search/blog/2021/04/more-details-page-experience</a></li>
+</ul>
+
+            <div class="post-share">
+              SHARE ON:
+              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-31-dark-light-or-minimised" title="Share this on Facebook.">FACEBOOK</a>
+              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=Dark%20mode,%20light%20mode%20or%20minimised?:%20https://longyc.com/blog/2021-week-31-dark-light-or-minimised&via=longyc" title="Share this on Twitter.">TWITTER</a>
+            </div>
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <span class="previous">NEWER POST</span>
+            <a class="next" href="/blog/2021-week-30-shadow-realm-in-html" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->

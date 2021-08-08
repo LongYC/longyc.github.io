@@ -8,6 +8,36 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
     
       <item>
+        <title>Dark mode, light mode or minimised?</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Reshiram and Zekrom from Pokemon Black and White with the word mode in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-31-dark-light-or-minimised.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;This is my fourth weekly post since July, a bit of a slow week here and I thought why not have only three items instead of five this time, but expand on them ever so slightly more. It’s still a short one with more breadth than depth, with a tiny rebalancing. Without further ado, let’s dive shallowly into CSS, Webpack, and Core Web Vitals.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefers-color-scheme&lt;/code&gt; in your media queries to automatically have your page switch between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dark&lt;/code&gt; mode and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; mode for users according to their system settings. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; can also mean a user has no preference.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Webpack&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;optimization.minimize&lt;/code&gt; is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; by default, which might lead you to think that &lt;em&gt;TerserWebpackPlugin&lt;/em&gt; will be used with its default options (with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extractComments&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;) when &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;optimization.minimizer&lt;/code&gt; is not specified. However, comments with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@license&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@preserve&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/*!&lt;/code&gt; will not be extracted to separate files by default.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Core Web Vitals&lt;/strong&gt;: Google Search has started to take page experience signals into consideration, thus the current &lt;em&gt;Core Web Vitals&lt;/em&gt; metrics will affect the ranking of a page, they are: &lt;em&gt;Largest Content Paint (LCP)&lt;/em&gt; for loading performance, &lt;em&gt;First Input Delay (FID)&lt;/em&gt; for interactivity, and &lt;em&gt;Cumulative Layout Shift (CLS)&lt;/em&gt; for visual stability.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;related-link&quot;&gt;Related Link&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MDN documentation on prefers-color-scheme: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Webpack author’s comment on GitHub: &lt;a href=&quot;https://github.com/webpack/webpack/issues/324#issuecomment-157855568&quot;&gt;https://github.com/webpack/webpack/issues/324&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;TerserWebpackPlugin on GitHub: &lt;a href=&quot;https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments&quot;&gt;https://github.com/webpack-contrib/terser-webpack-plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Google Search Central Blog on page experience update: &lt;a href=&quot;https://developers.google.com/search/blog/2021/04/more-details-page-experience&quot;&gt;https://developers.google.com/search/blog/2021/04/more-details-page-experience&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 08 Aug 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-31-dark-light-or-minimised</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-31-dark-light-or-minimised</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Shadow realm in HTML?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Millenium Puzzle with the word shadow in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-30-shadow-realm-in-html.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -112,8 +142,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 18 Jul 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-28-i-am-a-small-potato/</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-28-i-am-a-small-potato/</guid>
+        <link>https://longyc.com/blog/2021-week-28-i-am-a-small-potato</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-28-i-am-a-small-potato</guid>
 
 
       </item>
