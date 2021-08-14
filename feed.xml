@@ -21,7 +21,7 @@
 
 &lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;related-link&quot;&gt;Related Link&lt;/h3&gt;
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;MDN documentation on prefers-color-scheme: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&lt;/a&gt;&lt;/li&gt;
@@ -53,7 +53,7 @@
 
 &lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;related-link&quot;&gt;Related Link&lt;/h3&gt;
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;MDN - box-shadow: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/box-shadow&lt;/a&gt;&lt;/li&gt;
@@ -86,7 +86,7 @@
 
 &lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;related-link&quot;&gt;Related Link&lt;/h3&gt;
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;RFC 6596 - the canonical link relation: &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc6596&quot;&gt;datatracker.ietf.org/doc/html/rfc6596&lt;/a&gt;&lt;/li&gt;
@@ -108,7 +108,7 @@
         <title>Oh, hi. How are you holding up?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of GlaDOS in Portal 2 potato form with the word potato in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-28-i-am-a-small-potato.jpg&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;I hope you’re doing well wherever you are during this pandemic. My blog was last updated five years ago so I figured now is a good time to give it a reboot, so, old posts begone and future posts will base on these Long Blog Short principles that I made up:&lt;/p&gt;
+&lt;p&gt;I hope you’re doing well wherever you are during this pandemic. My blog was last updated five years ago and I figured now is a good time to reboot it, so, old posts begone and future posts will follow these Long Blog Short principles that I made up:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Weekly update - at least, or more if there are more stories to tell.&lt;/li&gt;
@@ -116,11 +116,11 @@
   &lt;li&gt;Links later - do not contribute new browser tabs before the post ends.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;With that out of the way, let’s talk about being a small potato, that’s often how I feel - that in the grand scheme of things, what I know is insignificant and will never be enough, which is probably true, but that’s okay because one can always grow.&lt;/p&gt;
+&lt;p&gt;With that out of the way, let’s talk about being a small potato because that’s often how I feel - that in the grand scheme of things, what I know is insignificant and will never be enough. It is probably true, but what I can do is to just continue to grow.&lt;/p&gt;
 
-&lt;p&gt;It’s been a decade since I started my career in software development which is a rather fast-moving industry. More often than not, I stumble upon technology, methodology, or even simple tricks that I feel like I should’ve known but didn’t, not to mention constantly being reminded of fading knowledge. What I usually do is to jot them down as part of my weekly journal, and now looking back, I think those might as well be blog posts because who knows if someone else felt the same can benefit from them, plus I can learn if someone find mistakes or shortcomings in them.&lt;/p&gt;
+&lt;p&gt;It’s been a decade since I started my career in software development which is a rather fast-moving industry. More often than not, I stumble upon technology, methodology, or even simple tricks that I feel like I should’ve known but didn’t, not to mention constantly being reminded of fading knowledge. What I usually do nowadays is to jot them down as part of my weekly journal, and now looking back, I think those might as well be blog posts because who knows if someone else felt the same can benefit from them, plus I can learn if someone find mistakes or shortcomings in these notes.&lt;/p&gt;
 
-&lt;p&gt;My interests nowadays are mostly around web development, and yes, that means JavaScript. Other than that, I also dabble in topics around UX and stories of people doing great works. With that in mind, here are the notes for this week:&lt;/p&gt;
+&lt;p&gt;My interests nowadays are mostly around web app development, and yes, that means we’ll see a lot of JavaScript. Other than that, I also dabble in topics around UX and stories of people doing great works. With that in mind, here are the notes for this week:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;AWS CloudFront&lt;/strong&gt;: it doesn’t support compression for files above 10 MB.&lt;/li&gt;
