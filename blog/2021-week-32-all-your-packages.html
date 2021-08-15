@@ -5,13 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>All your packages are belong to us. | LongYC</title>
+    <meta name="description" content="On npm Workspaces, HTTP caching, and CJK characters." />
+    <meta property="og:image" content="/blog/2021-week-32-all-your-packages.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-32-all-your-packages" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -28,7 +28,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -67,54 +67,55 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long Story</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">All your packages are belong to us.</h1>
+          <p class="subtitle">On npm, HTTP, and CJK.</p>
+          <p class="meta">Aug 15, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-32-all-your-packages" title="All your packages are belong to us.">
-                <span class="left">
-                  <span class="post-date">Aug 15</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">All your packages are belong to us.</span>
-                  <span class="post-subtitle">On npm, HTTP, and CJK.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-31-dark-light-or-minimised" title="Dark mode, light mode or minimised?">
-                <span class="left">
-                  <span class="post-date">Aug 08</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Dark mode, light mode or minimised?</span>
-                  <span class="post-subtitle">Just make sure they help with the vitals.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-30-shadow-realm-in-html" title="Shadow realm in HTML?">
-                <span class="left">
-                  <span class="post-date">Aug 01</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Shadow realm in HTML?</span>
-                  <span class="post-subtitle">Send CSS there.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <span class="previous">PREVIOUS</span>
-            <span class="current ">PAGE 1 OF 2</span>
-            <a class="next" href="/blog/page/2/" title="Next">NEXT</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of Smaug from The Hobbit with the word hoard in Chinese, Malay, and English on the left." src="/blog/2021-week-32-all-your-packages.jpg" /></figure>
+
+<p>This marks a month since my first weekly post in July. It’s the end of week 32 of 2021 and 20 more weeks till end of the year, there should be 25 posts this year, if I managed to keep this up. Does collecting weekly posts count as hoarding? Like how we can hoard packages with npm Workspaces or improve webpage performance by letting browsers hoard caches.</p>
+
+<ul>
+  <li>
+    <p><strong>Node.js &amp; npm</strong>: Workspaces is supported in npm v7, which ships with Node.js v15 and v16. It uses the <code class="language-plaintext highlighter-rouge">workspaces</code> field in <code class="language-plaintext highlighter-rouge">package.json</code> just like yarn. That’s one more reason to look forward to Node.js v16 being LTS other than it ships with binaries prebuilt for Apple Silicone. Do note that npm v7 will convert existing <code class="language-plaintext highlighter-rouge">package-lock.json</code> to a new format.</p>
+  </li>
+  <li>
+    <p><strong>Browser &amp; HTTP</strong>: the <code class="language-plaintext highlighter-rouge">Cache-Control</code> header in a HTTP request might be affected by browser settings, e.g. a browser might send <code class="language-plaintext highlighter-rouge">Cache-Control: no-cache</code> or even  <code class="language-plaintext highlighter-rouge">Pragma: no-cache</code> when caching is disabled, which instructs intermediaries to not use a stored response without successful validation on the origin server.</p>
+  </li>
+  <li>
+    <p><strong>Encoding &amp; languages</strong>: Chinese, Japanese, and Korean characters are commonly referred to as CJK when it comes to character encoding. There are quite a number of blocks in Unicode for CJK but a Unicode character alone does not indicate which of the languages is in use, much like the character “A” does not indicate whether English or Malay is in used.</p>
+  </li>
+</ul>
+
+<p>Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: <a href="https://smallpotatodev.substack.com/">smallpotatodev.substack.com</a></p>
+
+<h3 id="related-links">Related Links</h3>
+
+<ul>
+  <li>GitHub blog on npm v7: <a href="https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli/">github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli</a></li>
+  <li>RFC 7234 on Cache-Control: <a href="https://datatracker.ietf.org/doc/html/rfc7234#section-5.2.1">datatracker.ietf.org/doc/html/rfc7234</a></li>
+  <li>Unicode FAQ on CJK: <a href="https://www.unicode.org/faq/han_cjk.html">unicode.org/faq/han_cjk.html</a></li>
+</ul>
+
+            <div class="post-share">
+              SHARE ON:
+              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-32-all-your-packages" title="Share this on Facebook.">FACEBOOK</a>
+              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=All%20your%20packages%20are%20belong%20to%20us.:%20https://longyc.com/blog/2021-week-32-all-your-packages&via=longyc" title="Share this on Twitter.">TWITTER</a>
+            </div>
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <span class="previous">NEWER POST</span>
+            <a class="next" href="/blog/2021-week-31-dark-light-or-minimised" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->

@@ -6,7 +6,42 @@
 </description>
     <link>https://longyc.com/</link>
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
-    
+
+      <item>
+        <title>All your packages are belong to us.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Smaug from The Hobbit with the word hoard in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-32-all-your-packages.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;This marks a month since my first weekly post in July. It’s the end of week 32 of 2021 and 20 more weeks till end of the year, there should be 25 posts this year, if I managed to keep this up. Does collecting weekly posts count as hoarding? Like how we can hoard packages with npm Workspaces or improve webpage performance by letting browsers hoard caches.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Node.js &amp;amp; npm&lt;/strong&gt;: Workspaces is supported in npm v7, which ships with Node.js v15 and v16. It uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;workspaces&lt;/code&gt; field in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; just like yarn. That’s one more reason to look forward to Node.js v16 being LTS other than it ships with binaries prebuilt for Apple Silicone. Do note that npm v7 will convert existing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package-lock.json&lt;/code&gt; to a new format.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Browser &amp;amp; HTTP&lt;/strong&gt;: the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cache-Control&lt;/code&gt; header in a HTTP request might be affected by browser settings, e.g. a browser might send &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cache-Control: no-cache&lt;/code&gt; or even  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Pragma: no-cache&lt;/code&gt; when caching is disabled, which instructs intermediaries to not use a stored response without successful validation on the origin server.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Encoding &amp;amp; languages&lt;/strong&gt;: Chinese, Japanese, and Korean characters are commonly referred to as CJK when it comes to character encoding. There are quite a number of blocks in Unicode for CJK but a Unicode character alone does not indicate which of the languages is in use, much like the character “A” does not indicate whether English or Malay is in used.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GitHub blog on npm v7: &lt;a href=&quot;https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli/&quot;&gt;github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RFC 7234 on Cache-Control: &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc7234#section-5.2.1&quot;&gt;datatracker.ietf.org/doc/html/rfc7234&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Unicode FAQ on CJK: &lt;a href=&quot;https://www.unicode.org/faq/han_cjk.html&quot;&gt;unicode.org/faq/han_cjk.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 15 Aug 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-32-all-your-packages</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-32-all-your-packages</guid>
+
+
+      </item>
+
       <item>
         <title>Dark mode, light mode or minimised?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Reshiram and Zekrom from Pokemon Black and White with the word mode in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-31-dark-light-or-minimised.jpg&quot; /&gt;&lt;/figure&gt;
@@ -24,19 +59,19 @@
 &lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;MDN documentation on prefers-color-scheme: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Webpack author’s comment on GitHub: &lt;a href=&quot;https://github.com/webpack/webpack/issues/324#issuecomment-157855568&quot;&gt;https://github.com/webpack/webpack/issues/324&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;TerserWebpackPlugin on GitHub: &lt;a href=&quot;https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments&quot;&gt;https://github.com/webpack-contrib/terser-webpack-plugin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Google Search Central Blog on page experience update: &lt;a href=&quot;https://developers.google.com/search/blog/2021/04/more-details-page-experience&quot;&gt;https://developers.google.com/search/blog/2021/04/more-details-page-experience&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MDN documentation on prefers-color-scheme: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Webpack author’s comment on GitHub: &lt;a href=&quot;https://github.com/webpack/webpack/issues/324#issuecomment-157855568&quot;&gt;github.com/webpack/webpack/issues/324&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;TerserWebpackPlugin on GitHub: &lt;a href=&quot;https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments&quot;&gt;github.com/webpack-contrib/terser-webpack-plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Google Search Central Blog on page experience update: &lt;a href=&quot;https://developers.google.com/search/blog/2021/04/more-details-page-experience&quot;&gt;developers.google.com/search/blog/2021/04/more-details-page-experience&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 08 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-31-dark-light-or-minimised</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-31-dark-light-or-minimised</guid>
-        
-        
+
+
       </item>
-    
+
       <item>
         <title>Shadow realm in HTML?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Millenium Puzzle with the word shadow in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-30-shadow-realm-in-html.jpg&quot; /&gt;&lt;/figure&gt;
@@ -66,10 +101,10 @@
         <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-30-shadow-realm-in-html</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-30-shadow-realm-in-html</guid>
-        
-        
+
+
       </item>
-    
+
       <item>
         <title>Is this link canon?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Link from The Legend of Zelda with the word link in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-29-is-this-link-canon.jpg&quot; /&gt;&lt;/figure&gt;
@@ -100,10 +135,10 @@
         <pubDate>Sun, 25 Jul 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-29-is-this-link-canon</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-29-is-this-link-canon</guid>
-        
-        
+
+
       </item>
-    
+
       <item>
         <title>Oh, hi. How are you holding up?</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of GlaDOS in Portal 2 potato form with the word potato in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-28-i-am-a-small-potato.jpg&quot; /&gt;&lt;/figure&gt;
