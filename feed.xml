@@ -8,10 +8,43 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
-        <title>2021 Week 33, Hungry Ghost edition.</title>
+        <title>2021 week 34, JS array &amp; Base64 encoding.</title>
+        <description>&lt;p&gt;It’s the time of the year in Malaysia where the national flag can be seen everywhere, so I included a tiny history piece as the third item. The first two items are both JavaScript - one on array and another on Base64, the latter seems like it can become a whole article of its own so I’ll keep it short.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript - array&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[...x]&lt;/code&gt; will result in an array if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; is iterable. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.from(potatoes, (potato) =&amp;gt; potato)&lt;/code&gt; will also result in an array if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;potatoes&lt;/code&gt; is iterable, but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;potatoes&lt;/code&gt; can also be an array-like object, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{0: small, length: 1}&lt;/code&gt;, that allows us to create a transformed array out of an array-like object, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const dinner = Array.from(potatoes, (potato) =&amp;gt; cook(potato))&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript - Base64&lt;/strong&gt;: while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btoa()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atob()&lt;/code&gt; can be used in a browser environment to convert between binary data and Base64 encoded string, they have recently made their way to Node.js as well but use them wisely because character encoding can be tricky and Base64 encoding can easily increase the data size by a third.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;History - Malaysia&lt;/strong&gt;: the founding father - Tunku Abdul Rahman was part of the panel of judges that contributed to the Malaysian national anthem. &lt;em&gt;“We’re not going to War. We don’t need this. We need a love song.”&lt;/em&gt;, and surely enough, now the national anthem has its root in the melody of a love song.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is my 7th weekly post since July 2021, thank you for reading.&lt;/p&gt;
+
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MDN on Array.from(): &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&quot;&gt;developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MDN on btoa(): &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa&quot;&gt;developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Goodreads - Dialog: Thoughts on Tunku’s Timeless Thinking: &lt;a href=&quot;https://www.goodreads.com/book/show/58679923-dialog&quot;&gt;goodreads.com/book/show/58679923-dialog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 29 Aug 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-34-js-array-base64-negaraku</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-34-js-array-base64-negaraku</guid>
+
+
+      </item>
+
+      <item>
+        <title>2021 week 33, Hungry Ghost edition.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Fang from Detention with the word soul in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-33-hungry-ghost-edition.jpg&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;It is currently the Hungry Ghost month for those who follow the Chinese folk religion and there will be ceremonies to pay respect to the departed souls. That inspired the ghost theme for this week’s post with three open source projects whose names befit the Ghost Festival, and another two items still picked from my weekly journal - so, five items for week 33 of 2021.&lt;/p&gt;
+&lt;p&gt;It is currently the Hungry Ghost month for those who follow the Chinese folk religion and there will be ceremonies to pay respect to the departed souls. That inspired the ghost theme for this week’s post with three open source projects whose names befit the Ghost Festival, and another two items still picked from my weekly journal.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -31,7 +64,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is my 6th weekly post since July 2021, thank you for reading.&lt;/p&gt;
 
 &lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
 

@@ -5,13 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
+    <title>2021 week 34, JS array & Base64 encoding. | LongYC</title>
+    <meta name="description" content="On JavaScript array and Base64 encoding. Plus Malaysian national anthem." />
     <!-- No image set for Open Graph. -->
     <meta name="theme-color" content="#1b2228" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-34-js-array-base64-negaraku" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -28,7 +28,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -67,54 +67,53 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long Story</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">2021 week 34, JS array & Base64 encoding.</h1>
+          <p class="subtitle">Plus Malaysian national anthem.</p>
+          <p class="meta">Aug 29, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-34-js-array-base64-negaraku" title="2021 week 34, JS array & Base64 encoding.">
-                <span class="left">
-                  <span class="post-date">Aug 29</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 34, JS array & Base64 encoding.</span>
-                  <span class="post-subtitle">Plus Malaysian national anthem.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-33-hungry-ghost-edition" title="2021 week 33, Hungry Ghost edition.">
-                <span class="left">
-                  <span class="post-date">Aug 22</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 33, Hungry Ghost edition.</span>
-                  <span class="post-subtitle">Ghost-themed OSS and optical illusion.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-32-all-your-packages" title="All your packages are belong to us.">
-                <span class="left">
-                  <span class="post-date">Aug 15</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">All your packages are belong to us.</span>
-                  <span class="post-subtitle">On npm, HTTP, and CJK.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <span class="previous">PREVIOUS</span>
-            <span class="current ">PAGE 1 OF 3</span>
-            <a class="next" href="/blog/page/2/" title="Next">NEXT</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<p>It’s the time of the year in Malaysia where the national flag can be seen everywhere, so I included a tiny history piece as the third item. The first two items are both JavaScript - one on array and another on Base64, the latter seems like it can become a whole article of its own so I’ll keep it short.</p>
+
+<ul>
+  <li>
+    <p><strong>JavaScript - array</strong>: <code class="language-plaintext highlighter-rouge">[...x]</code> will result in an array if <code class="language-plaintext highlighter-rouge">x</code> is iterable. <code class="language-plaintext highlighter-rouge">Array.from(potatoes, (potato) =&gt; potato)</code> will also result in an array if <code class="language-plaintext highlighter-rouge">potatoes</code> is iterable, but <code class="language-plaintext highlighter-rouge">potatoes</code> can also be an array-like object, e.g. <code class="language-plaintext highlighter-rouge">{0: small, length: 1}</code>, that allows us to create a transformed array out of an array-like object, e.g. <code class="language-plaintext highlighter-rouge">const dinner = Array.from(potatoes, (potato) =&gt; cook(potato))</code>.</p>
+  </li>
+  <li>
+    <p><strong>JavaScript - Base64</strong>: while <code class="language-plaintext highlighter-rouge">btoa()</code> and <code class="language-plaintext highlighter-rouge">atob()</code> can be used in a browser environment to convert between binary data and Base64 encoded string, they have recently made their way to Node.js as well but use them wisely because character encoding can be tricky and Base64 encoding can easily increase the data size by a third.</p>
+  </li>
+  <li>
+    <p><strong>History - Malaysia</strong>: the founding father - Tunku Abdul Rahman was part of the panel of judges that contributed to the Malaysian national anthem. <em>“We’re not going to War. We don’t need this. We need a love song.”</em>, and surely enough, now the national anthem has its root in the melody of a love song.</p>
+  </li>
+</ul>
+
+<p>This is my 7th weekly post since July 2021, thank you for reading.</p>
+
+<h3 id="related-links">Related Links</h3>
+
+<ul>
+  <li>MDN on Array.from(): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from</a></li>
+  <li>MDN on btoa(): <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa">developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa</a></li>
+  <li>Goodreads - Dialog: Thoughts on Tunku’s Timeless Thinking: <a href="https://www.goodreads.com/book/show/58679923-dialog">goodreads.com/book/show/58679923-dialog</a></li>
+</ul>
+
+            <div class="post-share">
+              SHARE ON:
+              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-34-js-array-base64-negaraku" title="Share this on Facebook.">FACEBOOK</a>
+              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=2021%20week%2034,%20JS%20array%20&%20Base64%20encoding.:%20https://longyc.com/blog/2021-week-34-js-array-base64-negaraku&via=longyc" title="Share this on Twitter.">TWITTER</a>
+            </div>
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <span class="previous">NEWER POST</span>
+            <a class="next" href="/blog/2021-week-33-hungry-ghost-edition" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
