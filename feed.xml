@@ -8,6 +8,41 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>2021 week 35, CSS stacking and HTML parsing.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Cthulhu with the word stack in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-35-css-stack-html-parse.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;Stepping into September, 30% time left in 2021 and it’s been a little difficult to find a common theme from these items I’ve just revisited or learned weekly, please bear with me. Three items this week, first two are about CSS stacking context and parsing HTML with regex respectively while the last one will compare sentence case to title case.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;: stacking context is like an imaginary z-axis for HTML elements. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;z-index&lt;/code&gt; can be used to control the stacking order within the same parent stacking context and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;isolation: isolate;&lt;/code&gt; can be used to create new stacking context.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;: best not to parse HTML with regex else you might risk summoning Cthulhu. Jokes aside, it’s generally regarded as a bad practice although as most things, there might be suitable specific use cases. There are a couple of reasons behind this (e.g. HTML validity, nesting) but to put it simply, HTML is too complex for regex, use a library designed for that instead.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Letter casing&lt;/strong&gt;: Sentence case is generally regarded as more friendly, allow proper nouns to stand out while title case is perceived as more serious and more prominent. Regardless of preference between the two, being consistent will help readability.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is my 8th weekly post, thank you for reading and do let me know if you got any feedback.&lt;/p&gt;
+
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context&quot;&gt;The stacking context&lt;/a&gt;&lt;/em&gt; by MDN contributors.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://blog.codinghorror.com/parsing-html-the-cthulhu-way/&quot;&gt;Parsing HTML the Cthulhu Way&lt;/a&gt;&lt;/em&gt; by Jeff Atwood.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98&quot;&gt;Making a case for letter case&lt;/a&gt;&lt;/em&gt; by John Saito.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Sep 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-35-css-stack-html-parse</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-35-css-stack-html-parse</guid>
+
+
+      </item>
+
+      <item>
         <title>2021 week 34, JS array &amp; Base64 encoding.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Tunku Abdul Rahman with the word array in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-34-js-array-base64-negaraku.jpg&quot; /&gt;&lt;/figure&gt;
 

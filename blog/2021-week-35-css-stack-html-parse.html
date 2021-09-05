@@ -5,13 +5,13 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>2021 week 34, JS array & Base64 encoding. | LongYC</title>
-    <meta name="description" content="On JavaScript array and Base64 encoding. Plus Malaysian national anthem." />
-    <meta property="og:image" content="/blog/2021-week-34-js-array-base64-negaraku.jpg" />
+    <title>2021 week 35, CSS stacking and HTML parsing. | LongYC</title>
+    <meta name="description" content="On CSS stacking context and parsing HTML with regex. Plus letter casing." />
+    <meta property="og:image" content="/blog/2021-week-35-css-stack-html-parse.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/2021-week-34-js-array-base64-negaraku" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-35-css-stack-html-parse" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -67,44 +67,44 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">2021 week 34, JS array & Base64 encoding.</h1>
-          <p class="subtitle">Plus Malaysian national anthem.</p>
-          <p class="meta">Aug 29, 2021</p>
+          <h1 class="title">2021 week 35, CSS stacking and HTML parsing.</h1>
+          <p class="subtitle">Plus letter casing.</p>
+          <p class="meta">Sep 5, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
           <div class="post">
-<figure><img alt="A doodle of Tunku Abdul Rahman with the word array in Chinese, Malay, and English on the left." src="/blog/2021-week-34-js-array-base64-negaraku.jpg" /></figure>
+<figure><img alt="A doodle of Cthulhu with the word stack in Chinese, Malay, and English on the left." src="/blog/2021-week-35-css-stack-html-parse.jpg" /></figure>
 
-<p>It’s the time of the year in Malaysia where the national flag can be seen everywhere, so I included a tiny history piece as the third item. The first two items are both JavaScript - one on array and another on Base64, the latter seems like it can become a whole article of its own so I’ll keep it short.</p>
+<p>Stepping into September, 30% time left in 2021 and it’s been a little difficult to find a common theme from these items I’ve just revisited or learned weekly, please bear with me. Three items this week, first two are about CSS stacking context and parsing HTML with regex respectively while the last one will compare sentence case to title case.</p>
 
 <ul>
   <li>
-    <p><strong>JavaScript - array</strong>: <code class="language-plaintext highlighter-rouge">[...x]</code> will result in an array if <code class="language-plaintext highlighter-rouge">x</code> is iterable. <code class="language-plaintext highlighter-rouge">Array.from(potatoes, (potato) =&gt; potato)</code> will also result in an array if <code class="language-plaintext highlighter-rouge">potatoes</code> is iterable, but <code class="language-plaintext highlighter-rouge">potatoes</code> can also be an array-like object, e.g. <code class="language-plaintext highlighter-rouge">{0: small, length: 1}</code>, that allows us to create a transformed array out of an array-like object, e.g. <code class="language-plaintext highlighter-rouge">const dinner = Array.from(potatoes, (potato) =&gt; cook(potato))</code>.</p>
+    <p><strong>CSS</strong>: stacking context is like an imaginary z-axis for HTML elements. <code class="language-plaintext highlighter-rouge">z-index</code> can be used to control the stacking order within the same parent stacking context and <code class="language-plaintext highlighter-rouge">isolation: isolate;</code> can be used to create new stacking context.</p>
   </li>
   <li>
-    <p><strong>JavaScript - Base64</strong>: while <code class="language-plaintext highlighter-rouge">btoa()</code> and <code class="language-plaintext highlighter-rouge">atob()</code> can be used in a browser environment to convert between binary data and Base64 encoded string, they have recently made their way to Node.js as well but use them wisely because character encoding can be tricky and Base64 encoding can easily increase the data size by a third.</p>
+    <p><strong>HTML</strong>: best not to parse HTML with regex else you might risk summoning Cthulhu. Jokes aside, it’s generally regarded as a bad practice although as most things, there might be suitable specific use cases. There are a couple of reasons behind this (e.g. HTML validity, nesting) but to put it simply, HTML is too complex for regex, use a library designed for that instead.</p>
   </li>
   <li>
-    <p><strong>History - Malaysia</strong>: the founding father - Tunku Abdul Rahman was part of the panel of judges that contributed to the Malaysian national anthem. <em>“We’re not going to War. We don’t need this. We need a love song.”</em>, and surely enough, now the national anthem has its root in the melody of a love song.</p>
+    <p><strong>Letter casing</strong>: Sentence case is generally regarded as more friendly, allow proper nouns to stand out while title case is perceived as more serious and more prominent. Regardless of preference between the two, being consistent will help readability.</p>
   </li>
 </ul>
 
-<p>This is my 7th weekly post since July 2021, thank you for reading.</p>
+<p>This is my 8th weekly post, thank you for reading and do let me know if you got any feedback.</p>
 
 <h3 id="related-links">Related Links</h3>
 
 <ul>
-  <li>MDN on Array.from(): <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from">developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from</a></li>
-  <li>MDN on btoa(): <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa">developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa</a></li>
-  <li>Goodreads - Dialog: Thoughts on Tunku’s Timeless Thinking: <a href="https://www.goodreads.com/book/show/58679923-dialog">goodreads.com/book/show/58679923-dialog</a></li>
+  <li><em><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">The stacking context</a></em> by MDN contributors.</li>
+  <li><em><a href="https://blog.codinghorror.com/parsing-html-the-cthulhu-way/">Parsing HTML the Cthulhu Way</a></em> by Jeff Atwood.</li>
+  <li><em><a href="https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98">Making a case for letter case</a></em> by John Saito.</li>
 </ul>
 
             <div class="post-share">
               SHARE ON:
-              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-34-js-array-base64-negaraku" title="Share this on Facebook.">FACEBOOK</a>
-              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=2021%20week%2034,%20JS%20array%20&%20Base64%20encoding.:%20https://longyc.com/blog/2021-week-34-js-array-base64-negaraku&via=longyc" title="Share this on Twitter.">TWITTER</a>
+              <a class="post-share-link" href="https://facebook.com/sharer.php?u=https://longyc.com/blog/2021-week-35-css-stack-html-parse" title="Share this on Facebook.">FACEBOOK</a>
+              <a class="post-share-link" href="https://twitter.com/intent/tweet?text=2021%20week%2035,%20CSS%20stacking%20and%20HTML%20parsing.:%20https://longyc.com/blog/2021-week-35-css-stack-html-parse&via=longyc" title="Share this on Twitter.">TWITTER</a>
             </div>
             <aside class="post-ads">
               <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -113,8 +113,8 @@
             </aside>
           </div> <!-- .post -->
           <nav class="pagination">
-            <a class="previous" href="/blog/2021-week-35-css-stack-html-parse" title="Newer post.">NEWER POST</a>
-            <a class="next" href="/blog/2021-week-33-hungry-ghost-edition" title="Older post.">OLDER POST</a>
+            <span class="previous">NEWER POST</span>
+            <a class="next" href="/blog/2021-week-34-js-array-base64-negaraku" title="Older post.">OLDER POST</a>
           </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
