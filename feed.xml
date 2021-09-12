@@ -8,6 +8,41 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>2021 week 36, mathematically incorrect JS.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the Malaysian flag with the word number in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-36-mathematically-incorrect-js.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;It’s 2021 week 36, I recently had a bit of fun with JavaScript number data type and Malaysia Day is around the corner (16th September) - that’s how I arrive at this week’s topics. Here are some interesting facts about numbers in JavaScript and numbers related to the Malaysian flag.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript number&lt;/strong&gt;: the primitive data type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;number&lt;/code&gt; is based on the IEEE 754 standard, which means floating-point arithmetic applies. The classic example is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.1 + 0.2&lt;/code&gt; returns &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.30000000000000004&lt;/code&gt;, the result also shows the decimal precision limit of 17.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript bigint&lt;/strong&gt;: the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bigint&lt;/code&gt; primitive type was introduced in ES2020, it can safely represent integers bigger than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Number.MAX_SAFE_INTEGER&lt;/code&gt;, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;9007199254740992 === 9007199254740993&lt;/code&gt; returns &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; which is wrong but with BigInt, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;9007199254740992n === 9007199254740993n&lt;/code&gt; returns &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt; as expected. Note that as of current, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Math&lt;/code&gt; object doesn’t work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bigint&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The Malaysian flag&lt;/strong&gt;: before the formation of Malaysia in year 1963, the flag for Federation of Malaya had 11 stripes and the star had 11 points as opposed to 14 for both now. The original submission of the design had a five-pointed star.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is my 9th weekly post, thank you for reading and if you have got any feedback, do let me know!&lt;/p&gt;
+
+&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type&quot;&gt;JavaScript data types and data structures&lt;/a&gt; by MDN contributors.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#static_properties&quot;&gt;Math - Javascript&lt;/a&gt; by MDN contributors.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.malaysiadesignarchive.org/documents/The%20History%20of%20Malaysian%20Flag%20Design.pdf&quot;&gt;The History and Design Chronology of JALUR GEMILANG&lt;/a&gt; by Muhamad Razif Nasruddin and Zarul Nazli bin Zulkhurnain.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 12 Sep 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-36-mathematically-incorrect-js</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-36-mathematically-incorrect-js</guid>
+
+
+      </item>
+
+      <item>
         <title>2021 week 35, CSS stacking and HTML parsing.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Cthulhu with the word stack in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-35-css-stack-html-parse.jpg&quot; /&gt;&lt;/figure&gt;
 

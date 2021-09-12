@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 2 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>2021 week 36, mathematically incorrect JS. | LongYC</title>
+    <meta name="description" content="On numbers in JavaScript. Plus Malaysian flag numbers." />
+    <meta property="og:image" content="/blog/2021-09-12-mathematically-incorrect-js.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/2/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-09-12-mathematically-incorrect-js" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,49 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">2021 week 36, mathematically incorrect JS.</h1>
+          <p class="subtitle">Plus numbers about the Malaysian flag.</p>
+          <p class="meta">Sep 12, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-33-hungry-ghost-edition" title="2021 week 33, Hungry Ghost edition.">
-                <span class="left">
-                  <span class="post-date">Aug 22</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 33, Hungry Ghost edition.</span>
-                  <span class="post-subtitle">Ghost-themed OSS and optical illusion.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-32-all-your-packages" title="All your packages are belong to us.">
-                <span class="left">
-                  <span class="post-date">Aug 15</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">All your packages are belong to us.</span>
-                  <span class="post-subtitle">On npm, HTTP, and CJK.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-31-dark-light-or-minimised" title="Dark mode, light mode or minimised?">
-                <span class="left">
-                  <span class="post-date">Aug 08</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Dark mode, light mode or minimised?</span>
-                  <span class="post-subtitle">Just make sure they help with the vitals.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 2 of 3</span>
-            <a class="next" href="/blog/page/3/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of the Malaysian flag with the word number in Chinese, Malay, and English on the left." src="/blog/2021-09-12-mathematically-incorrect-js.jpg" /></figure>
+
+<p>It’s 2021 week 36, I recently had a bit of fun with JavaScript number data type and Malaysia Day is around the corner (16th September) - that’s how I arrive at this week’s topics. Here are some interesting facts about numbers in JavaScript and numbers about the Malaysian flag.</p>
+
+<ul>
+  <li>
+    <p><strong>JavaScript number</strong>: the primitive data type <code class="language-plaintext highlighter-rouge">number</code> is based on the IEEE 754 standard which means floating-point arithmetic applies. The classic example is <code class="language-plaintext highlighter-rouge">0.1 + 0.2</code> will return <code class="language-plaintext highlighter-rouge">0.30000000000000004</code>, which also shows the 17 decimals precision limit.</p>
+  </li>
+  <li>
+    <p><strong>JavaScript bigint</strong>: the <code class="language-plaintext highlighter-rouge">bigint</code> primitive type was introduced in ES2020, it can represent a number bigger than <code class="language-plaintext highlighter-rouge">Number.MAX_SAFE_INTEGER</code>, e.g. <code class="language-plaintext highlighter-rouge">9007199254740992 === 9007199254740993</code> returns <code class="language-plaintext highlighter-rouge">true</code> but <code class="language-plaintext highlighter-rouge">9007199254740992n === 9007199254740993n</code> will return <code class="language-plaintext highlighter-rouge">false</code>. Note that as of current, the <code class="language-plaintext highlighter-rouge">Math</code> object doesn’t work with <code class="language-plaintext highlighter-rouge">bigint</code>.</p>
+  </li>
+  <li>
+    <p><strong>The Malaysian flag</strong>: before the formation of Malaysia in year 1963, the flag for Federation of Malaya had 11 stripes and the star had 11 points as opposed to 14 for both now. The original submission of the design had a five-pointed star.</p>
+  </li>
+</ul>
+
+<p>This is my 9th weekly post, thank you for reading and do let me know if you got any feedback.</p>
+
+<h3 id="related-links">Related Links</h3>
+
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type">JavaScript data types and data structures</a> by MDN contributors.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#static_properties">Math - Javascript</a> by MDN contributors.</li>
+  <li><a href="https://www.malaysiadesignarchive.org/documents/The%20History%20of%20Malaysian%20Flag%20Design.pdf">The History and Design Chronology of JALUR GEMILANG</a> by Muhamad Razif Nasruddin and Zarul Nazli bin Zulkhurnain.</li>
+</ul>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-35-css-stack-html-parse" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
