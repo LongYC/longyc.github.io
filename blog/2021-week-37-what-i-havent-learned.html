@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 3 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>2021 week 37, 10th weekly post. | LongYC</title>
+    <meta name="description" content="On JavaScript proxy, design, and code editor shortcuts." />
+    <meta property="og:image" content="/blog/2021-week-37-what-i-havent-learned.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/3/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-37-what-i-havent-learned" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,45 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">2021 week 37, 10th weekly post.</h1>
+          <p class="subtitle">And what I haven't learned.</p>
+          <p class="meta">Sep 19, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-31-dark-light-or-minimised" title="Dark mode, light mode or minimised?">
-                <span class="left">
-                  <span class="post-date">Aug 08</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Dark mode, light mode or minimised?</span>
-                  <span class="post-subtitle">Just make sure they help with the vitals.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-30-shadow-realm-in-html" title="Shadow realm in HTML?">
-                <span class="left">
-                  <span class="post-date">Aug 01</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Shadow realm in HTML?</span>
-                  <span class="post-subtitle">Send CSS there.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-29-is-this-link-canon" title="Is this link canon?">
-                <span class="left">
-                  <span class="post-date">Jul 25</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Is this link canon?</span>
-                  <span class="post-subtitle">Depends on the relationship.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/page/2/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 3 of 4</span>
-            <a class="next" href="/blog/page/4/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of the Brotherhood Sword from Final Fantasy X with the word ten in Chinese, Malay, and English on the left." src="/blog/2021-week-37-what-i-havent-learned.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ol>
+  <li>
+    <p><strong>JavaScript</strong> - We can create proxies for objects using <code class="language-plaintext highlighter-rouge">const targetProxy = new Proxy(target, handler)</code> which allows us to control how existing <code class="language-plaintext highlighter-rouge">target</code> can be interacted through <code class="language-plaintext highlighter-rouge">targetProxy</code>. It could be useful for things like validation or even encapsulation. More details can be found on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy">MDN Web Docs</a>.</p>
+  </li>
+  <li>
+    <p><strong>Design</strong> - A good self-reminder from Scott Berkun, author of How Design Makes the World -  software developers sometime love building things that are performant and reliable but care less about whether it’s something that people can actually use. Got that from the <a href="https://www.designbetter.co/podcast/scott-berkun">DesignBetter podcast</a>.</p>
+  </li>
+  <li>
+    <p><strong>Code editors</strong> - Default VS Code shortcuts to select words and lines are <code class="language-plaintext highlighter-rouge">Cmd/Ctrl + D</code> and <code class="language-plaintext highlighter-rouge">Cmd/Ctrl + L</code> respectively, the same shortcuts are for duplicating lines and going to specific line/column in IntelliJ IDEA, use <code class="language-plaintext highlighter-rouge">Option + ↑/Ctrl + W</code> and <code class="language-plaintext highlighter-rouge">Cmd/Ctrl + C</code> for their counterparts in IntelliJ IDEA instead.</p>
+  </li>
+</ol>
+
+<h2 id="some-other-notes">Some other notes</h2>
+
+<p>Changing the format starting with this 10th weekly post, not having links at the end of post might be against the original idea of not contributing to new tabs before the post ends, but I imagine most people would read only the items that they are interested in, so the end of an item is as good as the end of a post. Plus there is Gestalt’s law of grouping - things that are near to one another tend to be grouped together.</p>
+
+<p>A little introspection on this habit of publishing weekly posts shows that I don’t have the answers for questions like what have I learned from this and who would find value in these posts? Maybe it’s just to practice my writing and an excuse to doodle for the cover images for now. That’s why I want to tweak the format a bit now and then to see where it goes. Thank you for reading, if you have got any questions or feedback, let me know by leaving a comment on either <a href="https://longyc.medium.com/2021-week-37-10th-weekly-post-and-what-i-havent-learned-dbca7f40337a?source=friends_link&amp;sk=ada5cfe84796c6e1e606b5dd53eb0cb3">Medium</a>, <a href="https://dev.to/longyc/2021-week-37-10th-weekly-post-and-what-i-haven-t-learned-192f">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/2021-week-37-10th-weekly-post">Substack</a>. Have a nice day.</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-36-mathematically-incorrect-js" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
