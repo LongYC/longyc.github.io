@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>11th weekly post, everyone is Netscape.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the logo of Netscape Navigator with the word eleven in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-38-everyone-is-netscape.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - The Navigator object (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window.navigator&lt;/code&gt;) got the name from the Netscape Navigator browser. We could use the properties of this object to determine browser states or user preferences but there are deprecated properties to avoid, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;navigator.appName&lt;/code&gt; that always return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Netscape&quot;&lt;/code&gt;. More details can be found on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Navigator&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-smooth&lt;/code&gt; did not make it through CSS3 thus is now non-standard. Browsers might have their own prefixes and implementations and the property is currently only useful for macOS users. More information is available on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; - Icons might be useful in the sense that they are aesthetically pleasing, save space and can be recognised faster when compared to text. However, users derive their understanding of icons from their past experience, so take that into consideration when using an icon. There is &lt;a href=&quot;https://www.nngroup.com/articles/icon-usability/&quot;&gt;a good article explaining this by NN/g&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
+
+&lt;p&gt;This week saw the release of the 6th generation iPad mini and the announcement of the 5th generation Kindle Paperwhite, their charging ports have been updated to USB C from Lightning and micro USB respectively. These are great devices to read ebooks, so I’m glad that they finally have the same charging ports that many other modern electronic devices use. That’s all for 2021 week 38, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-326df9cf2289?source=friends_link&amp;amp;sk=9204d15884af6ba494698500b2eee743&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-40o5&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/11th-weekly-post-everyone-is-netscape&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Sep 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-38-everyone-is-netscape</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-38-everyone-is-netscape</guid>
+
+
+      </item>
+
+      <item>
         <title>2021 week 37, 10th weekly post.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the Brotherhood Sword from Final Fantasy X with the word ten in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-37-what-i-havent-learned.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -314,50 +343,6 @@
         <pubDate>Sun, 25 Jul 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-29-is-this-link-canon</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-29-is-this-link-canon</guid>
-
-
-      </item>
-
-      <item>
-        <title>Oh, hi. How are you holding up?</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of GlaDOS in Portal 2 potato form with the word potato in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-28-i-am-a-small-potato.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;I hope you’re doing well wherever you are during this pandemic. My blog was last updated five years ago and I figured now is a good time to reboot it, so, old posts begone and future posts will follow these Long Blog Short principles that I made up:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Weekly update - at least, or more if there are more stories to tell.&lt;/li&gt;
-  &lt;li&gt;Minimally interesting - it doesn’t need to be perfect, keep learning.&lt;/li&gt;
-  &lt;li&gt;Links later - do not contribute new browser tabs before the post ends.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;With that out of the way, let’s talk about being a small potato because that’s often how I feel - that in the grand scheme of things, what I know is insignificant and will never be enough. It is probably true, but what I can do is to just continue to grow.&lt;/p&gt;
-
-&lt;p&gt;It’s been a decade since I started my career in software development which is a rather fast-moving industry. More often than not, I stumble upon technology, methodology, or even simple tricks that I feel like I should’ve known but didn’t, not to mention constantly being reminded of fading knowledge. What I usually do nowadays is to jot them down as part of my weekly journal, and now looking back, I think those might as well be blog posts because who knows if someone else felt the same can benefit from them, plus I can learn if someone find mistakes or shortcomings in these notes.&lt;/p&gt;
-
-&lt;p&gt;My interests nowadays are mostly around web app development, and yes, that means we’ll see a lot of JavaScript. Other than that, I also dabble in topics around UX and stories of people doing great works. With that in mind, here are the notes for this week:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AWS CloudFront&lt;/strong&gt;: it doesn’t support compression for files above 10 MB.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Browser&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DOMContentLoaded&lt;/code&gt; is fired when HTML is parsed while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load&lt;/code&gt; is fired after all dependent resources are loaded.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deno&lt;/strong&gt;: ESModule and permission API are probably more interesting and more important factors than native support for TypeScript.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Yarn&lt;/strong&gt;: Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;resolutions&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; to upgrade the version of nested dependencies.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Logo design&lt;/strong&gt;: some of the logo types are wordmark (e.g. Coca-Cola), pictorial (e.g. Apple), and abstract (e.g. Nike, which costs only 35 USD initially).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Do let me know your thoughts about this post or the blog format. Thanks for reading and if you would like more content like this to be delivered to you, subscribe via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;AWS CloudFront&lt;/em&gt;: &lt;a href=&quot;https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html#compressed-content-cloudfront&quot;&gt;docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/ServingCompressedFiles.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;MDN on load event&lt;/em&gt;: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event&quot;&gt;developer.mozilla.org/en-US/docs/Web/API/Window/load_event&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Deno&lt;/em&gt;: &lt;a href=&quot;https://deno.land/manual@v1.12.0/introduction#comparison-to-nodejs&quot;&gt;deno.land/manual@v1.12.0/introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Yarn&lt;/em&gt;: &lt;a href=&quot;https://classic.yarnpkg.com/en/docs/selective-version-resolutions/&quot;&gt;classic.yarnpkg.com/en/docs/selective-version-resolutions/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 18 Jul 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-28-i-am-a-small-potato</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-28-i-am-a-small-potato</guid>
 
 
       </item>

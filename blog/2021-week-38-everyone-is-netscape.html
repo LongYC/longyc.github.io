@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>11th weekly post, everyone is Netscape. | LongYC</title>
+    <meta name="description" content="On JavaScript Navigaotr object, font-smooth CSS property, and icons." />
+    <meta property="og:image" content="/blog/2021-week-38-everyone-is-netscape.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-38-everyone-is-netscape" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,43 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">11th weekly post, everyone is Netscape.</h1>
+          <p class="subtitle">Also, the pros and cons of icons.</p>
+          <p class="meta">Sep 26, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-38-everyone-is-netscape" title="11th weekly post, everyone is Netscape.">
-                <span class="left">
-                  <span class="post-date">Sep 26</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">11th weekly post, everyone is Netscape.</span>
-                  <span class="post-subtitle">Also, the pros and cons of icons.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-37-what-i-havent-learned" title="2021 week 37, 10th weekly post.">
-                <span class="left">
-                  <span class="post-date">Sep 19</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 37, 10th weekly post.</span>
-                  <span class="post-subtitle">And what I haven't learned.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-36-mathematically-incorrect-js" title="2021 week 36, mathematically incorrect JS.">
-                <span class="left">
-                  <span class="post-date">Sep 12</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 36, mathematically incorrect JS.</span>
-                  <span class="post-subtitle">Plus numbers about the Malaysian flag.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <span class="previous"></span>
-            <span class="current ">Page 1 of 4</span>
-            <a class="next" href="/blog/page/2/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of the logo of Netscape Navigator with the word eleven in Chinese, Malay, and English on the left." src="/blog/2021-week-38-everyone-is-netscape.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ol>
+  <li>
+    <p><strong>JavaScript</strong> - The Navigator object (<code class="language-plaintext highlighter-rouge">window.navigator</code>) got the name from the Netscape Navigator browser. We could use the properties of this object to determine browser states or user preferences but there are deprecated properties to avoid, e.g. <code class="language-plaintext highlighter-rouge">navigator.appName</code> that always return <code class="language-plaintext highlighter-rouge">"Netscape"</code>. More details can be found on <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator">MDN Web Docs</a>.</p>
+  </li>
+  <li>
+    <p><strong>CSS</strong> - <code class="language-plaintext highlighter-rouge">font-smooth</code> did not make it through CSS3 thus is now non-standard. Browsers might have their own prefixes and implementations and the property is currently only useful for macOS users. More information is available on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth">MDN Web Docs</a>.</p>
+  </li>
+  <li>
+    <p><strong>Design</strong> - Icons might be useful in the sense that they are aesthetically pleasing, save space and can be recognised faster when compared to text. However, users derive their understanding of icons from their past experience, so take that into consideration when using an icon. There is <a href="https://www.nngroup.com/articles/icon-usability/">a good article explaining this by NN/g</a>.</p>
+  </li>
+</ol>
+
+<h2 id="note-of-the-week">Note of the week</h2>
+
+<p>This week saw the release of the 6th generation iPad mini and the announcement of the 5th generation Kindle Paperwhite, their charging ports have been updated to USB C from Lightning and micro USB respectively. These are great devices to read ebooks, so I’m glad that they finally have the same charging ports that many other modern electronic devices use. That’s all for 2021 week 38, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either <a href="https://longyc.medium.com/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-326df9cf2289?source=friends_link&amp;sk=9204d15884af6ba494698500b2eee743">Medium</a>, <a href="https://dev.to/longyc/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-40o5">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/11th-weekly-post-everyone-is-netscape">Substack</a>. Have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-37-what-i-havent-learned" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
