@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 2 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>12th weekly post, empty string is everywhere. | LongYC</title>
+    <meta name="description" content="On JavaScript String methods and AWS Lambda going Arm-based." />
+    <meta property="og:image" content="/blog/2021-week-39-empty-string-is-everywhere.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/2/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-39-empty-string-is-everywhere" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,43 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">12th weekly post, empty string is everywhere.</h1>
+          <p class="subtitle">Also, AWS Lambda goes Arm.</p>
+          <p class="meta">Oct 3, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-36-mathematically-incorrect-js" title="2021 week 36, mathematically incorrect JS.">
-                <span class="left">
-                  <span class="post-date">Sep 12</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 36, mathematically incorrect JS.</span>
-                  <span class="post-subtitle">Plus numbers about the Malaysian flag.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-35-css-stack-html-parse" title="2021 week 35, CSS stacking and HTML parsing.">
-                <span class="left">
-                  <span class="post-date">Sep 05</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 35, CSS stacking and HTML parsing.</span>
-                  <span class="post-subtitle">Plus letter casing.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-34-js-array-base64-negaraku" title="2021 week 34, JS array & Base64 encoding.">
-                <span class="left">
-                  <span class="post-date">Aug 29</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 34, JS array & Base64 encoding.</span>
-                  <span class="post-subtitle">Plus Malaysian national anthem.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 2 of 4</span>
-            <a class="next" href="/blog/page/3/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of a book with the word twelve in Chinese, Malay, and English on the left." src="/blog/2021-week-39-empty-string-is-everywhere.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ol>
+  <li>
+    <p><strong>JavaScript</strong> - <code class="language-plaintext highlighter-rouge">anyString.includes('')</code> returning <code class="language-plaintext highlighter-rouge">true</code> might seem absurd but the behaviour matches <code class="language-plaintext highlighter-rouge">anyString.substring(0, 0)</code> returning <code class="language-plaintext highlighter-rouge">''</code> and <code class="language-plaintext highlighter-rouge">anyString.indexOf('')</code> returning <code class="language-plaintext highlighter-rouge">0</code>. Be careful when attempting something like <code class="language-plaintext highlighter-rouge">providedString.includes(searchString)</code>. More on the method on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes">MDN Web Docs</a>.</p>
+  </li>
+  <li>
+    <p><strong>TypeScript</strong> - JSX is the reason we can type cast using the <code class="language-plaintext highlighter-rouge">as</code> operator (<code class="language-plaintext highlighter-rouge">HTMLElement as HTMLInputElement</code>) in addition to using angle brackets (<code class="language-plaintext highlighter-rouge">&lt;HTMLInputElement&gt; HTMLElement</code>) which will be difficult to parse when mixed with JSX HTML-like syntax, as stated on <a href="https://www.typescriptlang.org/docs/handbook/jsx.html#the-as-operator">TypeScript official documentation page</a>.</p>
+  </li>
+  <li>
+    <p><strong>AWS</strong> - Lambda functions can now run on the Arm-based Graviton2 processors by specifying arm64 as the architecture. It is said to be able to provide up to 34% price performance improvement. Details are available on <a href="https://aws.amazon.com/blogs/aws/aws-lambda-functions-powered-by-aws-graviton2-processor-run-your-functions-on-arm-and-get-up-to-34-better-price-performance/">the official AWS blog page</a>.</p>
+  </li>
+</ol>
+
+<h2 id="note-of-the-week">Note of the week</h2>
+
+<p>On the week 39 of 2021, I learned that <a href="https://customerdocumentation.s3.us-west-2.amazonaws.com/kug/kindle_paperwhite_11th/v1/en-US/html/kug.html#vocabulary_builder">the Kindle’s Vocabulary Builder feature</a> not only automatically add words as flash cards, but also show the usage of a word in the book. Having that usage context might have encouraged me to use the feature more but I wish I could’ve discovered it couple of years earlier. That’s all for this post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either <a href="https://longyc.medium.com/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-77ec8a57eb69?source=friends_link&amp;sk=196985e5196a0ce420af6dff339ee93b">Medium</a>, <a href="https://dev.to/longyc/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-4218">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/12th-weekly-post-empty-string-is">Substack</a>. Have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-38-everyone-is-netscape" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->

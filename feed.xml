@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>12th weekly post, empty string is everywhere.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a book with the word twelve in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-39-empty-string-is-everywhere.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anyString.includes(&apos;&apos;)&lt;/code&gt; returning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; might seem absurd but the behaviour matches &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anyString.substring(0, 0)&lt;/code&gt; returning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&apos;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anyString.indexOf(&apos;&apos;)&lt;/code&gt; returning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;. Be careful when attempting something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;providedString.includes(searchString)&lt;/code&gt;. More on the method on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; - JSX is the reason we can type cast using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;as&lt;/code&gt; operator (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTMLElement as HTMLInputElement&lt;/code&gt;) in addition to using angle brackets (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;HTMLInputElement&amp;gt; HTMLElement&lt;/code&gt;) which will be difficult to parse when mixed with JSX HTML-like syntax, as stated on &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/jsx.html#the-as-operator&quot;&gt;TypeScript official documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AWS&lt;/strong&gt; - Lambda functions can now run on the Arm-based Graviton2 processors by specifying arm64 as the architecture. It is said to be able to provide up to 34% price performance improvement. Details are available on &lt;a href=&quot;https://aws.amazon.com/blogs/aws/aws-lambda-functions-powered-by-aws-graviton2-processor-run-your-functions-on-arm-and-get-up-to-34-better-price-performance/&quot;&gt;the official AWS blog page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
+
+&lt;p&gt;On the week 39 of 2021, I learned that &lt;a href=&quot;https://customerdocumentation.s3.us-west-2.amazonaws.com/kug/kindle_paperwhite_11th/v1/en-US/html/kug.html#vocabulary_builder&quot;&gt;the Kindle’s Vocabulary Builder feature&lt;/a&gt; not only automatically add words as flash cards, but also show the usage of a word in the book. Having that usage context might have encouraged me to use the feature more but I wish I could’ve discovered it couple of years earlier. That’s all for this post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-77ec8a57eb69?source=friends_link&amp;amp;sk=196985e5196a0ce420af6dff339ee93b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-4218&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/12th-weekly-post-empty-string-is&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</guid>
+
+
+      </item>
+
+      <item>
         <title>11th weekly post, everyone is Netscape.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the logo of Netscape Navigator with the word eleven in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-38-everyone-is-netscape.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -309,40 +338,6 @@
         <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-30-shadow-realm-in-html</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-30-shadow-realm-in-html</guid>
-
-
-      </item>
-
-      <item>
-        <title>Is this link canon?</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Link from The Legend of Zelda with the word link in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-29-is-this-link-canon.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;Since I began posting on Medium and DEV Community, I have learned that it’s a good idea to let search engines know they are the same content on different URLs. I have also just realised that you could let people read what you wrote on Medium without the paywall, and am a little surprised that HTTP/2 is not enabled by default on AWS CloudFront.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;HTML&lt;/strong&gt;: having a canonical link (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;canonnical&quot; href=&quot;https://example.com&quot; /&amp;gt;&lt;/code&gt;) in your HTML helps prevent content duplication in search engines, good for SEO.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;SEO&lt;/strong&gt;: to add a canonical link on DEV Community, use the front matter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;canonical_url&lt;/code&gt;. As for Medium - on your post, open up Story settings &amp;gt; Advanced Settings &amp;gt; check &lt;em&gt;“This story was originally published elsewhere”&lt;/em&gt; and provide a canonical link.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Medium&lt;/strong&gt;: Friend Link grants free access to your post, find it on your post &amp;gt; Story settings &amp;gt; Promotion &amp;gt; Friend Link.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AWS CloudFront&lt;/strong&gt;: distributions don’t support HTTP/2 by default. Check the settings manually, or on CloudFormation, add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HttpVersion: http2&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DistributionConfig&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Latency&lt;/strong&gt;: Hibernia Express / GTT Express is a submarine fibre-optic link that provides latency of under 60 milliseconds, which costed hundreds of millions to complete. Latency can be really expensive.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;RFC 6596 - the canonical link relation: &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc6596&quot;&gt;datatracker.ietf.org/doc/html/rfc6596&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Google Search Central Blog - specify your canonical: &lt;a href=&quot;https://developers.google.com/search/blog/2009/02/specify-your-canonical&quot;&gt;developers.google.com/search/blog/2009/02/specify-your-canonical&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;DEV Community - editor guide: &lt;a href=&quot;https://dev.to/p/editor_guide#front-matter&quot;&gt;dev.to/p/editor_guide&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Medium - about Friend Links: &lt;a href=&quot;https://help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links&quot;&gt;help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;AWS CloudFront distribution config with CloudFormation: &lt;a href=&quot;https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html#cfn-cloudfront-distribution-distributionconfig-httpversion&quot;&gt;docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hibernia Express on Business Wire: &lt;a href=&quot;https://www.businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds&quot;&gt;businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 25 Jul 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-29-is-this-link-canon</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-29-is-this-link-canon</guid>
 
 
       </item>
