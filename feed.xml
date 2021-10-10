@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>13th weekly post, specific stashes and regions.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Sharingan from Naruto with the word thirteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-40-specific-stashes-regions.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stash push&lt;/code&gt; command followed by pathspec to stash specific files, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stash push file/not-to-commit-now.js&lt;/code&gt;, or for multiple files, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stash push directory/*&lt;/code&gt;. More details on the &lt;a href=&quot;https://git-scm.com/docs/git-stash&quot;&gt;git documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AWS&lt;/strong&gt; - regions are physical locations of data centres, choosing one that’s near to target users can reduce latency but on top of that, there is also AWS Local Zones for latency-sensitive use cases, and even AWS Wavelength for 5G mobile devices allowing traffic to stay within a mobile provider’s network to avoiding extra network hops. More information available on &lt;a href=&quot;https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#AWS_Local_Zones&quot;&gt;AWS’s about page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Colourblindness&lt;/strong&gt; - be reminded that it is often about difficulty in differentiating colours, not that colours disappearing entirely and the colours most affected by colour-vision deficiency are red and green. Best to avoid using colour alone to convey meaning in designs. More on this in &lt;a href=&quot;https://joeclark.org/book/sashay/serialization/Chapter09.html&quot;&gt;the chapter 9 of the book Building Accessible Websites&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
+
+&lt;p&gt;On the week 40 of 2021, a couple of major incidents in the tech industry including &lt;a href=&quot;https://engineering.fb.com/2021/10/04/networking-traffic/outage/&quot;&gt;hours-long Facebook outage&lt;/a&gt; and &lt;a href=&quot;https://www.videogameschronicle.com/news/the-entirety-of-twitch-has-reportedly-been-leaked/&quot;&gt;Twitch data leak&lt;/a&gt;, not to mention &lt;a href=&quot;https://techcrunch.com/2021/09/26/signal-the-encrypted-messaging-app-is-currently-down-for-many-users/&quot;&gt;Signal was down last week&lt;/a&gt; as well. Seems like the importance of reliability and security are most significant in their absence. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-d34b0db05686?source=friends_link&amp;amp;sk=1f322a3cffc29d4a5b63bc035a633b3b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-m2o&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/13th-weekly-post-specific-stashes&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Oct 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-40-specific-stashes-regions</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-40-specific-stashes-regions</guid>
+
+
+      </item>
+
+      <item>
         <title>12th weekly post, empty string is everywhere.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a book with the word twelve in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-39-empty-string-is-everywhere.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -305,39 +334,6 @@
         <pubDate>Sun, 08 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-31-dark-light-or-minimised</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-31-dark-light-or-minimised</guid>
-
-
-      </item>
-
-      <item>
-        <title>Shadow realm in HTML?</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Millenium Puzzle with the word shadow in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-30-shadow-realm-in-html.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;I spent a bit more time on CSS this week and revisited some tricks on shadow effects. That prompted me to think maybe there can be a theme for each of these weekly posts. Shadow DOM is added to complete this week’s theme, alongside with optimising what Webpack watches in shadow (too much of a stretch but I’ll go with it).&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: use multiple layers of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;box-shadow&lt;/code&gt; to finetune shadows.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;drop-shadow()&lt;/code&gt; filter to create shadow that conforms the shape of an image.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Shadow DOM&lt;/strong&gt;: it is a hidden, isolated tree attaches to regular DOM, the CSS within this tree is scoped to the realm itself.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Webpack&lt;/strong&gt;: If watch mode takes up too much resources on your computer, try optimise it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watchOption.ignored&lt;/code&gt;, e.g. ignore &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tabs&lt;/strong&gt;: NN/g has guidelines for tabs, the most important one is that they should be used for views within the same context instead used for navigating to another different context.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MDN - box-shadow: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/box-shadow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;MDN - drop-shadow(): &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Google Developers - Shadow DOM: &lt;a href=&quot;https://developers.google.com/web/fundamentals/web-components/shadowdom&quot;&gt;developers.google.com/web/fundamentals/web-components/shadowdom&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Webpack - WatchOptions: &lt;a href=&quot;https://webpack.js.org/configuration/watch/#watchoptionsignored&quot;&gt;webpack.js.org/configuration/watch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Nielsen Norman Group - Tabs, Used Right: &lt;a href=&quot;https://www.nngroup.com/articles/tabs-used-right/&quot;&gt;nngroup.com/articles/tabs-used-right/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 01 Aug 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-30-shadow-realm-in-html</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-30-shadow-realm-in-html</guid>
 
 
       </item>

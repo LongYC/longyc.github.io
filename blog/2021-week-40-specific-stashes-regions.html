@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>12th weekly post, empty string is everywhere. | LongYC</title>
-    <meta name="description" content="On JavaScript String methods and AWS Lambda going Arm-based." />
-    <meta property="og:image" content="/blog/2021-week-39-empty-string-is-everywhere.jpg" />
+    <title>13th weekly post, specific stashes and regions. | LongYC</title>
+    <meta name="description" content="On Git, AWS, and colourblindness." />
+    <meta property="og:image" content="/blog/2021-week-40-specific-stashes-regions.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/2021-week-39-empty-string-is-everywhere" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-40-specific-stashes-regions" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -69,33 +69,33 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">12th weekly post, empty string is everywhere.</h1>
-          <p class="subtitle">Also, AWS Lambda goes Arm.</p>
-          <p class="meta">Oct 3, 2021</p>
+          <h1 class="title">13th weekly post, specific stashes and regions.</h1>
+          <p class="subtitle">Also, colourblindness.</p>
+          <p class="meta">Oct 10, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
           <div class="post">
-<figure><img alt="A doodle of a book with the word twelve in Chinese, Malay, and English on the left." src="/blog/2021-week-39-empty-string-is-everywhere.jpg" /></figure>
+<figure><img alt="A doodle of a Sharingan from Naruto with the word thirteen in Chinese, Malay, and English on the left." src="/blog/2021-week-40-specific-stashes-regions.jpg" /></figure>
 
 <h2 id="items-of-the-week">Items of the week</h2>
 
 <ol>
   <li>
-    <p><strong>JavaScript</strong> - <code class="language-plaintext highlighter-rouge">anyString.includes('')</code> returning <code class="language-plaintext highlighter-rouge">true</code> might seem absurd but the behaviour matches <code class="language-plaintext highlighter-rouge">anyString.substring(0, 0)</code> returning <code class="language-plaintext highlighter-rouge">''</code> and <code class="language-plaintext highlighter-rouge">anyString.indexOf('')</code> returning <code class="language-plaintext highlighter-rouge">0</code>. Be careful when attempting something like <code class="language-plaintext highlighter-rouge">providedString.includes(searchString)</code>. More on the method on <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes">MDN Web Docs</a>.</p>
+    <p><strong>Git</strong> - use the <code class="language-plaintext highlighter-rouge">git stash push</code> command followed by pathspec to stash specific files, e.g. <code class="language-plaintext highlighter-rouge">git stash push file/not-to-commit-now.js</code>, or for multiple files, <code class="language-plaintext highlighter-rouge">git stash push directory/*</code>. More details on the <a href="https://git-scm.com/docs/git-stash">git documentation page</a>.</p>
   </li>
   <li>
-    <p><strong>TypeScript</strong> - JSX is the reason we can type cast using the <code class="language-plaintext highlighter-rouge">as</code> operator (<code class="language-plaintext highlighter-rouge">HTMLElement as HTMLInputElement</code>) in addition to using angle brackets (<code class="language-plaintext highlighter-rouge">&lt;HTMLInputElement&gt; HTMLElement</code>) which will be difficult to parse when mixed with JSX HTML-like syntax, as stated on <a href="https://www.typescriptlang.org/docs/handbook/jsx.html#the-as-operator">TypeScript official documentation page</a>.</p>
+    <p><strong>AWS</strong> - regions are physical locations of data centres, choosing one that’s near to target users can reduce latency but on top of that, there is also AWS Local Zones for latency-sensitive use cases, and even AWS Wavelength for 5G mobile devices allowing traffic to stay within a mobile provider’s network to avoiding extra network hops. More information available on <a href="https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#AWS_Local_Zones">AWS’s about page</a>.</p>
   </li>
   <li>
-    <p><strong>AWS</strong> - Lambda functions can now run on the Arm-based Graviton2 processors by specifying arm64 as the architecture. It is said to be able to provide up to 34% price performance improvement. Details are available on <a href="https://aws.amazon.com/blogs/aws/aws-lambda-functions-powered-by-aws-graviton2-processor-run-your-functions-on-arm-and-get-up-to-34-better-price-performance/">the official AWS blog page</a>.</p>
+    <p><strong>Colourblindness</strong> - be reminded that it is often about difficulty in differentiating colours, not that colours disappearing entirely and the colours most affected by colour-vision deficiency are red and green. Best to avoid using colour alone to convey meaning in designs. More on this in <a href="https://joeclark.org/book/sashay/serialization/Chapter09.html">the chapter 9 of the book Building Accessible Websites</a>.</p>
   </li>
 </ol>
 
 <h2 id="note-of-the-week">Note of the week</h2>
 
-<p>On the week 39 of 2021, I learned that <a href="https://customerdocumentation.s3.us-west-2.amazonaws.com/kug/kindle_paperwhite_11th/v1/en-US/html/kug.html#vocabulary_builder">the Kindle’s Vocabulary Builder feature</a> not only automatically add words as flash cards, but also show the usage of a word in the book. Having that usage context might have encouraged me to use the feature more but I wish I could’ve discovered it couple of years earlier. That’s all for this post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either <a href="https://longyc.medium.com/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-77ec8a57eb69?source=friends_link&amp;sk=196985e5196a0ce420af6dff339ee93b">Medium</a>, <a href="https://dev.to/longyc/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-4218">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/12th-weekly-post-empty-string-is">Substack</a>. Have a nice day!</p>
+<p>On the week 40 of 2021, a couple of major incidents in the tech industry including <a href="https://engineering.fb.com/2021/10/04/networking-traffic/outage/">hours-long Facebook outage</a> and <a href="https://www.videogameschronicle.com/news/the-entirety-of-twitch-has-reportedly-been-leaked/">Twitch data leak</a>, not to mention <a href="https://techcrunch.com/2021/09/26/signal-the-encrypted-messaging-app-is-currently-down-for-many-users/">Signal was down last week</a> as well. Seems like the importance of reliability and security are most significant in their absence. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either <a href="https://longyc.medium.com/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-d34b0db05686?source=friends_link&amp;sk=1f322a3cffc29d4a5b63bc035a633b3b">Medium</a>, <a href="https://dev.to/longyc/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-m2o">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/13th-weekly-post-specific-stashes">Substack</a>. Have a nice day!</p>
 
             <aside class="post-ads">
               <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -104,8 +104,7 @@
             </aside>
           </div> <!-- .post -->
           <nav class="pagination">
-            <a class="previous" href="/blog/2021-week-40-specific-stashes-regions" title="Newer post.">NEWER POST</a>
-            <a class="next" href="/blog/2021-week-38-everyone-is-netscape" title="Older post.">OLDER POST</a>
+            <a class="next" href="/blog/2021-week-39-empty-string-is-everywhere" title="Older post.">OLDER POST</a>
           </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
