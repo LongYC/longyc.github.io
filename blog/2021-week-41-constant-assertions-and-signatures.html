@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 3 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>14th weekly post, constant assertions and signatures. | LongYC</title>
+    <meta name="description" content="On TypeScript, JWT, and storytelling." />
+    <meta property="og:image" content="/blog/2021-week-41-constant-assertions-and-signatures.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/3/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,43 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">14th weekly post, constant assertions and signatures.</h1>
+          <p class="subtitle">Also, storytelling in design.</p>
+          <p class="meta">Oct 17, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-35-css-stack-html-parse" title="2021 week 35, CSS stacking and HTML parsing.">
-                <span class="left">
-                  <span class="post-date">Sep 05</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 35, CSS stacking and HTML parsing.</span>
-                  <span class="post-subtitle">Plus letter casing.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-34-js-array-base64-negaraku" title="2021 week 34, JS array & Base64 encoding.">
-                <span class="left">
-                  <span class="post-date">Aug 29</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 34, JS array & Base64 encoding.</span>
-                  <span class="post-subtitle">Plus Malaysian national anthem.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-33-hungry-ghost-edition" title="2021 week 33, Hungry Ghost edition.">
-                <span class="left">
-                  <span class="post-date">Aug 22</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 33, Hungry Ghost edition.</span>
-                  <span class="post-subtitle">Ghost-themed OSS and optical illusion.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/page/2/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 3 of 5</span>
-            <a class="next" href="/blog/page/4/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of the not bad internet meme with the word fourteen in Chinese, Malay, and English on the left." src="/blog/2021-week-41-constant-assertions-and-signatures.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ol>
+  <li>
+    <p><strong>TypeScript</strong> - const assertion can prevent literal types from being treated as more general types, e.g. <code class="language-plaintext highlighter-rouge">const config = {light: "ON"} as const;</code> will have <code class="language-plaintext highlighter-rouge">light</code> as the literal type <code class="language-plaintext highlighter-rouge">"ON"</code> instead of <code class="language-plaintext highlighter-rouge">string</code>, making it compatible with type <code class="language-plaintext highlighter-rouge">{light: "ON" | "OFF"}</code>. It’ll also make <code class="language-plaintext highlighter-rouge">light</code> readonly. More explanation can be found on the <a href="https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions">official documentation page</a>.</p>
+  </li>
+  <li>
+    <p><strong>JWT</strong> - it can be signed asymmetrically with a key pair or symmetrically with a shared secret. The latter means all parties involved use one secret for both signing and signature verification, which means any party with the shared secret could have signed the JWS - something to be taken into consideration during implementation.</p>
+  </li>
+  <li>
+    <p><strong>Design &amp; storytelling</strong> - good stories are engaging and help build empathy, adapting them to your audience and backing up the points with data could be helpful in getting buy-in during a design process. <a href="https://www.nngroup.com/articles/persuasive-storytelling/">NN/g has an article on 6  rules for persuasive storytelling</a>.</p>
+  </li>
+</ol>
+
+<h2 id="note-of-the-week">Note of the week</h2>
+
+<p>On the week 41 of 2021, I found out about a portable game console powered by a microcontroller - <a href="https://shop.pimoroni.com/products/picosystem">PicoSystem</a>, an interesting product considering it is sporting the RP2040 just like a Raspberry Pi Pico. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either <a href="https://longyc.medium.com/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-6f6da121435?source=friends_link&amp;sk=593b14b6d8695150b16ceeb8b711b9e3">Medium</a>, <a href="https://dev.to/longyc/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-49jc">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/14th-weekly-post-constant-assertions">Substack</a>. Have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-40-specific-stashes-regions" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->

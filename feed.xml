@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>14th weekly post, constant assertions and signatures.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the not bad internet meme with the word fourteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-41-constant-assertions-and-signatures.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; - const assertion can prevent literal types from being treated as more general types, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const config = {light: &quot;ON&quot;} as const;&lt;/code&gt; will have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; as the literal type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;ON&quot;&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;string&lt;/code&gt;, making it compatible with type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{light: &quot;ON&quot; | &quot;OFF&quot;}&lt;/code&gt;. It’ll also make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; readonly. More explanation can be found on the &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions&quot;&gt;official documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JWT&lt;/strong&gt; - it can be signed asymmetrically with a key pair or symmetrically with a shared secret. The latter means all parties involved use one secret for both signing and signature verification, which means any party with the shared secret could have signed the JWS - something to be taken into consideration during implementation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Design &amp;amp; storytelling&lt;/strong&gt; - good stories are engaging and help build empathy, adapting them to your audience and backing up the points with data could be helpful in getting buy-in during a design process. &lt;a href=&quot;https://www.nngroup.com/articles/persuasive-storytelling/&quot;&gt;NN/g has an article on 6  rules for persuasive storytelling&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
+
+&lt;p&gt;On the week 41 of 2021, I found out about a portable game console powered by a microcontroller - &lt;a href=&quot;https://shop.pimoroni.com/products/picosystem&quot;&gt;PicoSystem&lt;/a&gt;, an interesting product considering it is sporting the RP2040 just like a Raspberry Pi Pico. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-6f6da121435?source=friends_link&amp;amp;sk=593b14b6d8695150b16ceeb8b711b9e3&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-49jc&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/14th-weekly-post-constant-assertions&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Oct 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</guid>
+
+
+      </item>
+
+      <item>
         <title>13th weekly post, specific stashes and regions.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Sharingan from Naruto with the word thirteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-40-specific-stashes-regions.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -304,36 +333,6 @@
         <pubDate>Sun, 15 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-32-all-your-packages</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-32-all-your-packages</guid>
-
-
-      </item>
-
-      <item>
-        <title>Dark mode, light mode or minimised?</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Reshiram and Zekrom from Pokemon Black and White with the word mode in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-31-dark-light-or-minimised.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;This is my fourth weekly post since July, a bit of a slow week here and I thought why not have only three items instead of five this time, but expand on them ever so slightly more. It’s still a short one with more breadth than depth, with a tiny rebalancing. Without further ado, let’s dive shallowly into CSS, Webpack, and Core Web Vitals.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;CSS&lt;/strong&gt;: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prefers-color-scheme&lt;/code&gt; in your media queries to automatically have your page switch between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dark&lt;/code&gt; mode and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; mode for users according to their system settings. Note that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; can also mean a user has no preference.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Webpack&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;optimization.minimize&lt;/code&gt; is set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; by default, which might lead you to think that &lt;em&gt;TerserWebpackPlugin&lt;/em&gt; will be used with its default options (with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extractComments&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;) when &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;optimization.minimizer&lt;/code&gt; is not specified. However, comments with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@license&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@preserve&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/*!&lt;/code&gt; will not be extracted to separate files by default.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Core Web Vitals&lt;/strong&gt;: Google Search has started to take page experience signals into consideration, thus the current &lt;em&gt;Core Web Vitals&lt;/em&gt; metrics will affect the ranking of a page, they are: &lt;em&gt;Largest Content Paint (LCP)&lt;/em&gt; for loading performance, &lt;em&gt;First Input Delay (FID)&lt;/em&gt; for interactivity, and &lt;em&gt;Cumulative Layout Shift (CLS)&lt;/em&gt; for visual stability.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MDN documentation on prefers-color-scheme: &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&quot;&gt;developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Webpack author’s comment on GitHub: &lt;a href=&quot;https://github.com/webpack/webpack/issues/324#issuecomment-157855568&quot;&gt;github.com/webpack/webpack/issues/324&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;TerserWebpackPlugin on GitHub: &lt;a href=&quot;https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments&quot;&gt;github.com/webpack-contrib/terser-webpack-plugin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Google Search Central Blog on page experience update: &lt;a href=&quot;https://developers.google.com/search/blog/2021/04/more-details-page-experience&quot;&gt;developers.google.com/search/blog/2021/04/more-details-page-experience&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 08 Aug 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-31-dark-light-or-minimised</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-31-dark-light-or-minimised</guid>
 
 
       </item>
