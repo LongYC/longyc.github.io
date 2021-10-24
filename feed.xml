@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>15th weekly post, a sticky configuration.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Slime from the Dragon Quest game with the word fifteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-42-a-sticky-configuration.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; - an element with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position: sticky;&lt;/code&gt; sticks to the nearest parent / ancestor element that is scrollable , thus wrapping the said element in a container might change its behaviour.  The explanation is available on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/position&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Serverless&lt;/strong&gt; - the Serverless framework configuration file (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;serverless.yml&lt;/code&gt;) allows using variables as config values, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light: ${env:LIGHT_SWITCH}&lt;/code&gt;, what’s great is that it also allows nested variable references, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light: ${env:${opt:room}_LIGHT_SWITCH}&lt;/code&gt;. Details can be found on the &lt;a href=&quot;https://www.serverless.com/framework/docs/providers/aws/guide/variables/#nesting-variable-references&quot;&gt;documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; - use progress visualisation, gamification, and activity tracking in design to motivate users toward desired goals. These techniques can invoke the goal-gradient effect where users might put more efforts as they get closer to targets, as explained by &lt;a href=&quot;https://uxdesign.cc/designing-for-motivation-with-the-goal-gradient-effect-c873cdf58beb&quot;&gt;an article on UX Collective&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
+
+&lt;p&gt;On the week 42 of 2021, we saw &lt;a href=&quot;https://nodejs.org/en/blog/release/v17.0.0/&quot;&gt;the release of Node.js 17&lt;/a&gt; with the underlying V8 JavaScript engine updated to version 9.5 and also &lt;a href=&quot;https://developer.chrome.com/blog/new-in-chrome-95/&quot;&gt;the release of Chrome 95&lt;/a&gt; that marks the start of the new user-agent reduction origin trial. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving on either &lt;a href=&quot;https://longyc.medium.com/15th-weekly-post-a-sticky-configuration-also-goal-gradient-effect-7659f4df2cc8?source=friends_link&amp;amp;sk=7d01c6a8b5a3253dd990f99d859dde87&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/15th-weekly-post-a-sticky-configuration-also-goal-gradient-effect-2aln&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/15th-weekly-post-a-sticky-configuration&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Oct 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-42-a-sticky-configuration</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-42-a-sticky-configuration</guid>
+
+
+      </item>
+
+      <item>
         <title>14th weekly post, constant assertions and signatures.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the not bad internet meme with the word fourteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-41-constant-assertions-and-signatures.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -27,7 +56,7 @@
 
 &lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
 
-&lt;p&gt;On the week 41 of 2021, I found out about a portable game console powered by a microcontroller - &lt;a href=&quot;https://shop.pimoroni.com/products/picosystem&quot;&gt;PicoSystem&lt;/a&gt;, an interesting product considering it is sporting the RP2040 just like a Raspberry Pi Pico. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-6f6da121435?source=friends_link&amp;amp;sk=593b14b6d8695150b16ceeb8b711b9e3&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-49jc&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/14th-weekly-post-constant-assertions&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+&lt;p&gt;On the week 41 of 2021, I found out about a portable game console powered by a microcontroller - &lt;a href=&quot;https://shop.pimoroni.com/products/picosystem&quot;&gt;PicoSystem&lt;/a&gt;, an interesting product considering it is sporting the RP2040 just like a Raspberry Pi Pico. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-6f6da121435?source=friends_link&amp;amp;sk=593b14b6d8695150b16ceeb8b711b9e3&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-49jc&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/14th-weekly-post-constant-assertions&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</link>
@@ -56,7 +85,7 @@
 
 &lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
 
-&lt;p&gt;On the week 40 of 2021, a couple of major incidents in the tech industry including &lt;a href=&quot;https://engineering.fb.com/2021/10/04/networking-traffic/outage/&quot;&gt;hours-long Facebook outage&lt;/a&gt; and &lt;a href=&quot;https://www.videogameschronicle.com/news/the-entirety-of-twitch-has-reportedly-been-leaked/&quot;&gt;Twitch data leak&lt;/a&gt;, not to mention &lt;a href=&quot;https://techcrunch.com/2021/09/26/signal-the-encrypted-messaging-app-is-currently-down-for-many-users/&quot;&gt;Signal was down last week&lt;/a&gt; as well. Seems like the importance of reliability and security are most significant in their absence. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-d34b0db05686?source=friends_link&amp;amp;sk=1f322a3cffc29d4a5b63bc035a633b3b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-m2o&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/13th-weekly-post-specific-stashes&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+&lt;p&gt;On the week 40 of 2021, a couple of major incidents in the tech industry including &lt;a href=&quot;https://engineering.fb.com/2021/10/04/networking-traffic/outage/&quot;&gt;hours-long Facebook outage&lt;/a&gt; and &lt;a href=&quot;https://www.videogameschronicle.com/news/the-entirety-of-twitch-has-reportedly-been-leaked/&quot;&gt;Twitch data leak&lt;/a&gt;, not to mention &lt;a href=&quot;https://techcrunch.com/2021/09/26/signal-the-encrypted-messaging-app-is-currently-down-for-many-users/&quot;&gt;Signal was down last week&lt;/a&gt; as well. Seems like the importance of reliability and security are most significant in their absence. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-d34b0db05686?source=friends_link&amp;amp;sk=1f322a3cffc29d4a5b63bc035a633b3b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-m2o&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/13th-weekly-post-specific-stashes&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-40-specific-stashes-regions</link>
@@ -85,7 +114,7 @@
 
 &lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
 
-&lt;p&gt;On the week 39 of 2021, I learned that &lt;a href=&quot;https://customerdocumentation.s3.us-west-2.amazonaws.com/kug/kindle_paperwhite_11th/v1/en-US/html/kug.html#vocabulary_builder&quot;&gt;the Kindle’s Vocabulary Builder feature&lt;/a&gt; not only automatically add words as flash cards, but also show the usage of a word in the book. Having that usage context might have encouraged me to use the feature more but I wish I could’ve discovered it couple of years earlier. That’s all for this post, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-77ec8a57eb69?source=friends_link&amp;amp;sk=196985e5196a0ce420af6dff339ee93b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-4218&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/12th-weekly-post-empty-string-is&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+&lt;p&gt;On the week 39 of 2021, I learned that &lt;a href=&quot;https://customerdocumentation.s3.us-west-2.amazonaws.com/kug/kindle_paperwhite_11th/v1/en-US/html/kug.html#vocabulary_builder&quot;&gt;the Kindle’s Vocabulary Builder feature&lt;/a&gt; not only automatically add words as flash cards, but also show the usage of a word in the book. Having that usage context might have encouraged me to use the feature more but I wish I could’ve discovered it couple of years earlier. That’s all for this post, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-77ec8a57eb69?source=friends_link&amp;amp;sk=196985e5196a0ce420af6dff339ee93b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-4218&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/12th-weekly-post-empty-string-is&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
 </description>
         <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</link>
@@ -114,7 +143,7 @@
 
 &lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
 
-&lt;p&gt;This week saw the release of the 6th generation iPad mini and the announcement of the 5th generation Kindle Paperwhite, their charging ports have been updated to USB C from Lightning and micro USB respectively. These are great devices to read ebooks, so I’m glad that they finally have the same charging ports that many other modern electronic devices use. That’s all for 2021 week 38, thank you for reading and if you have got any feedback, do let me know by leaving a comment in either &lt;a href=&quot;https://longyc.medium.com/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-326df9cf2289?source=friends_link&amp;amp;sk=9204d15884af6ba494698500b2eee743&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-40o5&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/11th-weekly-post-everyone-is-netscape&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+&lt;p&gt;This week saw the release of the 6th generation iPad mini and the announcement of the 5th generation Kindle Paperwhite, their charging ports have been updated to USB C from Lightning and micro USB respectively. These are great devices to read ebooks, so I’m glad that they finally have the same charging ports that many other modern electronic devices use. That’s all for 2021 week 38, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-326df9cf2289?source=friends_link&amp;amp;sk=9204d15884af6ba494698500b2eee743&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-40o5&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/11th-weekly-post-everyone-is-netscape&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
 </description>
         <pubDate>Sun, 26 Sep 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-38-everyone-is-netscape</link>
@@ -298,41 +327,6 @@
         <pubDate>Sun, 22 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-33-hungry-ghost-edition</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-33-hungry-ghost-edition</guid>
-
-
-      </item>
-
-      <item>
-        <title>All your packages are belong to us.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Smaug from The Hobbit with the word hoard in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-32-all-your-packages.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;This marks a month since my first weekly post in July. It’s the end of week 32 of 2021 and 20 more weeks till end of the year, there should be 25 posts this year, if I managed to keep this up. Does collecting weekly posts count as hoarding? Like how we can hoard packages with npm Workspaces or improve webpage performance by letting browsers hoard caches.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Node.js &amp;amp; npm&lt;/strong&gt;: Workspaces is supported in npm v7, which ships with Node.js v15 and v16. It uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;workspaces&lt;/code&gt; field in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; just like yarn. That’s one more reason to look forward to Node.js v16 being LTS other than it ships with binaries prebuilt for Apple Silicone. Do note that npm v7 will convert existing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package-lock.json&lt;/code&gt; to a new format.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Browser &amp;amp; HTTP&lt;/strong&gt;: the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cache-Control&lt;/code&gt; header in a HTTP request might be affected by browser settings, e.g. a browser might send &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cache-Control: no-cache&lt;/code&gt; or even  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Pragma: no-cache&lt;/code&gt; when caching is disabled, which instructs intermediaries to not use a stored response without successful validation on the origin server.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Encoding &amp;amp; languages&lt;/strong&gt;: Chinese, Japanese, and Korean characters are commonly referred to as CJK when it comes to character encoding. There are quite a number of blocks in Unicode for CJK but a Unicode character alone does not indicate which of the languages is in use, much like the character “A” does not indicate whether English or Malay is in used.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: &lt;a href=&quot;https://smallpotatodev.substack.com/&quot;&gt;smallpotatodev.substack.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;GitHub blog on npm v7: &lt;a href=&quot;https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli/&quot;&gt;github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;RFC 7234 on Cache-Control: &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc7234#section-5.2.1&quot;&gt;datatracker.ietf.org/doc/html/rfc7234&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Unicode FAQ on CJK: &lt;a href=&quot;https://www.unicode.org/faq/han_cjk.html&quot;&gt;unicode.org/faq/han_cjk.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 15 Aug 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-32-all-your-packages</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-32-all-your-packages</guid>
 
 
       </item>

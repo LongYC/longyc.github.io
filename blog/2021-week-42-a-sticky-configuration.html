@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 4 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>15th weekly post, a sticky configuration. | LongYC</title>
+    <meta name="description" content="On CSS, Serverless configuration, and design." />
+    <meta property="og:image" content="/blog/2021-week-42-a-sticky-configuration.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/4/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-42-a-sticky-configuration" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,43 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">15th weekly post, a sticky configuration.</h1>
+          <p class="subtitle">Also, goal-gradient effect.</p>
+          <p class="meta">Oct 24, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-33-hungry-ghost-edition" title="2021 week 33, Hungry Ghost edition.">
-                <span class="left">
-                  <span class="post-date">Aug 22</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 33, Hungry Ghost edition.</span>
-                  <span class="post-subtitle">Ghost-themed OSS and optical illusion.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-32-all-your-packages" title="All your packages are belong to us.">
-                <span class="left">
-                  <span class="post-date">Aug 15</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">All your packages are belong to us.</span>
-                  <span class="post-subtitle">On npm, HTTP, and CJK.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-31-dark-light-or-minimised" title="Dark mode, light mode or minimised?">
-                <span class="left">
-                  <span class="post-date">Aug 08</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">Dark mode, light mode or minimised?</span>
-                  <span class="post-subtitle">Just make sure they help with the vitals.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/page/3/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 4 of 5</span>
-            <a class="next" href="/blog/page/5/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of a Slime from the Dragon Quest game with the word fifteen in Chinese, Malay, and English on the left." src="/blog/2021-week-42-a-sticky-configuration.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ol>
+  <li>
+    <p><strong>CSS</strong> - an element with <code class="language-plaintext highlighter-rouge">position: sticky;</code> sticks to the nearest parent / ancestor element that is scrollable , thus wrapping the said element in a container might change its behaviour.  The explanation is available on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN Web Docs</a>.</p>
+  </li>
+  <li>
+    <p><strong>Serverless</strong> - the Serverless framework configuration file (<code class="language-plaintext highlighter-rouge">serverless.yml</code>) allows using variables as config values, e.g. <code class="language-plaintext highlighter-rouge">light: ${env:LIGHT_SWITCH}</code>, what’s great is that it also allows nested variable references, e.g. <code class="language-plaintext highlighter-rouge">light: ${env:${opt:room}_LIGHT_SWITCH}</code>. Details can be found on the <a href="https://www.serverless.com/framework/docs/providers/aws/guide/variables/#nesting-variable-references">documentation page</a>.</p>
+  </li>
+  <li>
+    <p><strong>Design</strong> - use progress visualisation, gamification, and activity tracking in design to motivate users toward desired goals. These techniques can invoke the goal-gradient effect where users might put more efforts as they get closer to targets, as explained by <a href="https://uxdesign.cc/designing-for-motivation-with-the-goal-gradient-effect-c873cdf58beb">an article on UX Collective</a>.</p>
+  </li>
+</ol>
+
+<h2 id="note-of-the-week">Note of the week</h2>
+
+<p>On the week 42 of 2021, we saw <a href="https://nodejs.org/en/blog/release/v17.0.0/">the release of Node.js 17</a> with the underlying V8 JavaScript engine updated to version 9.5 and also <a href="https://developer.chrome.com/blog/new-in-chrome-95/">the release of Chrome 95</a> that marks the start of the new user-agent reduction origin trial. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving on either <a href="https://longyc.medium.com/15th-weekly-post-a-sticky-configuration-also-goal-gradient-effect-7659f4df2cc8?source=friends_link&amp;sk=7d01c6a8b5a3253dd990f99d859dde87">Medium</a>, <a href="https://dev.to/longyc/15th-weekly-post-a-sticky-configuration-also-goal-gradient-effect-2aln">Dev.to</a>, or <a href="https://smallpotatodev.substack.com/p/15th-weekly-post-a-sticky-configuration">Substack</a>. Have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-41-constant-assertions-and-signatures" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
