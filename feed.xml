@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>16th weekly post, slice and map.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Harley Quinn with the word sixteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-43-slice-and-map.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - the array &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.slice()&lt;/code&gt; method accepts negative index, thus it is possible to extract the last element with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.slice(0, -1)&lt;/code&gt;. More details available on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - it is common to see objects being used as maps but there are quite a number of differences in using an actual &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Map&lt;/code&gt;, such as using any types as keys instead of just string. MDN Web Docs has &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#objects_vs._maps&quot;&gt;a good comparison table on this&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Jest&lt;/strong&gt; - ESM support is still experimental at the moment as mentioned in &lt;a href=&quot;https://jestjs.io/docs/ecmascript-modules&quot;&gt;the official documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
+
+&lt;p&gt;On the week 43 of 2021, we saw that &lt;a href=&quot;https://mozillagfx.wordpress.com/2021/10/30/switching-the-linux-graphics-stack-from-glx-to-egl/&quot;&gt;the news of the upcoming Firefox 94 switching from GLX to EGL&lt;/a&gt;, this should translate to better WebGL performance for Linux users. That’s all for this week’s post, I must admit this week’s post was a bit more rushed than usual, still, thank you for reading and if you have got any feedback, do let me know by leaving on either &lt;a href=&quot;https://longyc.medium.com/16th-weekly-post-slice-and-map-also-jest-aff20c842789?source=friends_link&amp;amp;sk=a616a5993940f4bff6500e24262bdd46&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/16th-weekly-post-slice-and-map-also-jest-54f3&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/16th-weekly-post-slice-and-map&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Oct 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-43-slice-and-map</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-43-slice-and-map</guid>
+
+
+      </item>
+
+      <item>
         <title>15th weekly post, a sticky configuration.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Slime from the Dragon Quest game with the word fifteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-42-a-sticky-configuration.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -284,49 +313,6 @@
         <pubDate>Sun, 29 Aug 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-34-js-array-base64-negaraku</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-34-js-array-base64-negaraku</guid>
-
-
-      </item>
-
-      <item>
-        <title>2021 week 33, Hungry Ghost edition.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Fang from Detention with the word soul in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-33-hungry-ghost-edition.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;It is currently the Hungry Ghost month for those who follow the Chinese folk religion and there will be ceremonies to pay respect to the departed souls. That inspired the ghost theme for this week’s post with three open source projects whose names befit the Ghost Festival, and another two items still picked from my weekly journal.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Ghostwriter&lt;/strong&gt;: a distraction-free writer app with some nice features like a focus mode to highlight the current sentence, show document outlines, writing stats, quick markdown references, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Ghost&lt;/strong&gt;: the Node.js blogging platform that seems to gear toward the creator economy now, it has a default theme named Casper and the organisation is a registered non-profit in Singapore - one of the countries where Hungry Ghost Festival is observed.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Haunted&lt;/strong&gt;: React Hook API but for standard web components instead of React components, the hooks have the same names in hope that some existing code can be made compatible easily.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Firefox&lt;/strong&gt;: Service Worker API will ghost out on you in Firefox Private Browsing mode, i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;serviceWorker&apos; in navigator&lt;/code&gt; will return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;. It seems to be currently disabled intentionally.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Pepper’s Ghost&lt;/strong&gt;: it’s an optical illustration using an angled, partially reflective screen to catch a reflection from a brightly lit actor so that the actor will appear like a ghost on stage, popularised by John Henry Pepper in the 1860s.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is my 6th weekly post since July 2021, thank you for reading.&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ghostwriter on GitHub: &lt;a href=&quot;https://wereturtle.github.io/ghostwriter/&quot;&gt;wereturtle.github.io/ghostwriter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Ghost contact page: &lt;a href=&quot;https://ghost.org/contact/&quot;&gt;ghost.org/contact&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Haunted on GitHub: &lt;a href=&quot;https://github.com/matthewp/haunted&quot;&gt;github.com/matthewp/haunted&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Bugzilla on Service Worker: &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1320796&quot;&gt;bugzilla.mozilla.org/show_bug.cgi?id=1320796&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Pepper’s Ghost on Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/Pepper%27s_ghost&quot;&gt;en.wikipedia.org/wiki/Pepper’s_ghost&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 22 Aug 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-33-hungry-ghost-edition</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-33-hungry-ghost-edition</guid>
 
 
       </item>
