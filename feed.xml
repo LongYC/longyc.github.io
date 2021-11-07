@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>17th weekly post, Action matrix.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Nintendo Switch Joy-Con with the word seventeen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-44-longyc-17th-post.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;GitHub Action&lt;/strong&gt; - there can be up to 256 jobs per workflow run using a job matrix. One example use case is to run with multiple versions of Node.js, as pointed out by &lt;a href=&quot;https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstrategymatrix&quot;&gt;the official GitHub Docs webpage&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AWS Lambda&lt;/strong&gt; - we could create aliases for Lambda functions, an alias has its own ARN and points to specific version of a function. One use case is to set up production and staging aliases that points to different versions of a function, got this from chapter 6 of &lt;a href=&quot;https://www.goodreads.com/en/book/show/29970427&quot;&gt;Serverless Architectures on AWS&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;On the week 44 of 2021&lt;/strong&gt;, we saw the release of Intel’s 12th generation Core processors known as Alder Lake, one of the highlights is that it’s a hybrid architecture with both performance cores and efficiency cores. &lt;a href=&quot;https://www.anandtech.com/show/17047/the-intel-12th-gen-core-i912900k-review-hybrid-performance-brings-hybrid-complexity&quot;&gt;AnandTech has a detailed review on this&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-little-note&quot;&gt;A little note&lt;/h2&gt;
+
+&lt;p&gt;Another small change in the post format, of the three weekly items, one will be from an online source, like an article or a Tweet, while another one will be from a book or a paper, and to mix things up a little, the third item will be a bit of a wild card, probably something new from that week. That’s all for this week’s post, thank you for reading and have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Nov 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-44-action-matrix</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-44-action-matrix</guid>
+
+
+      </item>
+
+      <item>
         <title>16th weekly post, slice and map.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Harley Quinn with the word sixteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-43-slice-and-map.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -278,41 +307,6 @@
         <pubDate>Sun, 05 Sep 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-35-css-stack-html-parse</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-35-css-stack-html-parse</guid>
-
-
-      </item>
-
-      <item>
-        <title>2021 week 34, JS array &amp; Base64 encoding.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Tunku Abdul Rahman with the word array in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-34-js-array-base64-negaraku.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;It’s the time of the year in Malaysia where the national flag can be seen everywhere, so I included a tiny history piece as the third item. The first two items are both JavaScript - one on array and another on Base64, the latter seems like it can become a whole article of its own so I’ll keep it short.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;JavaScript - array&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[...x]&lt;/code&gt; will result in an array if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x&lt;/code&gt; is iterable. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.from(potatoes, (potato) =&amp;gt; potato)&lt;/code&gt; will also result in an array if &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;potatoes&lt;/code&gt; is iterable, but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;potatoes&lt;/code&gt; can also be an array-like object, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{0: small, length: 1}&lt;/code&gt;, that allows us to create a transformed array out of an array-like object, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const dinner = Array.from(potatoes, (potato) =&amp;gt; cook(potato))&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;JavaScript - Base64&lt;/strong&gt;: while &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btoa()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;atob()&lt;/code&gt; can be used in a browser environment to convert between binary data and Base64 encoded string, they have recently made their way to Node.js as well but use them wisely because character encoding can be tricky and Base64 encoding can easily increase the data size by a third.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;History - Malaysia&lt;/strong&gt;: the founding father - Tunku Abdul Rahman was part of the panel of judges that contributed to the Malaysian national anthem. &lt;em&gt;“We’re not going to War. We don’t need this. We need a love song.”&lt;/em&gt;, and surely enough, now the national anthem has its root in the melody of a love song.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is my 7th weekly post since July 2021, thank you for reading.&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MDN on Array.from(): &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&quot;&gt;developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;MDN on btoa(): &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa&quot;&gt;developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Goodreads - Dialog: Thoughts on Tunku’s Timeless Thinking: &lt;a href=&quot;https://www.goodreads.com/book/show/58679923-dialog&quot;&gt;goodreads.com/book/show/58679923-dialog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 29 Aug 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-34-js-array-base64-negaraku</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-34-js-array-base64-negaraku</guid>
 
 
       </item>
