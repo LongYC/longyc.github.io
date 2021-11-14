@@ -8,6 +8,35 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>18th weekly post, pager and comments.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Digivice with the word eighteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-45-longyc-18th-post.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--no-pager&lt;/code&gt; option can prevent git from piping output to a pager, this option could be useful for logging in a CI environment, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git --no-pager log&lt;/code&gt;. More info available on &lt;a href=&quot;https://git-scm.com/docs/git#Documentation/git.txt---no-pager&quot;&gt;git documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - the block comment syntax &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/* */&lt;/code&gt; comes from the PL/I language. The pairs were used in PL/I because their occurrence is unlikely but they can appear in JS regex literals, thus making them unsafe for commenting out blocks of code. Got this from chapter 2 of &lt;a href=&quot;https://www.goodreads.com/book/show/2998152-javascript&quot;&gt;JavaScript: The Good Parts&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;On the week 45 of 2021&lt;/strong&gt;, we saw the release of developer preview of Hydrogen - a React-based framework from Shopify focused on building custom storefronts, it ships with built-in components and Tailwind CSS. More info can be found on &lt;a href=&quot;https://www.shopify.my/partners/blog/hydrogen-developer-preview&quot;&gt;its announcement post on Shopify blog&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-little-note&quot;&gt;A little note&lt;/h2&gt;
+
+&lt;p&gt;Looking at the reviews and benchmarks of the new MacBook Pro with M1 Pro/Max, the single core performance improvement over the much cheaper M1 MacBook Air seems negligible. So, other hardware features aside, they are only better options (performance-wise) if you need more performance cores or much, much faster graphics. That’s all for this week’s post, thank you for reading and have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Nov 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-45-pager-comments</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-45-pager-comments</guid>
+
+
+      </item>
+
+      <item>
         <title>17th weekly post, Action matrix.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Nintendo Switch Joy-Con with the word seventeen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-44-longyc-17th-post.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -272,41 +301,6 @@
         <pubDate>Sun, 12 Sep 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-36-mathematically-incorrect-js</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-36-mathematically-incorrect-js</guid>
-
-
-      </item>
-
-      <item>
-        <title>2021 week 35, CSS stacking and HTML parsing.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Cthulhu with the word stack in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-35-css-stack-html-parse.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;p&gt;Stepping into September, 30% time left in 2021 and it’s been a little difficult to find a common theme from these items I’ve just revisited or learned weekly, please bear with me. Three items this week, first two are about CSS stacking context and parsing HTML with regex respectively while the last one will compare sentence case to title case.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;: stacking context is like an imaginary z-axis for HTML elements. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;z-index&lt;/code&gt; can be used to control the stacking order within the same parent stacking context and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;isolation: isolate;&lt;/code&gt; can be used to create new stacking context.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;: best not to parse HTML with regex else you might risk summoning Cthulhu. Jokes aside, it’s generally regarded as a bad practice although as most things, there might be suitable specific use cases. There are a couple of reasons behind this (e.g. HTML validity, nesting) but to put it simply, HTML is too complex for regex, use a library designed for that instead.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Letter casing&lt;/strong&gt;: Sentence case is generally regarded as more friendly, allow proper nouns to stand out while title case is perceived as more serious and more prominent. Regardless of preference between the two, being consistent will help readability.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is my 8th weekly post, thank you for reading and do let me know if you got any feedback.&lt;/p&gt;
-
-&lt;h3 id=&quot;related-links&quot;&gt;Related Links&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context&quot;&gt;The stacking context&lt;/a&gt;&lt;/em&gt; by MDN contributors.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://blog.codinghorror.com/parsing-html-the-cthulhu-way/&quot;&gt;Parsing HTML the Cthulhu Way&lt;/a&gt;&lt;/em&gt; by Jeff Atwood.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98&quot;&gt;Making a case for letter case&lt;/a&gt;&lt;/em&gt; by John Saito.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 05 Sep 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-35-css-stack-html-parse</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-35-css-stack-html-parse</guid>
 
 
       </item>

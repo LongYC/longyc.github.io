@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 3 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>18th weekly post, pager and comments. | LongYC</title>
+    <meta name="description" content="On git option, JavaScript block comments, and Hydrogen framework." />
+    <meta property="og:image" content="/blog/2021-week-45-longyc-18th-post.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/3/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-45-pager-comments" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,43 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">18th weekly post, pager and comments.</h1>
+          <p class="subtitle">Also, Hydrogen.</p>
+          <p class="meta">Nov 14, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-39-empty-string-is-everywhere" title="12th weekly post, empty string is everywhere.">
-                <span class="left">
-                  <span class="post-date">Oct 03</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">12th weekly post, empty string is everywhere.</span>
-                  <span class="post-subtitle">Also, AWS Lambda goes Arm.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-38-everyone-is-netscape" title="11th weekly post, everyone is Netscape.">
-                <span class="left">
-                  <span class="post-date">Sep 26</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">11th weekly post, everyone is Netscape.</span>
-                  <span class="post-subtitle">Also, the pros and cons of icons.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-37-what-i-havent-learned" title="2021 week 37, 10th weekly post.">
-                <span class="left">
-                  <span class="post-date">Sep 19</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 37, 10th weekly post.</span>
-                  <span class="post-subtitle">And what I haven't learned.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/page/2/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 3 of 6</span>
-            <a class="next" href="/blog/page/4/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of a Digivice with the word eighteen in Chinese, Malay, and English on the left." src="/blog/2021-week-45-longyc-18th-post.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ul>
+  <li>
+    <p><strong>Git</strong> - the <code class="language-plaintext highlighter-rouge">--no-pager</code> option can prevent git from piping output to a pager, this option could be useful for logging in a CI environment, e.g. <code class="language-plaintext highlighter-rouge">git --no-pager log</code>. More info available on <a href="https://git-scm.com/docs/git#Documentation/git.txt---no-pager">git documentation page</a>.</p>
+  </li>
+  <li>
+    <p><strong>JavaScript</strong> - the block comment syntax <code class="language-plaintext highlighter-rouge">/* */</code> comes from the PL/I language. The pairs were used in PL/I because their occurrence is unlikely but they can appear in JS regex literals, thus making them unsafe for commenting out blocks of code. Got this from chapter 2 of <a href="https://www.goodreads.com/book/show/2998152-javascript">JavaScript: The Good Parts</a>.</p>
+  </li>
+  <li>
+    <p><strong>On the week 45 of 2021</strong>, we saw the release of developer preview of Hydrogen - a React-based framework from Shopify focused on building custom storefronts, it ships with built-in components and Tailwind CSS. More info can be found on <a href="https://www.shopify.my/partners/blog/hydrogen-developer-preview">its announcement post on Shopify blog</a>.</p>
+  </li>
+</ul>
+
+<h2 id="a-little-note">A little note</h2>
+
+<p>Looking at the reviews and benchmarks of the new MacBook Pro with M1 Pro/Max, the single core performance improvement over the much cheaper M1 MacBook Air seems negligible. So, other hardware features aside, they are only better options (performance-wise) if you need more performance cores or much, much faster graphics. That’s all for this week’s post, thank you for reading and have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-44-action-matrix" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
