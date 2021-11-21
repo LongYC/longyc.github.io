@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 5 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>19th weekly post, tracking and kerning. | LongYC</title>
+    <meta name="description" content="On typography tracking, kerning, and AWS API Gateway." />
+    <meta property="og:image" content="/blog/2021-week-46-longyc-19th-post.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/5/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-46-tracking-kerning" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,41 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">19th weekly post, tracking and kerning.</h1>
+          <p class="subtitle">Also, mock integration.</p>
+          <p class="meta">Nov 21, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-34-js-array-base64-negaraku" title="2021 week 34, JS array & Base64 encoding.">
-                <span class="left">
-                  <span class="post-date">Aug 29</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 34, JS array & Base64 encoding.</span>
-                  <span class="post-subtitle">Plus Malaysian national anthem.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-33-hungry-ghost-edition" title="2021 week 33, Hungry Ghost edition.">
-                <span class="left">
-                  <span class="post-date">Aug 22</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">2021 week 33, Hungry Ghost edition.</span>
-                  <span class="post-subtitle">Ghost-themed OSS and optical illusion.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-32-all-your-packages" title="All your packages are belong to us.">
-                <span class="left">
-                  <span class="post-date">Aug 15</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">All your packages are belong to us.</span>
-                  <span class="post-subtitle">On npm, HTTP, and CJK.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/page/4/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 5 of 7</span>
-            <a class="next" href="/blog/page/6/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of Ditto with the word nineteen in Chinese, Malay, and English on the left." src="/blog/2021-week-46-longyc-19th-post.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ul>
+  <li>
+    <p><strong>Typography</strong> - it affects first impressions because even when users don’t read copy, they scan it. Approaches to adjust spacing between characters include tracking (horizontal spaces between words) and kerning (spaces between two individual letters). <a href="https://uxplanet.org/typography-in-ui-guide-for-beginners-7ee9bdbc4833">UX Planet has a UI typography beginner guide that explains these and more</a>.</p>
+  </li>
+  <li>
+    <p><strong>AWS API Gateway</strong> - we can utilise mock integration to generate a response without integrating with any other services, got this from chapter 7 of <a href="https://www.goodreads.com/en/book/show/29970427">Serverless Architectures on AWS</a>.</p>
+  </li>
+  <li>
+    <p><strong>On the week 46 of 2021</strong>, we saw the beta release of Serverless framework version 3, there were a lot of highlights on the new CLI but it’s also noteworthy that many features deprecated in version 2 are not removed. More information available on the <a href="https://www.serverless.com/blog/serverless-framework-v3-beta">announcement blog post</a>.</p>
+  </li>
+</ul>
+
+<p>This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-45-pager-comments" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
