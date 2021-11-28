@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | Page 2 | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>20th weekly post, reserved workers. | LongYC</title>
+    <meta name="description" content="On Jest workers, JavaScript reserved words, and Amazon Linux 2022." />
+    <meta property="og:image" content="/blog/2021-week-47-longyc-20th-post.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/page/2/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-47-reserved-workers" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,41 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">20th weekly post, reserved workers.</h1>
+          <p class="subtitle">Also, AL2022.</p>
+          <p class="meta">Nov 28, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-44-action-matrix" title="17th weekly post, Action matrix.">
-                <span class="left">
-                  <span class="post-date">Nov 07</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">17th weekly post, Action matrix.</span>
-                  <span class="post-subtitle">Also, Lambda alias.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-43-slice-and-map" title="16th weekly post, slice and map.">
-                <span class="left">
-                  <span class="post-date">Oct 31</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">16th weekly post, slice and map.</span>
-                  <span class="post-subtitle">Also, Jest.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-42-a-sticky-configuration" title="15th weekly post, a sticky configuration.">
-                <span class="left">
-                  <span class="post-date">Oct 24</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">15th weekly post, a sticky configuration.</span>
-                  <span class="post-subtitle">Also, goal-gradient effect.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <a class="previous" href="/blog/" title="Newer posts">NEWER POSTS</a>
-            <span class="current ">Page 2 of 7</span>
-            <a class="next" href="/blog/page/3/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of Dobby with the word twenty in Chinese, Malay, and English on the left." src="/blog/2021-week-47-longyc-20th-post.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ul>
+  <li>
+    <p><strong>Jest</strong> - in single run mode, the maximum number of workers is set to be the number of CPU core available minus one for main thread, we can customise using the CLI option <code class="language-plaintext highlighter-rouge">--maxWorker</code>, as stated on the <a href="https://jestjs.io/docs/cli#--maxworkersnumstring">official documentation page</a>.</p>
+  </li>
+  <li>
+    <p><strong>JavaScript</strong> - <code class="language-plaintext highlighter-rouge">undefined</code>, <code class="language-plaintext highlighter-rouge">NaN</code>, and <code class="language-plaintext highlighter-rouge">Infinity</code> are actually not reserved words, got this from chapter 2 of <a href="https://www.goodreads.com/book/show/2998152-javascript">JavaScript: The Good Parts</a>.</p>
+  </li>
+  <li>
+    <p><strong>On the week 47 of 2021</strong>, we saw the public preview of Amazon Linux 2022 which is now based on Fedora. Also, there will be a new major version of Amazon Linux every two years from now on and each will be supported for five years. More information available on the <a href="https://aws.amazon.com/about-aws/whats-new/2021/11/preview-amazon-linux-2022/">official announcement page</a>.</p>
+  </li>
+</ul>
+
+<p>This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-46-tracking-kerning" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
