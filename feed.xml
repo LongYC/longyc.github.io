@@ -8,6 +8,33 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>21st weekly post, memory search.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a PlayStation Memory Card with the number 21 on the left.&quot; src=&quot;/blog/2021-week-48-longyc-21st-post.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Node.js&lt;/strong&gt; - we could get an object describing the memory usage of a Node.js process using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;process.memoryUsage()&lt;/code&gt;. The numbers returned represent the usage in bytes, as described in &lt;a href=&quot;https://nodejs.org/api/process.html#processmemoryusage&quot;&gt;the official documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; - a content is what a user needs right now, regardless of what a search form is designed for. If it’s not feasible to have a universal search, label a search form explicitly, e.g. Search products. Got that from chapter 6 of &lt;a href=&quot;https://www.goodreads.com/book/show/42272974-form-design-patterns&quot;&gt;Form Design Patterns&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;On the week 48 of 2021&lt;/strong&gt;, AWS announced the preview of EC2 M1 Mac instances. There is &lt;a href=&quot;https://aws.amazon.com/blogs/aws/use-amazon-ec2-m1-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/&quot;&gt;an official blog post on this with details on pricing and example usage&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Dec 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-48-memory-search</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-48-memory-search</guid>
+
+
+      </item>
+
+      <item>
         <title>20th weekly post, reserved workers.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Dobby with the word twenty in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-47-longyc-20th-post.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -260,35 +287,6 @@
         <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</guid>
-
-
-      </item>
-
-      <item>
-        <title>11th weekly post, everyone is Netscape.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the logo of Netscape Navigator with the word eleven in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-38-everyone-is-netscape.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - The Navigator object (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window.navigator&lt;/code&gt;) got the name from the Netscape Navigator browser. We could use the properties of this object to determine browser states or user preferences but there are deprecated properties to avoid, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;navigator.appName&lt;/code&gt; that always return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Netscape&quot;&lt;/code&gt;. More details can be found on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Navigator&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-smooth&lt;/code&gt; did not make it through CSS3 thus is now non-standard. Browsers might have their own prefixes and implementations and the property is currently only useful for macOS users. More information is available on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; - Icons might be useful in the sense that they are aesthetically pleasing, save space and can be recognised faster when compared to text. However, users derive their understanding of icons from their past experience, so take that into consideration when using an icon. There is &lt;a href=&quot;https://www.nngroup.com/articles/icon-usability/&quot;&gt;a good article explaining this by NN/g&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
-
-&lt;p&gt;This week saw the release of the 6th generation iPad mini and the announcement of the 5th generation Kindle Paperwhite, their charging ports have been updated to USB C from Lightning and micro USB respectively. These are great devices to read ebooks, so I’m glad that they finally have the same charging ports that many other modern electronic devices use. That’s all for 2021 week 38, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-326df9cf2289?source=friends_link&amp;amp;sk=9204d15884af6ba494698500b2eee743&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/11th-weekly-post-everyone-is-netscape-also-the-pros-and-cons-of-icons-40o5&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/11th-weekly-post-everyone-is-netscape&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Sep 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-38-everyone-is-netscape</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-38-everyone-is-netscape</guid>
 
 
       </item>

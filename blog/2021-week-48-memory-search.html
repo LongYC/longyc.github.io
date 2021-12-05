@@ -5,15 +5,15 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' *.google.ca *.google.cl *.google.cn *.google.com *.google.com.au *.google.com.bn *.google.com.br *.google.com.my *.google.com.ph *.google.com.sg *.google.com.tw *.google.vn *.google.co.id *.google.co.in *.google.co.jp *.google.co.nz *.google.co.th *.google.co.uk *.google.de *.google.fr *.google.ie *.google.pl *.google.se *.googleapis.com *.googleadservices.com *.googlesyndication.com *.googletagservices.com *.google-analytics.com googleads.g.doubleclick.net; font-src 'self' data: fonts.gstatic.com; object-src 'none';" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-    <title>Blog | LongYC</title>
-    <meta name="description" content="Tidbits of a Malaysian software developer's thoughts that could not be fitted into tweets." />
-    <!-- No image set for Open Graph. -->
+    <title>21st weekly post, memory search. | LongYC</title>
+    <meta name="description" content="On Node.js memory usage, search form design, and AWS EC2." />
+    <meta property="og:image" content="/blog/2021-week-48-longyc-21st-post.jpg" />
     <meta name="theme-color" content="#1b2228" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic&display=swap" />
     <link rel="stylesheet" type="text/css" media="all" href="/css/main.css" />
-    <link rel="canonical" href="https://longyc.com/blog/" />
+    <link rel="canonical" href="https://longyc.com/blog/2021-week-48-memory-search" />
     <link rel="alternate" type="application/rss+xml" title="LongYC" href="https://longyc.com/feed.xml" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/icon.png" />
@@ -30,7 +30,7 @@
     I could also speak English, Malay, and Chinese.
     I write in Java, JavaScript, and Jawi too!
   -->
-  <body class="blog">
+  <body>
     <!--[if lt IE 9]>
       <div id="old-ie-notice">
         <h1>Sorry, your Internet Explorer is too old!</h1>
@@ -69,54 +69,41 @@
     <section class="site-content">
       <header class="masthead">
         <div class="wrapper">
-          <h1 class="title">Long stories</h1>
-          <p class="subtitle">Beyond 280 characters</p>
-          <!-- No date. -->
+          <h1 class="title">21st weekly post, memory search.</h1>
+          <p class="subtitle">Also, EC2 M1.</p>
+          <p class="meta">Dec 5, 2021</p>
         </div> <!-- .wrapper -->
       </header> <!-- .masthead -->
       <div class="content">
         <div class="wrapper">
-          <ul class="post-list">
-            <li class="post">
-              <a class="post-link" href="/blog/2021-week-48-memory-search" title="21st weekly post, memory search.">
-                <span class="left">
-                  <span class="post-date">Dec 05</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">21st weekly post, memory search.</span>
-                  <span class="post-subtitle">Also, EC2 M1.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-47-reserved-workers" title="20th weekly post, reserved workers.">
-                <span class="left">
-                  <span class="post-date">Nov 28</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">20th weekly post, reserved workers.</span>
-                  <span class="post-subtitle">Also, AL2022.</span>
-                </span>
-              </a>
-            </li><li class="post">
-              <a class="post-link" href="/blog/2021-week-46-tracking-kerning" title="19th weekly post, tracking and kerning.">
-                <span class="left">
-                  <span class="post-date">Nov 21</span>
-                  <span class="post-year">2021</span>
-                </span>
-                <span class="right">
-                  <span class="post-title">19th weekly post, tracking and kerning.</span>
-                  <span class="post-subtitle">Also, mock integration.</span>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <div class="pagination">
-            <span class="previous"></span>
-            <span class="current ">Page 1 of 7</span>
-            <a class="next" href="/blog/page/2/" title="Older posts">OLDER POSTS</a>
-          </div> <!-- .pagination -->
+          <div class="post">
+<figure><img alt="A doodle of a PlayStation Memory Card with the number 21 on the left." src="/blog/2021-week-48-longyc-21st-post.jpg" /></figure>
+
+<h2 id="items-of-the-week">Items of the week</h2>
+
+<ul>
+  <li>
+    <p><strong>Node.js</strong> - we could get an object describing the memory usage of a Node.js process using <code class="language-plaintext highlighter-rouge">process.memoryUsage()</code>. The numbers returned represent the usage in bytes, as described in <a href="https://nodejs.org/api/process.html#processmemoryusage">the official documentation page</a>.</p>
+  </li>
+  <li>
+    <p><strong>Design</strong> - a content is what a user needs right now, regardless of what a search form is designed for. If it’s not feasible to have a universal search, label a search form explicitly, e.g. Search products. Got that from chapter 6 of <a href="https://www.goodreads.com/book/show/42272974-form-design-patterns">Form Design Patterns</a>.</p>
+  </li>
+  <li>
+    <p><strong>On the week 48 of 2021</strong>, AWS announced the preview of EC2 M1 Mac instances. There is <a href="https://aws.amazon.com/blogs/aws/use-amazon-ec2-m1-mac-instances-to-build-test-macos-ios-ipados-tvos-and-watchos-apps/">an official blog post on this with details on pricing and example usage</a>.</p>
+  </li>
+</ul>
+
+<p>This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!</p>
+
+            <aside class="post-ads">
+              <script async type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+              <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-1447213637511678" data-ad-slot="1148904304"></ins>
+              <script type="text/javascript">if(document.location.hostname.indexOf("longyc.com")!==-1){(adsbygoogle=window.adsbygoogle||[]).push({});}</script>
+            </aside>
+          </div> <!-- .post -->
+          <nav class="pagination">
+            <a class="next" href="/blog/2021-week-47-reserved-workers" title="Older post.">OLDER POST</a>
+          </nav> <!-- .pagination -->
         </div> <!-- .wrapper -->
       </div> <!-- .content -->
     </section> <!-- .site-content -->
