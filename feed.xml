@@ -8,6 +8,33 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>22nd weekly post, remaining ratio.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Twitter Retweet button with the number 22 on the left.&quot; src=&quot;/blog/2021-week-49-longyc-22nd-post.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aspect-ratio&lt;/code&gt; can be used to set a preferred width-to-height ratio of a box, it accepts values of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;ratio&amp;gt;&lt;/code&gt; data type, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;16/9&lt;/code&gt;. &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping&quot;&gt;More about this CSS property is explained on MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AWS Lambda&lt;/strong&gt; - the context object passed to a handler function includes a method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getRemainingTimeInMillis()&lt;/code&gt; which returns the approximate remaining execution time before timeout. Picked that up from chapter 6 of &lt;a href=&quot;https://www.goodreads.com/en/book/show/29970427&quot;&gt;Serverless Architectures on AWS&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;On the week 49 of 2021&lt;/strong&gt;, we saw a remote code execution vulnerability on the popular Java logging library - Apache Log4j. Now also known as Log4Shell, the exploit allows arbitrary Java code to be executed, &lt;a href=&quot;https://www.lunasec.io/docs/blog/log4j-zero-day/&quot;&gt;more details about this on LunaSec blog&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Dec 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-49-remaining-ratio</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-49-remaining-ratio</guid>
+
+
+      </item>
+
+      <item>
         <title>21st weekly post, memory search.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a PlayStation Memory Card with the number 21 on the left.&quot; src=&quot;/blog/2021-week-48-longyc-21st-post.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -258,35 +285,6 @@
         <pubDate>Sun, 10 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-40-specific-stashes-regions</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-40-specific-stashes-regions</guid>
-
-
-      </item>
-
-      <item>
-        <title>12th weekly post, empty string is everywhere.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a book with the word twelve in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-39-empty-string-is-everywhere.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anyString.includes(&apos;&apos;)&lt;/code&gt; returning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; might seem absurd but the behaviour matches &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anyString.substring(0, 0)&lt;/code&gt; returning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&apos;&apos;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anyString.indexOf(&apos;&apos;)&lt;/code&gt; returning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;. Be careful when attempting something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;providedString.includes(searchString)&lt;/code&gt;. More on the method on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes&quot;&gt;MDN Web Docs&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; - JSX is the reason we can type cast using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;as&lt;/code&gt; operator (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTMLElement as HTMLInputElement&lt;/code&gt;) in addition to using angle brackets (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;HTMLInputElement&amp;gt; HTMLElement&lt;/code&gt;) which will be difficult to parse when mixed with JSX HTML-like syntax, as stated on &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/jsx.html#the-as-operator&quot;&gt;TypeScript official documentation page&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;AWS&lt;/strong&gt; - Lambda functions can now run on the Arm-based Graviton2 processors by specifying arm64 as the architecture. It is said to be able to provide up to 34% price performance improvement. Details are available on &lt;a href=&quot;https://aws.amazon.com/blogs/aws/aws-lambda-functions-powered-by-aws-graviton2-processor-run-your-functions-on-arm-and-get-up-to-34-better-price-performance/&quot;&gt;the official AWS blog page&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
-
-&lt;p&gt;On the week 39 of 2021, I learned that &lt;a href=&quot;https://customerdocumentation.s3.us-west-2.amazonaws.com/kug/kindle_paperwhite_11th/v1/en-US/html/kug.html#vocabulary_builder&quot;&gt;the Kindle’s Vocabulary Builder feature&lt;/a&gt; not only automatically add words as flash cards, but also show the usage of a word in the book. Having that usage context might have encouraged me to use the feature more but I wish I could’ve discovered it couple of years earlier. That’s all for this post, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-77ec8a57eb69?source=friends_link&amp;amp;sk=196985e5196a0ce420af6dff339ee93b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/12th-weekly-post-empty-string-is-everywhere-plus-aws-lambda-goes-arm-4218&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/12th-weekly-post-empty-string-is&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-39-empty-string-is-everywhere</guid>
 
 
       </item>
