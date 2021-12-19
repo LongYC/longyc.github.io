@@ -8,6 +8,33 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>23rd weekly post, server implementation.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Mantine the manta ray-like Pokémon with the number 23 on the left.&quot; src=&quot;/blog/2021-week-50-longyc-23rd-post.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Webpack&lt;/strong&gt; - when using the dev server, we can visit the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/webpack-dev-server&lt;/code&gt; route to access a list of all the files being served, this is mentioned as &lt;a href=&quot;https://webpack.js.org/configuration/dev-server/#devserver&quot;&gt;a tip on the official documentation page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;HTTP/2&lt;/strong&gt; - just because a server speaks the protocol doesn’t mean the underlying implementation is correct and given that HTTP/2 clients rely more on the server compared to older versions of HTTP, the impact might be worse. Got that from chapter 13 of &lt;a href=&quot;https://www.goodreads.com/book/show/17985198-high-performance-browser-networking&quot;&gt;High Performance Browser Networking&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;On the week 50 of 2021&lt;/strong&gt;, we saw a demo from Dell on Concept Pari - a magnetic webcam that can be attached to anywhere on a monitor screen, allowing video call participants to have eye contacts, or at least virtually. &lt;a href=&quot;https://arstechnica.com/gadgets/2021/12/dells-magnetic-wireless-webcam-might-help-you-forget-about-that-infamous-nose-cam/&quot;&gt;The demo was covered by Ars Technica with some comparison on Dell’s previous webcam designs&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Dec 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-50-server-implementation</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-50-server-implementation</guid>
+
+
+      </item>
+
+      <item>
         <title>22nd weekly post, remaining ratio.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Twitter Retweet button with the number 22 on the left.&quot; src=&quot;/blog/2021-week-49-longyc-22nd-post.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -256,35 +283,6 @@
         <pubDate>Sun, 17 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</guid>
-
-
-      </item>
-
-      <item>
-        <title>13th weekly post, specific stashes and regions.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Sharingan from Naruto with the word thirteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-40-specific-stashes-regions.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stash push&lt;/code&gt; command followed by pathspec to stash specific files, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stash push file/not-to-commit-now.js&lt;/code&gt;, or for multiple files, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stash push directory/*&lt;/code&gt;. More details on the &lt;a href=&quot;https://git-scm.com/docs/git-stash&quot;&gt;git documentation page&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;AWS&lt;/strong&gt; - regions are physical locations of data centres, choosing one that’s near to target users can reduce latency but on top of that, there is also AWS Local Zones for latency-sensitive use cases, and even AWS Wavelength for 5G mobile devices allowing traffic to stay within a mobile provider’s network to avoiding extra network hops. More information available on &lt;a href=&quot;https://aws.amazon.com/about-aws/global-infrastructure/regions_az/#AWS_Local_Zones&quot;&gt;AWS’s about page&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Colourblindness&lt;/strong&gt; - be reminded that it is often about difficulty in differentiating colours, not that colours disappearing entirely and the colours most affected by colour-vision deficiency are red and green. Best to avoid using colour alone to convey meaning in designs. More on this in &lt;a href=&quot;https://joeclark.org/book/sashay/serialization/Chapter09.html&quot;&gt;the chapter 9 of the book Building Accessible Websites&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
-
-&lt;p&gt;On the week 40 of 2021, a couple of major incidents in the tech industry including &lt;a href=&quot;https://engineering.fb.com/2021/10/04/networking-traffic/outage/&quot;&gt;hours-long Facebook outage&lt;/a&gt; and &lt;a href=&quot;https://www.videogameschronicle.com/news/the-entirety-of-twitch-has-reportedly-been-leaked/&quot;&gt;Twitch data leak&lt;/a&gt;, not to mention &lt;a href=&quot;https://techcrunch.com/2021/09/26/signal-the-encrypted-messaging-app-is-currently-down-for-many-users/&quot;&gt;Signal was down last week&lt;/a&gt; as well. Seems like the importance of reliability and security are most significant in their absence. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-d34b0db05686?source=friends_link&amp;amp;sk=1f322a3cffc29d4a5b63bc035a633b3b&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/13th-weekly-post-specific-stashes-and-regions-also-colourblindness-m2o&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/13th-weekly-post-specific-stashes&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 10 Oct 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-40-specific-stashes-regions</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-40-specific-stashes-regions</guid>
 
 
       </item>
