@@ -8,6 +8,33 @@
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
 
       <item>
+        <title>24th weekly post, cladding interface.</title>
+        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a snowman with the number 2021 on the left.&quot; src=&quot;/blog/2021-week-51-longyc-24th-post.jpg&quot; /&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; - a main distinction between interface and type aliases is that declaration merging is possible for interfaces, e.g. new fields can be added to an existing interface with an additional declaration of the said interface. This is documented in the &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces&quot;&gt;official TypeScript handbook&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Serverless&lt;/strong&gt; - CLAD is a model to think about Serverless security - Code, Library, Access, and Data. One useful perspective is to treat each function as a perimeter to be secured instead of a single application. Got that from chapter 3 of &lt;a href=&quot;https://www.goodreads.com/book/show/53324854-serverless-security&quot;&gt;Serverless Security&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;On the week 51 of 2021&lt;/strong&gt;, we saw that the introduction of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:has()&lt;/code&gt; CSS pseudo-class support in Safari Technology Preview Release 137, more details in &lt;a href=&quot;https://developer.apple.com/safari/technology-preview/release-notes/&quot;&gt;the release note&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is weekly bite-sized post on web app development from JavaScript to UX and technology in general, started in July 2021, with this one being the last post of the year. Not sure if this is something I want to continue into 2022 but there’ll definitely be change in the format and frequency at the very least, hopefully for the better. Thank you for reading and have a great new year ahead!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Dec 2021 00:00:00 +0800</pubDate>
+        <link>https://longyc.com/blog/2021-week-51-cladding-interface</link>
+        <guid isPermaLink="true">https://longyc.com/blog/2021-week-51-cladding-interface</guid>
+
+
+      </item>
+
+      <item>
         <title>23rd weekly post, server implementation.</title>
         <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Mantine the manta ray-like Pokémon with the number 23 on the left.&quot; src=&quot;/blog/2021-week-50-longyc-23rd-post.jpg&quot; /&gt;&lt;/figure&gt;
 
@@ -254,35 +281,6 @@
         <pubDate>Sun, 24 Oct 2021 00:00:00 +0800</pubDate>
         <link>https://longyc.com/blog/2021-week-42-a-sticky-configuration</link>
         <guid isPermaLink="true">https://longyc.com/blog/2021-week-42-a-sticky-configuration</guid>
-
-
-      </item>
-
-      <item>
-        <title>14th weekly post, constant assertions and signatures.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of the not bad internet meme with the word fourteen in Chinese, Malay, and English on the left.&quot; src=&quot;/blog/2021-week-41-constant-assertions-and-signatures.jpg&quot; /&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; - const assertion can prevent literal types from being treated as more general types, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const config = {light: &quot;ON&quot;} as const;&lt;/code&gt; will have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; as the literal type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;ON&quot;&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;string&lt;/code&gt;, making it compatible with type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{light: &quot;ON&quot; | &quot;OFF&quot;}&lt;/code&gt;. It’ll also make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;light&lt;/code&gt; readonly. More explanation can be found on the &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions&quot;&gt;official documentation page&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;JWT&lt;/strong&gt; - it can be signed asymmetrically with a key pair or symmetrically with a shared secret. The latter means all parties involved use one secret for both signing and signature verification, which means any party with the shared secret could have signed the JWS - something to be taken into consideration during implementation.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Design &amp;amp; storytelling&lt;/strong&gt; - good stories are engaging and help build empathy, adapting them to your audience and backing up the points with data could be helpful in getting buy-in during a design process. &lt;a href=&quot;https://www.nngroup.com/articles/persuasive-storytelling/&quot;&gt;NN/g has an article on 6  rules for persuasive storytelling&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
-
-&lt;p&gt;On the week 41 of 2021, I found out about a portable game console powered by a microcontroller - &lt;a href=&quot;https://shop.pimoroni.com/products/picosystem&quot;&gt;PicoSystem&lt;/a&gt;, an interesting product considering it is sporting the RP2040 just like a Raspberry Pi Pico. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving a comment on either &lt;a href=&quot;https://longyc.medium.com/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-6f6da121435?source=friends_link&amp;amp;sk=593b14b6d8695150b16ceeb8b711b9e3&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/14th-weekly-post-constant-assertions-and-signatures-also-storytelling-in-design-49jc&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/14th-weekly-post-constant-assertions&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 17 Oct 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-41-constant-assertions-and-signatures</guid>
 
 
       </item>
