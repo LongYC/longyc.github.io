@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LongYC</title>
-    <description>Personal website of a Malaysian who does web app development but also dabble in UX. He enjoys stories of people doing great works and Kopi-O as well.
+    <description>Personal website of a web app developer &amp; UXer from Malaysia. He enjoys stories of people doing great works and Kopi-O.
 </description>
     <link>https://longyc.com/</link>
     <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
