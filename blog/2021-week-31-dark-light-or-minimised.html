@@ -51,24 +51,19 @@
         <div class="wrapper">
           <div class="post">
 <figure><img alt="A doodle of Reshiram and Zekrom from Pokemon Black and White with the word mode in Chinese, Malay, and English on the left." src="/blog/2021-week-31-dark-light-or-minimised.jpg" /></figure>
-
 <p>This is my fourth weekly post since July, a bit of a slow week here and I thought why not have only three items instead of five this time, but expand on them ever so slightly more. It’s still a short one with more breadth than depth, with a tiny rebalancing. Without further ado, let’s dive shallowly into CSS, Webpack, and Core Web Vitals.</p>
-
 <ul>
-  <li><strong>CSS</strong>: use <code class="language-plaintext highlighter-rouge">prefers-color-scheme</code> in your media queries to automatically have your page switch between <code class="language-plaintext highlighter-rouge">dark</code> mode and <code class="language-plaintext highlighter-rouge">light</code> mode for users according to their system settings. Note that <code class="language-plaintext highlighter-rouge">light</code> can also mean a user has no preference.</li>
-  <li><strong>Webpack</strong>: <code class="language-plaintext highlighter-rouge">optimization.minimize</code> is set to <code class="language-plaintext highlighter-rouge">true</code> by default, which might lead you to think that <em>TerserWebpackPlugin</em> will be used with its default options (with <code class="language-plaintext highlighter-rouge">extractComments</code> set to <code class="language-plaintext highlighter-rouge">true</code>) when <code class="language-plaintext highlighter-rouge">optimization.minimizer</code> is not specified. However, comments with <code class="language-plaintext highlighter-rouge">@license</code>, <code class="language-plaintext highlighter-rouge">@preserve</code>, and <code class="language-plaintext highlighter-rouge">/*!</code> will not be extracted to separate files by default.</li>
-  <li><strong>Core Web Vitals</strong>: Google Search has started to take page experience signals into consideration, thus the current <em>Core Web Vitals</em> metrics will affect the ranking of a page, they are: <em>Largest Content Paint (LCP)</em> for loading performance, <em>First Input Delay (FID)</em> for interactivity, and <em>Cumulative Layout Shift (CLS)</em> for visual stability.</li>
+<li><strong>CSS</strong>: use <code class="language-plaintext highlighter-rouge">prefers-color-scheme</code> in your media queries to automatically have your page switch between <code class="language-plaintext highlighter-rouge">dark</code> mode and <code class="language-plaintext highlighter-rouge">light</code> mode for users according to their system settings. Note that <code class="language-plaintext highlighter-rouge">light</code> can also mean a user has no preference.</li>
+<li><strong>Webpack</strong>: <code class="language-plaintext highlighter-rouge">optimization.minimize</code> is set to <code class="language-plaintext highlighter-rouge">true</code> by default, which might lead you to think that <em>TerserWebpackPlugin</em> will be used with its default options (with <code class="language-plaintext highlighter-rouge">extractComments</code> set to <code class="language-plaintext highlighter-rouge">true</code>) when <code class="language-plaintext highlighter-rouge">optimization.minimizer</code> is not specified. However, comments with <code class="language-plaintext highlighter-rouge">@license</code>, <code class="language-plaintext highlighter-rouge">@preserve</code>, and <code class="language-plaintext highlighter-rouge">/*!</code> will not be extracted to separate files by default.</li>
+<li><strong>Core Web Vitals</strong>: Google Search has started to take page experience signals into consideration, thus the current <em>Core Web Vitals</em> metrics will affect the ranking of a page, they are: <em>Largest Content Paint (LCP)</em> for loading performance, <em>First Input Delay (FID)</em> for interactivity, and <em>Cumulative Layout Shift (CLS)</em> for visual stability.</li>
 </ul>
-
 <p>Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: <a href="https://smallpotatodev.substack.com/">smallpotatodev.substack.com</a></p>
-
 <h3 id="related-links">Related Links</h3>
-
 <ul>
-  <li>MDN documentation on prefers-color-scheme: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme</a></li>
-  <li>Webpack author’s comment on GitHub: <a href="https://github.com/webpack/webpack/issues/324#issuecomment-157855568">github.com/webpack/webpack/issues/324</a></li>
-  <li>TerserWebpackPlugin on GitHub: <a href="https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments">github.com/webpack-contrib/terser-webpack-plugin</a></li>
-  <li>Google Search Central Blog on page experience update: <a href="https://developers.google.com/search/blog/2021/04/more-details-page-experience">developers.google.com/search/blog/2021/04/more-details-page-experience</a></li>
+<li>MDN documentation on prefers-color-scheme: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme</a></li>
+<li>Webpack author’s comment on GitHub: <a href="https://github.com/webpack/webpack/issues/324#issuecomment-157855568">github.com/webpack/webpack/issues/324</a></li>
+<li>TerserWebpackPlugin on GitHub: <a href="https://github.com/webpack-contrib/terser-webpack-plugin/tree/96a051d72c239f4cf812529cb985a1f804790219#extractcomments">github.com/webpack-contrib/terser-webpack-plugin</a></li>
+<li>Google Search Central Blog on page experience update: <a href="https://developers.google.com/search/blog/2021/04/more-details-page-experience">developers.google.com/search/blog/2021/04/more-details-page-experience</a></li>
 </ul>
 
             <aside class="post-ads">
@@ -133,12 +128,12 @@
         </ul>
       </div> <!-- .wrapper -->
     </footer> <!-- .site-footer -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB428JS784"></script>
     <script>
-      if(document.location.hostname.indexOf("longyc.com")!==-1){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create','UA-11748735-5','auto');ga('send','pageview');}
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XB428JS784');
     </script>
   </body>
 </html>

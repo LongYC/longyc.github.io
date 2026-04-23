@@ -51,29 +51,24 @@
         <div class="wrapper">
           <div class="post">
 <figure><img alt="A doodle of Cthulhu with the word stack in Chinese, Malay, and English on the left." src="/blog/2021-week-35-css-stack-html-parse.jpg" /></figure>
-
 <p>Stepping into September, 30% time left in 2021 and it’s been a little difficult to find a common theme from these items I’ve just revisited or learned weekly, please bear with me. Three items this week, first two are about CSS stacking context and parsing HTML with regex respectively while the last one will compare sentence case to title case.</p>
-
 <ul>
-  <li>
-    <p><strong>CSS</strong>: stacking context is like an imaginary z-axis for HTML elements. <code class="language-plaintext highlighter-rouge">z-index</code> can be used to control the stacking order within the same parent stacking context and <code class="language-plaintext highlighter-rouge">isolation: isolate;</code> can be used to create new stacking context.</p>
-  </li>
-  <li>
-    <p><strong>HTML</strong>: best not to parse HTML with regex else you might risk summoning Cthulhu. Jokes aside, it’s generally regarded as a bad practice although as most things, there might be suitable specific use cases. There are a couple of reasons behind this (e.g. HTML validity, nesting) but to put it simply, HTML is too complex for regex, use a library designed for that instead.</p>
-  </li>
-  <li>
-    <p><strong>Letter casing</strong>: Sentence case is generally regarded as more friendly, allow proper nouns to stand out while title case is perceived as more serious and more prominent. Regardless of preference between the two, being consistent will help readability.</p>
-  </li>
+<li>
+<p><strong>CSS</strong>: stacking context is like an imaginary z-axis for HTML elements. <code class="language-plaintext highlighter-rouge">z-index</code> can be used to control the stacking order within the same parent stacking context and <code class="language-plaintext highlighter-rouge">isolation: isolate;</code> can be used to create new stacking context.</p>
+</li>
+<li>
+<p><strong>HTML</strong>: best not to parse HTML with regex else you might risk summoning Cthulhu. Jokes aside, it’s generally regarded as a bad practice although as most things, there might be suitable specific use cases. There are a couple of reasons behind this (e.g. HTML validity, nesting) but to put it simply, HTML is too complex for regex, use a library designed for that instead.</p>
+</li>
+<li>
+<p><strong>Letter casing</strong>: Sentence case is generally regarded as more friendly, allow proper nouns to stand out while title case is perceived as more serious and more prominent. Regardless of preference between the two, being consistent will help readability.</p>
+</li>
 </ul>
-
 <p>This is my 8th weekly post, thank you for reading and do let me know if you got any feedback.</p>
-
 <h3 id="related-links">Related Links</h3>
-
 <ul>
-  <li><em><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">The stacking context</a></em> by MDN contributors.</li>
-  <li><em><a href="https://blog.codinghorror.com/parsing-html-the-cthulhu-way/">Parsing HTML the Cthulhu Way</a></em> by Jeff Atwood.</li>
-  <li><em><a href="https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98">Making a case for letter case</a></em> by John Saito.</li>
+<li><em><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context">The stacking context</a></em> by MDN contributors.</li>
+<li><em><a href="https://blog.codinghorror.com/parsing-html-the-cthulhu-way/">Parsing HTML the Cthulhu Way</a></em> by Jeff Atwood.</li>
+<li><em><a href="https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98">Making a case for letter case</a></em> by John Saito.</li>
 </ul>
 
             <aside class="post-ads">
@@ -138,12 +133,12 @@
         </ul>
       </div> <!-- .wrapper -->
     </footer> <!-- .site-footer -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB428JS784"></script>
     <script>
-      if(document.location.hostname.indexOf("longyc.com")!==-1){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create','UA-11748735-5','auto');ga('send','pageview');}
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XB428JS784');
     </script>
   </body>
 </html>

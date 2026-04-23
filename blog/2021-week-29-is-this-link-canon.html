@@ -51,28 +51,23 @@
         <div class="wrapper">
           <div class="post">
 <figure><img alt="A doodle of Link from The Legend of Zelda with the word link in Chinese, Malay, and English on the left." src="/blog/2021-week-29-is-this-link-canon.jpg" /></figure>
-
 <p>Since I began posting on Medium and DEV Community, I have learned that it’s a good idea to let search engines know they are the same content on different URLs. I have also just realised that you could let people read what you wrote on Medium without the paywall, and am a little surprised that HTTP/2 is not enabled by default on AWS CloudFront.</p>
-
 <ul>
-  <li><strong>HTML</strong>: having a canonical link (<code class="language-plaintext highlighter-rouge">&lt;link rel="canonnical" href="https://example.com" /&gt;</code>) in your HTML helps prevent content duplication in search engines, good for SEO.</li>
-  <li><strong>SEO</strong>: to add a canonical link on DEV Community, use the front matter <code class="language-plaintext highlighter-rouge">canonical_url</code>. As for Medium - on your post, open up Story settings &gt; Advanced Settings &gt; check <em>“This story was originally published elsewhere”</em> and provide a canonical link.</li>
-  <li><strong>Medium</strong>: Friend Link grants free access to your post, find it on your post &gt; Story settings &gt; Promotion &gt; Friend Link.</li>
-  <li><strong>AWS CloudFront</strong>: distributions don’t support HTTP/2 by default. Check the settings manually, or on CloudFormation, add <code class="language-plaintext highlighter-rouge">HttpVersion: http2</code> to <code class="language-plaintext highlighter-rouge">DistributionConfig</code>.</li>
-  <li><strong>Latency</strong>: Hibernia Express / GTT Express is a submarine fibre-optic link that provides latency of under 60 milliseconds, which costed hundreds of millions to complete. Latency can be really expensive.</li>
+<li><strong>HTML</strong>: having a canonical link (<code class="language-plaintext highlighter-rouge">&lt;link rel="canonical" href="https://example.com" /&gt;</code>) in your HTML helps prevent content duplication in search engines, good for SEO.</li>
+<li><strong>SEO</strong>: to add a canonical link on DEV Community, use the front matter <code class="language-plaintext highlighter-rouge">canonical_url</code>. As for Medium - on your post, open up Story settings &gt; Advanced Settings &gt; check <em>“This story was originally published elsewhere”</em> and provide a canonical link.</li>
+<li><strong>Medium</strong>: Friend Link grants free access to your post, find it on your post &gt; Story settings &gt; Promotion &gt; Friend Link.</li>
+<li><strong>AWS CloudFront</strong>: distributions don’t support HTTP/2 by default. Check the settings manually, or on CloudFormation, add <code class="language-plaintext highlighter-rouge">HttpVersion: http2</code> to <code class="language-plaintext highlighter-rouge">DistributionConfig</code>.</li>
+<li><strong>Latency</strong>: Hibernia Express / GTT Express is a submarine fibre-optic link that provides latency of under 60 milliseconds, which costed hundreds of millions to complete. Latency can be really expensive.</li>
 </ul>
-
 <p>Thank you for reading and do let me know your thoughts about this post. If you want more content like this to be delivered to you, consider subscribing via Substack: <a href="https://smallpotatodev.substack.com/">smallpotatodev.substack.com</a></p>
-
 <h3 id="related-links">Related Links</h3>
-
 <ul>
-  <li>RFC 6596 - the canonical link relation: <a href="https://datatracker.ietf.org/doc/html/rfc6596">datatracker.ietf.org/doc/html/rfc6596</a></li>
-  <li>Google Search Central Blog - specify your canonical: <a href="https://developers.google.com/search/blog/2009/02/specify-your-canonical">developers.google.com/search/blog/2009/02/specify-your-canonical</a></li>
-  <li>DEV Community - editor guide: <a href="https://dev.to/p/editor_guide#front-matter">dev.to/p/editor_guide</a></li>
-  <li>Medium - about Friend Links: <a href="https://help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links">help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links</a></li>
-  <li>AWS CloudFront distribution config with CloudFormation: <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html#cfn-cloudfront-distribution-distributionconfig-httpversion">docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html</a></li>
-  <li>Hibernia Express on Business Wire: <a href="https://www.businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds">businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds</a></li>
+<li>RFC 6596 - the canonical link relation: <a href="https://datatracker.ietf.org/doc/html/rfc6596">datatracker.ietf.org/doc/html/rfc6596</a></li>
+<li>Google Search Central Blog - specify your canonical: <a href="https://developers.google.com/search/blog/2009/02/specify-your-canonical">developers.google.com/search/blog/2009/02/specify-your-canonical</a></li>
+<li>DEV Community - editor guide: <a href="https://dev.to/p/editor_guide#front-matter">dev.to/p/editor_guide</a></li>
+<li>Medium - about Friend Links: <a href="https://help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links">help.medium.com/hc/en-us/articles/360006543813-About-Friend-Links</a></li>
+<li>AWS CloudFront distribution config with CloudFormation: <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html#cfn-cloudfront-distribution-distributionconfig-httpversion">docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-distributionconfig.html</a></li>
+<li>Hibernia Express on Business Wire: <a href="https://www.businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds">businesswire.com/news/home/20150924005286/en/Hibernia-Express-Transatlantic-Cable-Route-Connects-New-York-to-London-in-under-58.95-Milliseconds</a></li>
 </ul>
 
             <aside class="post-ads">
@@ -137,12 +132,12 @@
         </ul>
       </div> <!-- .wrapper -->
     </footer> <!-- .site-footer -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB428JS784"></script>
     <script>
-      if(document.location.hostname.indexOf("longyc.com")!==-1){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create','UA-11748735-5','auto');ga('send','pageview');}
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XB428JS784');
     </script>
   </body>
 </html>

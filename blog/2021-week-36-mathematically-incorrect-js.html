@@ -51,29 +51,24 @@
         <div class="wrapper">
           <div class="post">
 <figure><img alt="A doodle of the Malaysian flag with the word number in Chinese, Malay, and English on the left." src="/blog/2021-week-36-mathematically-incorrect-js.jpg" /></figure>
-
 <p>It’s 2021 week 36, I recently had a bit of fun with JavaScript number data type and Malaysia Day is around the corner (16th September) - that’s how I arrive at this week’s topics. Here are some interesting facts about numbers in JavaScript and numbers related to the Malaysian flag.</p>
-
 <ul>
-  <li>
-    <p><strong>JavaScript number</strong>: the primitive data type <code class="language-plaintext highlighter-rouge">number</code> is based on the IEEE 754 standard, which means floating-point arithmetic applies. The classic example is <code class="language-plaintext highlighter-rouge">0.1 + 0.2</code> returns <code class="language-plaintext highlighter-rouge">0.30000000000000004</code>, the result also shows the decimal precision limit of 17.</p>
-  </li>
-  <li>
-    <p><strong>JavaScript bigint</strong>: the <code class="language-plaintext highlighter-rouge">bigint</code> primitive type was introduced in ES2020, it can safely represent integers bigger than <code class="language-plaintext highlighter-rouge">Number.MAX_SAFE_INTEGER</code>, e.g. <code class="language-plaintext highlighter-rouge">9007199254740992 === 9007199254740993</code> returns <code class="language-plaintext highlighter-rouge">true</code> which is wrong but with BigInt, <code class="language-plaintext highlighter-rouge">9007199254740992n === 9007199254740993n</code> returns <code class="language-plaintext highlighter-rouge">false</code> as expected. Note that as of current, the <code class="language-plaintext highlighter-rouge">Math</code> object doesn’t work with <code class="language-plaintext highlighter-rouge">bigint</code>.</p>
-  </li>
-  <li>
-    <p><strong>The Malaysian flag</strong>: before the formation of Malaysia in year 1963, the flag for Federation of Malaya had 11 stripes and the star had 11 points as opposed to 14 for both now. The original submission of the design had a five-pointed star.</p>
-  </li>
+<li>
+<p><strong>JavaScript number</strong>: the primitive data type <code class="language-plaintext highlighter-rouge">number</code> is based on the IEEE 754 standard, which means floating-point arithmetic applies. The classic example is <code class="language-plaintext highlighter-rouge">0.1 + 0.2</code> returns <code class="language-plaintext highlighter-rouge">0.30000000000000004</code>, the result also shows the decimal precision limit of 17.</p>
+</li>
+<li>
+<p><strong>JavaScript bigint</strong>: the <code class="language-plaintext highlighter-rouge">bigint</code> primitive type was introduced in ES2020, it can safely represent integers bigger than <code class="language-plaintext highlighter-rouge">Number.MAX_SAFE_INTEGER</code>, e.g. <code class="language-plaintext highlighter-rouge">9007199254740992 === 9007199254740993</code> returns <code class="language-plaintext highlighter-rouge">true</code> which is wrong but with BigInt, <code class="language-plaintext highlighter-rouge">9007199254740992n === 9007199254740993n</code> returns <code class="language-plaintext highlighter-rouge">false</code> as expected. Note that as of current, the <code class="language-plaintext highlighter-rouge">Math</code> object doesn’t work with <code class="language-plaintext highlighter-rouge">bigint</code>.</p>
+</li>
+<li>
+<p><strong>The Malaysian flag</strong>: before the formation of Malaysia in year 1963, the flag for Federation of Malaya had 11 stripes and the star had 11 points as opposed to 14 for both now. The original submission of the design had a five-pointed star.</p>
+</li>
 </ul>
-
 <p>This is my 9th weekly post, thank you for reading and if you have got any feedback, do let me know!</p>
-
 <h3 id="related-links">Related Links</h3>
-
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type">JavaScript data types and data structures</a> by MDN contributors.</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#static_properties">Math - Javascript</a> by MDN contributors.</li>
-  <li><a href="https://www.malaysiadesignarchive.org/documents/The%20History%20of%20Malaysian%20Flag%20Design.pdf">The History and Design Chronology of JALUR GEMILANG</a> by Muhamad Razif Nasruddin and Zarul Nazli bin Zulkhurnain.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type">JavaScript data types and data structures</a> by MDN contributors.</li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math#static_properties">Math - Javascript</a> by MDN contributors.</li>
+<li><a href="https://www.malaysiadesignarchive.org/documents/The%20History%20of%20Malaysian%20Flag%20Design.pdf">The History and Design Chronology of JALUR GEMILANG</a> by Muhamad Razif Nasruddin and Zarul Nazli bin Zulkhurnain.</li>
 </ul>
 
             <aside class="post-ads">
@@ -138,12 +133,12 @@
         </ul>
       </div> <!-- .wrapper -->
     </footer> <!-- .site-footer -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB428JS784"></script>
     <script>
-      if(document.location.hostname.indexOf("longyc.com")!==-1){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create','UA-11748735-5','auto');ga('send','pageview');}
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XB428JS784');
     </script>
   </body>
 </html>
