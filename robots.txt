@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://longyc.com/sitemap-index.xml
