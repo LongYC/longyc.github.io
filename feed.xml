@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>LongYC</title>
-    <description>Personal website of LongYC — web app engineer rooted in JavaScript yet interested in general computing, AI, and UX. He believes well-crafted technology makes lives a little more enjoyable.</description>
-    <link>https://longyc.com/</link>
-    <atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/>
-    
-      <item>
-        <title>24th weekly post, cladding interface.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a snowman with the number 2021 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-51-longyc-24th-post.jpg&quot; /&gt;&lt;/figure&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LongYC</title><description>Personal website of LongYC — web app engineer rooted in JavaScript yet interested in general computing, AI, and UX. He believes well-crafted technology makes lives a little more enjoyable.</description><link>https://longyc.com/</link><atom:link href="https://longyc.com/feed.xml" rel="self" type="application/rss+xml"/><item><title>24th weekly post, cladding interface.</title><link>https://longyc.com/blog/2021-week-51-cladding-interface</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-51-cladding-interface</guid><pubDate>Sun, 26 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of a snowman with the number 2021 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-51-longyc-24th-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -22,17 +12,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is weekly bite-sized post on web app development from JavaScript to UX and technology in general, started in July 2021, with this one being the last post of the year. Not sure if this is something I want to continue into 2022 but there’ll definitely be change in the format and frequency at the very least, hopefully for the better. Thank you for reading and have a great new year ahead!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Dec 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-51-cladding-interface</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-51-cladding-interface</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>23rd weekly post, server implementation.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Mantine the manta ray-like Pokémon with the number 23 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-50-longyc-23rd-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>23rd weekly post, server implementation.</title><link>https://longyc.com/blog/2021-week-50-server-implementation</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-50-server-implementation</guid><pubDate>Sun, 19 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of Mantine the manta ray-like Pokémon with the number 23 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-50-longyc-23rd-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -46,17 +26,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 19 Dec 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-50-server-implementation</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-50-server-implementation</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>22nd weekly post, remaining ratio.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Twitter Retweet button with the number 22 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-49-longyc-22nd-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>22nd weekly post, remaining ratio.</title><link>https://longyc.com/blog/2021-week-49-remaining-ratio</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-49-remaining-ratio</guid><pubDate>Sun, 12 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of Twitter Retweet button with the number 22 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-49-longyc-22nd-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -70,17 +40,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Dec 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-49-remaining-ratio</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-49-remaining-ratio</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>21st weekly post, memory search.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a PlayStation Memory Card with the number 21 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-48-longyc-21st-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>21st weekly post, memory search.</title><link>https://longyc.com/blog/2021-week-48-memory-search</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-48-memory-search</guid><pubDate>Sun, 05 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of a PlayStation Memory Card with the number 21 on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-48-longyc-21st-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -94,17 +54,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Dec 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-48-memory-search</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-48-memory-search</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>20th weekly post, reserved workers.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Dobby with the word twenty in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-47-longyc-20th-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>20th weekly post, reserved workers.</title><link>https://longyc.com/blog/2021-week-47-reserved-workers</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-47-reserved-workers</guid><pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of Dobby with the word twenty in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-47-longyc-20th-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -118,17 +68,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 Nov 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-47-reserved-workers</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-47-reserved-workers</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>19th weekly post, tracking and kerning.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Ditto with the word nineteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-46-longyc-19th-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>19th weekly post, tracking and kerning.</title><link>https://longyc.com/blog/2021-week-46-tracking-kerning</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-46-tracking-kerning</guid><pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of Ditto with the word nineteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-46-longyc-19th-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -142,17 +82,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This is a weekly bite-sized post on web app development from JavaScript to UX and technology in general. Thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 21 Nov 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-46-tracking-kerning</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-46-tracking-kerning</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>18th weekly post, pager and comments.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Digivice with the word eighteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-45-longyc-18th-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>18th weekly post, pager and comments.</title><link>https://longyc.com/blog/2021-week-45-pager-comments</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-45-pager-comments</guid><pubDate>Sun, 14 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Digivice with the word eighteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-45-longyc-18th-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -167,17 +97,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;a-little-note&quot;&gt;A little note&lt;/h2&gt;
 &lt;p&gt;Looking at the reviews and benchmarks of the new MacBook Pro with M1 Pro/Max, the single core performance improvement over the much cheaper M1 MacBook Air seems negligible. So, other hardware features aside, they are only better options (performance-wise) if you need more performance cores or much, much faster graphics. That’s all for this week’s post, thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 14 Nov 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-45-pager-comments</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-45-pager-comments</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>17th weekly post, Action matrix.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Nintendo Switch Joy-Con with the word seventeen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-44-longyc-17th-post.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>17th weekly post, Action matrix.</title><link>https://longyc.com/blog/2021-week-44-action-matrix</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-44-action-matrix</guid><pubDate>Sun, 07 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of Nintendo Switch Joy-Con with the word seventeen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-44-longyc-17th-post.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -192,17 +112,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;a-little-note&quot;&gt;A little note&lt;/h2&gt;
 &lt;p&gt;Another small change in the post format, of the three weekly items, one will be from an online source, like an article or a Tweet, while another one will be from a book or a paper, and to mix things up a little, the third item will be a bit of a wild card, probably something new from that week. That’s all for this week’s post, thank you for reading and have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 07 Nov 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-44-action-matrix</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-44-action-matrix</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>16th weekly post, slice and map.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of Harley Quinn with the word sixteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-43-slice-and-map.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>16th weekly post, slice and map.</title><link>https://longyc.com/blog/2021-week-43-slice-and-map</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-43-slice-and-map</guid><pubDate>Sun, 31 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of Harley Quinn with the word sixteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-43-slice-and-map.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -217,17 +127,7 @@
 &lt;/ol&gt;
 &lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
 &lt;p&gt;On the week 43 of 2021, we saw that &lt;a href=&quot;https://mozillagfx.wordpress.com/2021/10/30/switching-the-linux-graphics-stack-from-glx-to-egl/&quot;&gt;the news of the upcoming Firefox 94 switching from GLX to EGL&lt;/a&gt;, this should translate to better WebGL performance for Linux users. That’s all for this week’s post, I must admit this week’s post was a bit more rushed than usual, still, thank you for reading and if you have got any feedback, do let me know by leaving on either &lt;a href=&quot;https://longyc.medium.com/16th-weekly-post-slice-and-map-also-jest-aff20c842789?source=friends_link&amp;amp;sk=a616a5993940f4bff6500e24262bdd46&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/16th-weekly-post-slice-and-map-also-jest-54f3&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/16th-weekly-post-slice-and-map&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 Oct 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-43-slice-and-map</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-43-slice-and-map</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>15th weekly post, a sticky configuration.</title>
-        <description>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Slime from the Dragon Quest game with the word fifteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-42-a-sticky-configuration.jpg&quot; /&gt;&lt;/figure&gt;
+</content:encoded></item><item><title>15th weekly post, a sticky configuration.</title><link>https://longyc.com/blog/2021-week-42-a-sticky-configuration</link><guid isPermaLink="true">https://longyc.com/blog/2021-week-42-a-sticky-configuration</guid><pubDate>Sun, 24 Oct 2021 00:00:00 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img alt=&quot;A doodle of a Slime from the Dragon Quest game with the word fifteen in Chinese, Malay, and English on the left.&quot; src=&quot;https://longyc.com/blog/2021-week-42-a-sticky-configuration.jpg&quot;&gt;&lt;/figure&gt;
 &lt;h2 id=&quot;items-of-the-week&quot;&gt;Items of the week&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -242,13 +142,4 @@
 &lt;/ol&gt;
 &lt;h2 id=&quot;note-of-the-week&quot;&gt;Note of the week&lt;/h2&gt;
 &lt;p&gt;On the week 42 of 2021, we saw &lt;a href=&quot;https://nodejs.org/en/blog/release/v17.0.0/&quot;&gt;the release of Node.js 17&lt;/a&gt; with the underlying V8 JavaScript engine updated to version 9.5 and also &lt;a href=&quot;https://developer.chrome.com/blog/new-in-chrome-95/&quot;&gt;the release of Chrome 95&lt;/a&gt; that marks the start of the new user-agent reduction origin trial. That’s all for this week’s post, thank you for reading and if you have got any feedback, do let me know by leaving on either &lt;a href=&quot;https://longyc.medium.com/15th-weekly-post-a-sticky-configuration-also-goal-gradient-effect-7659f4df2cc8?source=friends_link&amp;amp;sk=7d01c6a8b5a3253dd990f99d859dde87&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://dev.to/longyc/15th-weekly-post-a-sticky-configuration-also-goal-gradient-effect-2aln&quot;&gt;Dev.to&lt;/a&gt;, or &lt;a href=&quot;https://smallpotatodev.substack.com/p/15th-weekly-post-a-sticky-configuration&quot;&gt;Substack&lt;/a&gt;. Have a nice day!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Oct 2021 00:00:00 +0800</pubDate>
-        <link>https://longyc.com/blog/2021-week-42-a-sticky-configuration</link>
-        <guid isPermaLink="true">https://longyc.com/blog/2021-week-42-a-sticky-configuration</guid>
-        
-        
-      </item>
-    
-  </channel>
-</rss>
+</content:encoded></item></channel></rss>
